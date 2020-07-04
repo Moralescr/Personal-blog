@@ -24,7 +24,7 @@
                         I'm from Costa Rica. I'm ATM engineer in 
                         <a href="https://clai.com/">
                             <b>
-                            CLAI PAYMENTS®
+                            CLAI PAYMENTS©
                             </b>
                         </a>
                     </p>
@@ -50,12 +50,11 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="about-left">
-                    <h2>I'm Adrián Morales Guadamúz</h2>
-                    <h3>I'm ATM Engineer in <a href="https://clai.com/"> <b>CLAI PAYMENTS ® </b> </a> Costa Rica</h3>
+                    <h2>Adrián E. Morales Guadamúz</h2>
+                    <h3>ATM Engineer in <a href="https://clai.com/"> <b>CLAI PAYMENTS © </b> </a> Costa Rica</h3>
                     <p class="text-justify">
-                        Soy un joven apasionado por la tecnología, capaz de adaptarme a cualquier circunstancia y dar 
-                        siempre lo mejor de mí en cualquier proyecto, al mismo tiempo que me esfuerzo por trabajar en equipo         
-                        y fomentar valores como los del compañerismo. 
+                    I am a young man passionate about technology, able to adapt to any circumstance 
+                    and always give my best in any project, at the same time that I strive to work as a team. 
                     </p>
                     <p> 
                       Check out my <a class="m-btn-link theme-after" href="#portfolio">Portfolio</a>
@@ -129,6 +128,118 @@
 </section>
 <!-- Counter End -->
 
+
+<!-- Service Start -->
+<section id="services" class="section gray-bg services-section">
+    <div class="container">
+        <div class="row justify-content-center m-45px-b md-m-30px-b sm-m-25px-b">
+            <div class="col-12 col-md-10 col-lg-7">
+                <div class="section-title text-center">
+                    <h2 class="font-alt">My Services</h2>
+                    <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface.</p>
+                </div>
+            </div>
+        </div>
+        <!-- row -->
+
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="feature-box-02">
+                    <!--<i class="icon theme-bg ti-ruler-pencil"></i>-->
+                    <img class="icon rounded-circle" src="static/img/html.png" alt="Ryan" title="Ryan" />
+                    <div class="feature-content">
+                        <h5>Development</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="read-more">
+                            <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                        </div> 
+                    </div>
+                </div>
+                <!-- feature-box-02 -->
+            </div>
+            <!-- col -->
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="feature-box-02">
+                    <i class="icon theme-bg ti-image"></i>
+                    <div class="feature-content">
+                        <h5>Graphic</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="read-more">
+                            <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- feature-box-02 -->
+            </div>
+            <!-- col -->
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="feature-box-02">
+                    <i class="icon theme-bg ti-layout"></i>
+                    <div class="feature-content">
+                        <h5>Web Design</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="read-more">
+                            <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- feature-box-02 -->
+            </div>
+            <!-- col -->
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="feature-box-02">
+                    <i class="icon theme-bg ti-camera"></i>
+                    <div class="feature-content">
+                        <h5>Photography</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="read-more">
+                            <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- feature-box-02 -->
+            </div>
+            <!-- col -->
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="feature-box-02">
+                    <i class="icon theme-bg ti-brush-alt"></i>
+                    <div class="feature-content">
+                        <h5>Web design</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="read-more">
+                            <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- feature-box-02 -->
+            </div>
+            <!-- col -->
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="feature-box-02">
+                    <i class="icon theme-bg ti-world"></i>
+                    <div class="feature-content">
+                        <h5>Mobile apps</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="read-more">
+                            <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- feature-box -->
+            </div>
+            <!-- col -->
+
+        </div>
+        <!-- row -->
+    </div>
+    <!-- container -->
+</section> 
+<!-- Service End -->
 
 <!-- Our Skill -->
 <section class="section skill-section">
@@ -231,7 +342,8 @@
                             </a>
                             <div class="hover">
                                 <div class="action-btn">
-                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color"><i class="fa fa-play"></i></a>
+                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color">
+                                    <i class="fa fa-play-circle"></i></a>
                                     <a class="lightbox-gallery theme-color" href="static/img/portfolio-1.jpg" title="Lightbox gallery image title...">
                                         <i class="fas fa-expand"></i>
                                     </a>
@@ -261,7 +373,8 @@
                             </a>
                             <div class="hover">
                                 <div class="action-btn">
-                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color"><i class="fa fa-play"></i></a>
+                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color">
+                                    <i class="fa fa-play-circle"></i></a>
                                     <a class="lightbox-gallery theme-color" href="static/img/portfolio-2.jpg" title="Lightbox gallery image title...">
                                         <i class="fas fa-expand"></i>
                                     </a>
@@ -291,7 +404,8 @@
                             </a>
                             <div class="hover">
                                 <div class="action-btn">
-                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color"><i class="fa fa-play"></i></a>
+                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color">
+                                    <i class="fa fa-play-circle"></i></a>
                                     <a class="lightbox-gallery theme-color" href="static/img/portfolio-3.jpg" title="Lightbox gallery image title...">
                                         <i class="fas fa-expand"></i>
                                     </a>
@@ -321,7 +435,8 @@
                             </a>
                             <div class="hover">
                                 <div class="action-btn">
-                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color"><i class="fa fa-play"></i></a>
+                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color">
+                                    <i class="fa fa-play-circle"></i></a>
                                     <a class="lightbox-gallery theme-color" href="static/img/portfolio-4.jpg" title="Lightbox gallery image title...">
                                         <i class="fas fa-expand"></i>
                                     </a>
@@ -351,7 +466,8 @@
                             </a>
                             <div class="hover">
                                 <div class="action-btn">
-                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color"><i class="fa fa-play"></i></a>
+                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color">
+                                    <i class="fa fa-play-circle"></i></a>
                                     <a class="lightbox-gallery theme-color" href="static/img/portfolio-5.jpg" title="Lightbox gallery image title...">
                                         <i class="fas fa-expand"></i>
                                     </a>
@@ -381,7 +497,8 @@
                             </a>
                             <div class="hover">
                                 <div class="action-btn">
-                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color"><i class="fa fa-play"></i></a>
+                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color">
+                                    <i class="fa fa-play-circle"></i></a>
                                     <a class="lightbox-gallery theme-color" href="static/img/portfolio-6.jpg" title="Lightbox gallery image title...">
                                         <i class="fas fa-expand"></i>
                                     </a>
@@ -402,7 +519,6 @@
                     <!-- Portfolio -->
                 </li>
                 <!-- col -->
-
 
             </ul>
             <!-- row -->
@@ -540,6 +656,10 @@
    
 </section>
 <!-- Blog End -->
+
+@include('web.sections.contact')
+
+@include('web.sections.footer')
 
 @endsection
 

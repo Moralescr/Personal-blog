@@ -25,16 +25,16 @@
       <div class="container">
           <div class="footer-logo">
            <!-- <span>Ryan <span></span></span>-->
-           <p>'El estilo es una forma de decir quien eres sin tener que hablar'</p>
+           <p class="msg">'Nothings happens unless we first dream'</p>
           </div>
           <ul class="social-icons">
               <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
               <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fab fa-behance"></i></a></li>
-              <li><a href="#"><i class="fab fa-codepen"></i></a></li>
-              <li><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-envelope"></i></a></li>
           </ul>
-          <p class="copyright">Made with ❤️ | © All Rights Reserved </p>
+          <p style="color:white" class="copyright">
+          © 2020 Moralescr | All Rights Reserved | Made with ❤️  
+          </p>
       </div>
   </footer>

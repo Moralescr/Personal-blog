@@ -30,9 +30,8 @@
     <!-- / -->
 
     <!-- Theme Style -->
-    <link href="/static/css/styles.css" rel="stylesheet">
-    <link href="/static/css/color/default.css" rel="stylesheet" id="color_theme">
-    <!--<link href="/static/css/color/color-1.css" rel="stylesheet" id="color_theme">-->
+    <link href="{{asset('css/styles.css')}}"  rel="stylesheet">
+    <link href="{{asset('css/default.css')}}" rel="stylesheet" id="color_theme">
     <!-- / -->
 
     <!-- Favicon -->
@@ -46,9 +45,7 @@
     @include('web.sections.header')
     <main>
          @yield('content')
-         @include('web.sections.contact')
     </main>
-    @include('web.sections.footer')
     <!-- jQuery -->
     <script src="/static/js/jquery-3.2.1.min.js"></script>
     <script src="/static/js/jquery-migrate-3.0.0.min.js"></script>

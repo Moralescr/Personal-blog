@@ -9,7 +9,7 @@
         <nav class="navbar header-nav fixed-top navbar-expand-lg">
             <div class="container">
                 <!-- Brand -->
-                <a class="navbar-brand" href="{{ route('index') }}">Moralescr <span class="theme-bg"></span></a>
+                <a class="navbar-brand" href="{{ route('index') }}">Moralescr <span class="theme-bg1"></span></a>
                 <!-- / -->
 
                 <!-- Mobile Toggle -->

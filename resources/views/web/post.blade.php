@@ -286,4 +286,6 @@
     </div> <!-- row -->
   </div> <!-- container -->
 </section>
+<br>
+@include('web.sections.footer')
 @endsection
