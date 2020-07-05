@@ -21,10 +21,10 @@
                     <h4>Hello, my name is</h4>
                     <h5 class="font-alt">Adrián Morales</h5>
                     <p>
-                        I'm from Costa Rica. I'm ATM engineer in 
-                        <a href="https://clai.com/">
+                        Welcome to my Web Page 
+                        <a href="{{route('index')}}">
                             <b>
-                            CLAI PAYMENTS©
+                               <span class="badge badge-danger">Moralescr.</span>
                             </b>
                         </a>
                     </p>
@@ -65,7 +65,7 @@
             <!-- col -->
 
             <div class="col-md-6 text-center sm-m-45px-t">
-                <img src="static/img/moralescr.png" title="" alt="">
+                <img class="animated fadeInUp" src="static/img/moralescr.png" title="" alt="">
             </div>
             <!-- col -->
 
@@ -231,7 +231,7 @@
         <div class="row justify-content-center m-60px-b md-m-40px-b sm-m-30px-b">
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
-                    <h2 class="font-alt">Our Portfolio</h2>
+                    <h2 class="font-alt">My Portfolio 🧡</h2>
                     <p>This section will show the different projects I have worked on.😊</p>
                 </div>
             </div>
@@ -422,7 +422,7 @@
         <div class="row justify-content-center m-60px-b md-m-30px-b sm-m-25px-b">
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
-                    <h2 class="font-alt">Latest News</h2>
+                    <h2 class="font-alt">My blog 🧡</h2>
                     <p>
                       In this section you will find publications on the latest technological trends.
                       We will also create interviews with various systems development specialists. 📚 🏁

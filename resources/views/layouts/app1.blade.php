@@ -33,6 +33,7 @@
     <link href="{{asset('css/styles.css')}}"  rel="stylesheet">
     <link href="{{asset('css/default.css')}}" rel="stylesheet" id="color_theme">
     <!-- / -->
+    <link href="{{asset('css/animate.css')}}" rel="stylesheet">
 
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" />
