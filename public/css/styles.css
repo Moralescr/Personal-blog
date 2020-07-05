@@ -72,7 +72,7 @@ Table of contents
     height: 50px;
     border-radius: 50%;
     border: 10px solid #e8e8e8;
-    border-top: 10px solid #000;
+    border-top: 10px solid #C62828;
     -webkit-animation: rotate 1.2s infinite linear;
     animation: rotate 1.2s infinite linear;
     overflow: hidden;
@@ -113,7 +113,7 @@ Table of contents
     z-index: 2;
     border-radius: 15px;
     border: 3px solid #fff;
-    background: #000;
+    background: #C62828;
 }
 
 .mouse-icon .wheel {
@@ -233,8 +233,8 @@ img {
 
 .social-icons li a {
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     line-height: 30px;
     color: #333;
@@ -246,7 +246,7 @@ img {
 }
 
 .social-icons li a:hover {
-    background: #333;
+    background: #C62828;
     color: #fff;
 }
 
@@ -1566,10 +1566,10 @@ img {
 .blog-tag-nav .social-icons li a {
     display: block;
     padding: 0;
-    color: #666;
+    color: #C62828;
     width: 30px;
     height: 30px;
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: 1px solid #C62828;
     text-align: center;
     line-height: 30px;
     border-radius: 50%;
@@ -1581,7 +1581,7 @@ img {
 }
 
 .blog-tag-nav .social-icons li a:hover {
-    background: rgba(0, 0, 0, 0.8);
+    background: #C62828;
     color: #fff;
 }
 
@@ -1748,7 +1748,7 @@ img {
 blockquote.blockquote-left {
     background: #f7f7f7;
     padding: 20px;
-    border-left: 5px solid #ababab;
+    border-left: 5px solid #ff0000;
     font-size: 17px;
     margin: 30px 0 50px;
 }
@@ -1818,11 +1818,12 @@ blockquote.blockquote-left .parson {
     padding: 5px 10px;
     display: block;
     font-size: 13px;
-    background: #111;
+    background: #C62828;
+    border-radius: 20px;
 }
 
 .list-style-tag li a:hover {
-    background: #333;
+    background: #808080;
     box-shadow: 0 0 12px rgba(0, 0, 0, .1);
     text-decoration: none;
 }

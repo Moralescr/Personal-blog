@@ -2,11 +2,12 @@
 
 @section('content')
 
- <!-- Page Title -->
- <section class="page-title" style="background-image: url(/static/img/overlay-2.jpg);">
-  <div class="container">
-      <h1 class="font-alt">Blog List</h1>
-  </div> <!-- container -->
+<!-- Page Title -->
+<section class="page-title" style="background-image: url(/static/img/overlay-1.jpg);">
+<div class="container">
+    <h1 align="left" class="font-alt">My Blog Detail ❤</h1>
+</div>
+<!-- container -->
 </section>
 <!-- / -->
 
@@ -57,18 +58,30 @@
                     </a>
                 </li>
                 @endforeach
-                <!-- <li><a href="#">Mrig</a></li>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">CSS</a></li>
-                <li><a href="#">UI</a></li> -->
               </ul>
             </div>
             <div class="col-12 col-md-6 text-center text-sm-right align-self-center sm-m-10px-tb">
               <ul class="social-icons">
-                <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a class="google" href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li>
+                  <a class="facebook" href="https://www.facebook.com/Adrianmoralesguadamuz/" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="twitter" href="https://www.instagram.com/_morales_cr" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="google" href="https://github.com/Moralescr" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="linkedin" href="https://www.linkedin.com/in/adrianm11" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -182,9 +195,9 @@
           <h5 class="widget-title font-alt">ABOUT ME</h5>
           <div class="widget-about">
             <div class="avtar">
-              <img src="/static/img/team1.jpg" alt="" title="">
+              <img src="/static/img/team2.jpg" alt="" title="">
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+            <p><b style="color:#C62828">I'm a developer engineer and I love programming. 😍🧡</b></p>
           </div>
         </div> <!-- /sidebar-widget -->
 
@@ -195,10 +208,6 @@
               <li><a href="#">Entertainment</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="#">Portfolio</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Home Blog</a></li>
-              <li><a href="#">Blog Details</a></li>
-              <li><a href="#">HTML and CSS</a></li>
             </ul>
           </div>
         </div> <!-- /sidebar-widget -->
@@ -242,11 +251,8 @@
           <h5 class="widget-title font-alt">ARCHIVE</h5>
           <div class="widget-archive">
             <ul class="list-style-1">
-              <li><a href="#">Jan 2018</a></li>
-              <li><a href="#">Feb 2018 </a></li>
-              <li><a href="#">Mar 2018</a></li>
-              <li><a href="#">Apr 2018</a></li>
-              <li><a href="#">May 2018</a></li>
+              <li><a href="#">June 2020</a></li>
+              <li><a href="#">July 2020</a></li>
             </ul>
           </div>
         </div> <!-- /sidebar-widget -->

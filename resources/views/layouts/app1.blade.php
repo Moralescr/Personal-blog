@@ -15,7 +15,7 @@
   ========================================================================
   -->
     <!-- Page Title -->
-    <title>Moralescr.com</title>
+    <title>Adrian Morales | Development Engineer</title>
     <!-- / -->
 
     <!---Font Icon-->
@@ -42,6 +42,11 @@
 <!-- Body Start -->
 <!--oncontextmenu="return false" onkeydown="return false"-->
 <body data-spy="scroll" data-target="#navbarRyan" data-offset="98" >
+     <!-- Loading -->
+     <div id="loading">
+        <div class="load-circle"><span class="one"></span></div>
+    </div>
+    <!-- / -->
     @include('web.sections.header')
     <main>
          @yield('content')

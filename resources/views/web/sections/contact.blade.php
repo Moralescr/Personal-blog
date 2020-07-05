@@ -5,7 +5,10 @@
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
                     <h2 class="font-alt">Contact Us</h2>
-                    <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface.</p>
+                    <p>
+                      I design and develop services, specializing in creating
+                      modern websites, web services and online stores. 
+                    </p>
                 </div>
             </div>
         </div>
@@ -15,20 +18,20 @@
                 <div class="col-md-6">
                     <div class="contact-info-box">
                         <h2>get in touch</h2>
-                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                        <p class="desc">Contact me and tell me how I can help you,</p>
                         <div class="contact-info">
                             <i class="icon theme-bg ti-direction"></i>
-                            <p>301 The Greenhouse,<br> London, E2 8DY.</p>
+                            <p>La sabana,<br> San José, Costa Rica.</p>
                         </div>
 
                         <div class="contact-info">
                             <i class="icon theme-bg ti-email"></i>
-                            <p>info@example.com<br/>support@example.com</p>
+                            <p>moralesguadamuz@gmail.com<br/>support@mg.com</p>
                         </div>
 
                         <div class="contact-info">
                             <i class="icon theme-bg ti-mobile"></i>
-                            <p>+1 800-222-000,<br/> +44 800-222-000</p>
+                            <p>(+506) 8404-3853,<br/> (+506) 8404-3853 </p>
                         </div>
                     </div>
                 </div>
@@ -41,7 +44,7 @@
                                 <input name="Phone" placeholder="Name" class="form-control" type="text">
                             </div>
                             <div class="form-group">
-                                <input name="Email" placeholder="Emaile" class="form-control" type="email">
+                                <input name="Email" placeholder="Email" class="form-control" type="email">
                             </div>
                             <div class="form-group">
                                 <input name="Subject" placeholder="Subject" class="form-control" type="text">

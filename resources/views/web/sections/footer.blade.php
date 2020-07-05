@@ -28,10 +28,22 @@
            <p class="msg">'Nothings happens unless we first dream'</p>
           </div>
           <ul class="social-icons">
-              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+              <li>
+                <a href="https://www.facebook.com/Adrianmoralesguadamuz/" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+               </li>
+              <li>
+                <a href="https://www.instagram.com/_morales_cr" target="_blank">
+                   <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/adrianm11" target="_blank">
+                   <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li><a href="#"><i class="fa fa-envelope" target="_blank"></i></a></li>
           </ul>
           <p style="color:white" class="copyright">
           © 2020 Moralescr | All Rights Reserved | Made with ❤️  

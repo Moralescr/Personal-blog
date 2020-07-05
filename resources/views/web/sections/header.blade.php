@@ -1,9 +1,4 @@
-   <!-- Loading -->
-    <div id="loading">
-        <div class="load-circle"><span class="one"></span></div>
-    </div>
-    <!-- / -->
-
+  
     <!-- Header -->
     <header>
         <nav class="navbar header-nav fixed-top navbar-expand-lg">
@@ -25,7 +20,7 @@
                     <ul class="navbar-nav">
                         <li><a class="nav-link active" href="#home">Home</a></li>
                         <li><a class="nav-link" href="#aboutus">About Us</a></li>
-                        <li><a class="nav-link" href="#services">Services</a></li>
+                        <li><a class="nav-link" href="#services">Technologies</a></li>
                         <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
                         <li><a class="nav-link" href="#blog">Blog</a></li>
                         <li><a class="nav-link" href="#contact">Contact</a></li>

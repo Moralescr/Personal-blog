@@ -135,105 +135,17 @@
         <div class="row justify-content-center m-45px-b md-m-30px-b sm-m-25px-b">
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
-                    <h2 class="font-alt">My Services</h2>
-                    <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface.</p>
+                    <h2 class="font-alt">Technologies</h2>
+                    <p>
+                     This section will show the main technologies in which I have knowledge. <br>
+                     For more information download my <a class="m-btn-link theme-after" href="#home">CV</a>
+                    </p>
                 </div>
             </div>
-        </div>
+        </div> <br>
         <!-- row -->
-
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="feature-box-02">
-                    <!--<i class="icon theme-bg ti-ruler-pencil"></i>-->
-                    <img class="icon rounded-circle" src="static/img/html.png" alt="Ryan" title="Ryan" />
-                    <div class="feature-content">
-                        <h5>Development</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <div class="read-more">
-                            <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
-                        </div> 
-                    </div>
-                </div>
-                <!-- feature-box-02 -->
-            </div>
-            <!-- col -->
-
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="feature-box-02">
-                    <i class="icon theme-bg ti-image"></i>
-                    <div class="feature-content">
-                        <h5>Graphic</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <div class="read-more">
-                            <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- feature-box-02 -->
-            </div>
-            <!-- col -->
-
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="feature-box-02">
-                    <i class="icon theme-bg ti-layout"></i>
-                    <div class="feature-content">
-                        <h5>Web Design</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <div class="read-more">
-                            <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- feature-box-02 -->
-            </div>
-            <!-- col -->
-
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="feature-box-02">
-                    <i class="icon theme-bg ti-camera"></i>
-                    <div class="feature-content">
-                        <h5>Photography</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <div class="read-more">
-                            <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- feature-box-02 -->
-            </div>
-            <!-- col -->
-
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="feature-box-02">
-                    <i class="icon theme-bg ti-brush-alt"></i>
-                    <div class="feature-content">
-                        <h5>Web design</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <div class="read-more">
-                            <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- feature-box-02 -->
-            </div>
-            <!-- col -->
-
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="feature-box-02">
-                    <i class="icon theme-bg ti-world"></i>
-                    <div class="feature-content">
-                        <h5>Mobile apps</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <div class="read-more">
-                            <a href="#" class="more-btn">Read More <i class="ti-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- feature-box -->
-            </div>
-            <!-- col -->
-
+            @include('web.sections.abilities') 
         </div>
         <!-- row -->
     </div>
@@ -247,18 +159,21 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="skill-left p-80px-r md-p-40px-r sm-p-0px-r sm-m-40px-b">
-                    <h3 class="font-alt">Make beauty Things With Passion.</h3>
-                    <p class="m-30px-b">I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface.</p>
+                    <h3 class="font-alt">My soft skills</h3>
+                    <p class="m-30px-b text-justify"> 
+                    Soft skills are all the attributes or abilities that allow a person to carry out their work effectively. 
+                    These skills point to the emotional and interpersonal side and how staff work in a company.
+                    </p>
                     <a href="#" class="m-btn m-btn-theme">Read More <i class="ti-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="skills sm-m-20px-b">
                     <div class="progress-lt">
-                        <h6>HTML</h6>
-                        <span>92%</span>
+                        <h6>Good comunication</h6>
+                        <span>100%</span>
                         <div class="progress">
-                            <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                             </div>
                             <!-- /progress-bar -->
                         </div>
@@ -266,10 +181,10 @@
                     </div>
                     <!-- /progress-lt -->
                     <div class="progress-lt">
-                        <h6>CSS</h6>
-                        <span>84%</span>
+                        <h6>Team work</h6>
+                        <span>100%</span>
                         <div class="progress">
-                            <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="84" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                             </div>
                             <!-- /progress-bar -->
                         </div>
@@ -277,10 +192,10 @@
                     </div>
                     <!-- /progress-lt -->
                     <div class="progress-lt">
-                        <h6>JavaScript</h6>
-                        <span>88%</span>
+                        <h6>Proactive</h6>
+                        <span>100%</span>
                         <div class="progress">
-                            <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                             </div>
                             <!-- /progress-bar -->
                         </div>
@@ -289,10 +204,10 @@
                     <!-- /progress-lt -->
 
                     <div class="progress-lt">
-                        <h6>PHp</h6>
-                        <span>95%</span>
+                        <h6>Adaptation to change</h6>
+                        <span>100%</span>
                         <div class="progress">
-                            <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                             </div>
                             <!-- /progress-bar -->
                         </div>
@@ -317,7 +232,7 @@
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
                     <h2 class="font-alt">Our Portfolio</h2>
-                    <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface.</p>
+                    <p>This section will show the different projects I have worked on.😊</p>
                 </div>
             </div>
         </div>
@@ -338,13 +253,13 @@
                     <div class="portfolio-col portfolio-hover-01">
                         <div class="portfolio-img">
                             <a href="#">
-                                <img src="static/img/portfolio-1.jpg" title="" alt="">
+                                <img src="static/img/siproh1.png" title="" alt="">
                             </a>
                             <div class="hover">
                                 <div class="action-btn">
                                     <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color">
                                     <i class="fa fa-play-circle"></i></a>
-                                    <a class="lightbox-gallery theme-color" href="static/img/portfolio-1.jpg" title="Lightbox gallery image title...">
+                                    <a class="lightbox-gallery theme-color" href="/static/img/siproh.png" title="Lightbox gallery image title...">
                                         <i class="fas fa-expand"></i>
                                     </a>
                                     <a href="#" class="theme-color">
@@ -357,8 +272,8 @@
                         </div>
 
                         <div class="portfolio-info">
-                            <h5>Ryan Portpolio Template</h5>
-                            <span>Resent Work</span>
+                            <h5>Control de procesos agrícolas</h5>
+                            <span>2019</span>
                         </div>
                     </div>
                     <!-- Portfolio -->
@@ -388,15 +303,15 @@
                         </div>
 
                         <div class="portfolio-info">
-                            <h5>Ryan Portpolio Template</h5>
-                            <span>Resent Work</span>
+                            <h5>Portpolio Template 2</h5>
+                            <span>2018</span>
                         </div>
                     </div>
                     <!-- Portfolio -->
                 </li>
                 <!-- col -->
 
-                <li class="portfolio-item photoshop apps">
+                <li class="portfolio-item photoshop">
                     <div class="portfolio-col portfolio-hover-01">
                         <div class="portfolio-img">
                             <a href="#">
@@ -419,101 +334,8 @@
                         </div>
 
                         <div class="portfolio-info">
-                            <h5>Ryan Portpolio Template</h5>
-                            <span>Resent Work</span>
-                        </div>
-                    </div>
-                    <!-- Portfolio -->
-                </li>
-                <!-- col -->
-
-                <li class="portfolio-item photoshop website">
-                    <div class="portfolio-col portfolio-hover-01">
-                        <div class="portfolio-img">
-                            <a href="#">
-                                <img src="static/img/portfolio-4.jpg" title="" alt="">
-                            </a>
-                            <div class="hover">
-                                <div class="action-btn">
-                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color">
-                                    <i class="fa fa-play-circle"></i></a>
-                                    <a class="lightbox-gallery theme-color" href="static/img/portfolio-4.jpg" title="Lightbox gallery image title...">
-                                        <i class="fas fa-expand"></i>
-                                    </a>
-                                    <a href="#" class="theme-color">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <!-- Video Btn -->
-                            </div>
-                            <!-- Hover -->
-                        </div>
-
-                        <div class="portfolio-info">
-                            <h5>Ryan Portpolio Template</h5>
-                            <span>Resent Work</span>
-                        </div>
-                    </div>
-                    <!-- Portfolio -->
-                </li>
-                <!-- col -->
-
-                <li class="portfolio-item photoshop apps">
-                    <div class="portfolio-col portfolio-hover-01">
-                        <div class="portfolio-img">
-                            <a href="#">
-                                <img src="static/img/portfolio-5.jpg" title="" alt="">
-                            </a>
-                            <div class="hover">
-                                <div class="action-btn">
-                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color">
-                                    <i class="fa fa-play-circle"></i></a>
-                                    <a class="lightbox-gallery theme-color" href="static/img/portfolio-5.jpg" title="Lightbox gallery image title...">
-                                        <i class="fas fa-expand"></i>
-                                    </a>
-                                    <a href="#" class="theme-color">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <!-- Video Btn -->
-                            </div>
-                            <!-- Hover -->
-                        </div>
-
-                        <div class="portfolio-info">
-                            <h5>Ryan Portpolio Template</h5>
-                            <span>Resent Work</span>
-                        </div>
-                    </div>
-                    <!-- Portfolio -->
-                </li>
-                <!-- col -->
-
-                <li class="portfolio-item app website">
-                    <div class="portfolio-col portfolio-hover-01">
-                        <div class="portfolio-img">
-                            <a href="#">
-                                <img src="static/img/portfolio-6.jpg" title="" alt="">
-                            </a>
-                            <div class="hover">
-                                <div class="action-btn">
-                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color">
-                                    <i class="fa fa-play-circle"></i></a>
-                                    <a class="lightbox-gallery theme-color" href="static/img/portfolio-6.jpg" title="Lightbox gallery image title...">
-                                        <i class="fas fa-expand"></i>
-                                    </a>
-                                    <a href="#" class="theme-color">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <!-- Video Btn -->
-                            </div>
-                            <!-- Hover -->
-                        </div>
-
-                        <div class="portfolio-info">
-                            <h5>Ryan Portpolio Template</h5>
-                            <span>Resent Work</span>
+                            <h5>Portpolio Template 3</h5>
+                            <span>2017</span>
                         </div>
                     </div>
                     <!-- Portfolio -->
@@ -530,9 +352,6 @@
 </section>
 <!--  Portfolio End  -->
 
-
-
-
 <!-- Testimonial -->
 <section class="section testimonial-section">
     <div class="container">
@@ -540,7 +359,7 @@
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
                     <h2 class="font-alt">What People Say?</h2>
-                    <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface.</p>
+                    <p>In this section are the opinions of people who know me and have worked with me. 💻💬</p>
                 </div>
             </div>
         </div>
@@ -604,7 +423,10 @@
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
                     <h2 class="font-alt">Latest News</h2>
-                    <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface.</p>
+                    <p>
+                      In this section you will find publications on the latest technological trends.
+                      We will also create interviews with various systems development specialists. 📚 🏁
+                    </p>
                 </div>
             </div>
         </div>
