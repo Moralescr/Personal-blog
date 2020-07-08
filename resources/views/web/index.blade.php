@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- Home Banner Start -->
-<section id="home" class="home-banner gray-bg" style="background-image: url(static/img/overlay-26.jpg);">
+<section id="home" class="home-banner gray-bg" style="background-image: url(static/img/overlay-2.jpg);">
     <div class="sec-round">
         <div class="container full-height">
             <div class="round-item round-item-1"></div>
