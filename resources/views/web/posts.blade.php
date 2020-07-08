@@ -92,7 +92,7 @@
             <li><a href="#"><i class="fa fa-envelope" target="_blank"></i></a></li>
         </ul>
         <p style="color:white" class="copyright">
-        © 2020 Moralescr | All Rights Reserved | Made with ❤️  
+            Made with ❤️ | All Rights Reserved | © 2020 Moralescr
         </p>
     </div>
 </footer>

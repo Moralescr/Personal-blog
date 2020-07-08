@@ -269,13 +269,3 @@
 </div>
 <!-- col -->
 
-<!--Styles about cards -->
-<style>
-    .my-card {
-        position: absolute;
-        left: 30%;
-        top: -50px;
-        border-radius: 50%;
-        border: white 3px solid;
-    }
-</style>
