@@ -349,7 +349,7 @@ img {
 }
 
 .more-btn:hover {
-    color: #000;
+    color: #C62828;
 }
 
 .more-btn:hover i {
@@ -1078,6 +1078,10 @@ img {
 }
 
 .feature-box-02 .icon {
+    position: absolute;
+    left: 30%;
+    top: -50px;
+    border: white 3px solid;
     width: 100px;
     height: 100px;
     display: inline-block;
@@ -1091,6 +1095,19 @@ img {
     -moz-transition: ease all 0.3s;
     -o-transition: ease all 0.3s;
     transition: ease all 0.3s;
+}
+
+
+/* Cambios para dimesnsión de tecnologías   */
+
+@media only screen and (max-width: 500px) {
+    .feature-box-02 .icon {
+        position: absolute;
+        left: 40%;
+        top: -50px;
+        border-radius: 50%;
+        border: white 3px solid;
+    }
 }
 
 .feature-box-02:hover .icon {

@@ -84,8 +84,8 @@
                 <div class="col-6 col-md-3 col-sm-6 wow fadeInLeft">
                     <div class="counter-col">
                         <div class="counter-data" data-count="375">
-                            <div class="count">375</div>
-                            <h6>Happy Clients</h6>
+                            <div class="count">8</div>
+                            <h6><span class="badge badge-danger">Happy Clients</span></h6>
                         </div>
                     </div>
                 </div>
@@ -94,8 +94,8 @@
                 <div class="col-6 col-md-3 col-sm-6 wow fadeInLeft">
                     <div class="counter-col">
                         <div class="counter-data" data-count="375">
-                            <div class="count">375</div>
-                            <h6>Telephonic Talk</h6>
+                            <div class="count">20</div>
+                            <h6><span class="badge badge-danger">Telephonic Talk</span></h6>
                         </div>
                     </div>
                 </div>
@@ -104,8 +104,8 @@
                 <div class="col-6 col-md-3 col-sm-6 wow fadeInLeft">
                     <div class="counter-col">
                         <div class="counter-data" data-count="550">
-                            <div class="count">550</div>
-                            <h6>Photo Capture</h6>
+                            <div class="count">20</div>
+                            <h6><span class="badge badge-danger">Photo Capture</span></h6>
                         </div>
                     </div>
                 </div>
@@ -114,8 +114,8 @@
                 <div class="col-6 col-md-3 col-sm-6 wow fadeInLeft">
                     <div class="counter-col">
                         <div class="counter-data" data-count="450">
-                            <div class="count">450</div>
-                            <h6>Project</h6>
+                            <div class="count">4</div>
+                            <h6><span class="badge badge-danger">Projects</span></h6>
                         </div>
                     </div>
                 </div>
@@ -303,7 +303,7 @@
                         </div>
 
                         <div class="portfolio-info">
-                            <h5>Portpolio Template 2</h5>
+                            <h5>Portfolio Template 2</h5>
                             <span>2018</span>
                         </div>
                     </div>
@@ -334,7 +334,7 @@
                         </div>
 
                         <div class="portfolio-info">
-                            <h5>Portpolio Template 3</h5>
+                            <h5>Portfolio Template 3</h5>
                             <span>2017</span>
                         </div>
                     </div>
@@ -435,9 +435,9 @@
             @foreach($posts as $post)
                 <div class="col-12 col-md-12 col-lg-4">
                     <div class="blog-item md-m-15px-tb">
-                        <a href="#">
+                        <a href="{{ route('post', $post->slug) }}">
                         @if($post->file)
-                            <img src="{{ $post->file }}" title="Ryan" alt="Ryan">
+                            <img src="{{ $post->file }}" title="{{$post->user->name}}" alt="{{ $post->name }}">
                         @endif
                         </a>
                         <div class="blog-content">
@@ -451,7 +451,7 @@
                             </div>
                             <!-- /post-meta -->
 
-                            <h4><a class="theme-color" href="#">{{ $post->name }}</a></h4>
+                            <h4><a class="theme-color" href="{{ route('post', $post->slug) }}">{{ $post->name }}</a></h4>
                             <p>
                                 {{ $post->excerpt }}
                             </p>
@@ -465,6 +465,7 @@
                 </div>
             @endforeach  
         </div>
+        <br> <br> <br>
         <div class="row">
             <div class="send col text-center">
                 <a href="{{ route('blog') }}" class="m-btn m-btn-theme">
