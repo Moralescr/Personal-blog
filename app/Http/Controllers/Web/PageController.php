@@ -48,7 +48,10 @@ class PageController extends Controller
     //Muestra el detalle de un post
     public function post($slug)
     {
-        $post = Post::where('slug', $slug)->first();
-        return view('web.post', compact('post'));
+        $categories = Category::orderBy('id', 'DESC')->paginate(4);
+        $posts      = Post::orderBy('created_at', 'DESC')->paginate(3);
+        $tags       = Tag::orderBy('created_at', 'DESC')->paginate(6);
+        $post       = Post::where('slug', $slug)->first();
+        return view('web.post', compact('post', 'categories', 'posts', 'tags'));
     }
 }

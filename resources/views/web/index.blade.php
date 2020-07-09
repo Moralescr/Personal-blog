@@ -50,7 +50,7 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="about-left">
-                    <h2>Adrián E. Morales Guadamúz</h2>
+                    <h2>Ing. Adrián E. Morales Guadamúz</h2>
                     <h3>ATM Engineer in <a href="https://clai.com/"> <b>CLAI PAYMENTS © </b> </a> Costa Rica</h3>
                     <p class="text-justify">
                     I am a young man passionate about technology, able to adapt to any circumstance 
@@ -84,8 +84,11 @@
                 <div class="col-6 col-md-3 col-sm-6 wow fadeInLeft">
                     <div class="counter-col">
                         <div class="counter-data" data-count="375">
-                            <div class="count">8</div>
-                            <h6><span class="badge badge-danger">Happy Clients</span></h6>
+                            <!--<div class="count">8</div>-->
+                            <div class="feature-box-01">
+                                <i class="icon1 theme-bg ti-medall"></i>
+                                <h6><span class="badge badge-link">Happy Clients</span></h6>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -94,8 +97,12 @@
                 <div class="col-6 col-md-3 col-sm-6 wow fadeInLeft">
                     <div class="counter-col">
                         <div class="counter-data" data-count="375">
-                            <div class="count">20</div>
-                            <h6><span class="badge badge-danger">Telephonic Talk</span></h6>
+                            <div class="feature-box-01">
+
+                                 <i class="icon1 theme-bg ti-medall"></i>
+                            
+                                 <h6><span class="badge badge-link">Happy Clients</span></h6>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -104,8 +111,11 @@
                 <div class="col-6 col-md-3 col-sm-6 wow fadeInLeft">
                     <div class="counter-col">
                         <div class="counter-data" data-count="550">
-                            <div class="count">20</div>
-                            <h6><span class="badge badge-danger">Photo Capture</span></h6>
+                            <!--<div class="count">20</div>-->
+                            <div class="feature-box-01">
+                                <i class="icon1 theme-bg ti-medall"></i>
+                                <h6><span class="badge badge-link">Happy Clients</span></h6>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -114,8 +124,11 @@
                 <div class="col-6 col-md-3 col-sm-6 wow fadeInLeft">
                     <div class="counter-col">
                         <div class="counter-data" data-count="450">
-                            <div class="count">4</div>
-                            <h6><span class="badge badge-danger">Projects</span></h6>
+                            <!--<div class="count">4</div>-->
+                            <div class="feature-box-01">
+                                <i class="icon1 theme-bg ti-medall"></i>
+                                <h6><span class="badge badge-link">Happy Clients</span></h6>
+                            </div>
                         </div>
                     </div>
                 </div>
