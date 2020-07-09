@@ -197,7 +197,7 @@
             <div class="avtar">
               <img src="/static/img/team2.jpg" alt="" title="">
             </div>
-            <p><b style="color:#C62828">I'm a developer engineer and I love programming. 😍🧡</b></p>
+            <p><b style="color:#C62828">I'm a development engineer and I love programming. 😍🧡</b></p>
           </div>
         </div> <!-- /sidebar-widget -->
 
@@ -205,9 +205,9 @@
           <h5 class="widget-title font-alt">CATEGORIES</h5>
           <div class="widget-categories">
             <ul class="list-style-1">
-              <li><a href="#">Entertainment</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Portfolio</a></li>
+              @foreach($categories as $category)
+                 <li><a href="{{ route('category', $category->slug) }}">{{$category->name}}</a></li>
+              @endforeach
             </ul>
           </div>
         </div> <!-- /sidebar-widget -->
@@ -216,33 +216,19 @@
           <h5 class="widget-title font-alt">POPULAR POST</h5>
           <div class="widget-categories">
             <ul class="latest-post">
-            <li>
-              <div class="lp-img">
-                <img src="/static/img/blog-img4.jpg" title="Ryan" alt="Ryan">
-              </div>
-              <div class="lp-text">
-                <h6><a href="#">Ryan Awesome Theme For Your Business Website</a></h6>
-                <div class="date">20 April 2018 | by <a href="#">Ryan</a></div>
-              </div>
-            </li>
-            <li>
-              <div class="lp-img">
-                <img src="/static/img/blog-img4.jpg" title="Ryan" alt="Ryan">
-              </div>
-              <div class="lp-text">
-                <h6><a href="#">Lorem Ipsum is simply dummy</a></h6>
-                <div class="date">20 April 2018 | by <a href="#">Ryan</a></div>
-              </div>
-            </li>
-            <li>
-              <div class="lp-img">
-                <img src="/static/img/blog-img4.jpg" title="Ryan" alt="Ryan">
-              </div>
-              <div class="lp-text">
-                <h6><a href="#">Ryan is an exclusive multi-purpose</a></h6>
-                <div class="date">20 April 2018 | by <a href="#">Ryan</a></div>
-              </div>
-            </li>
+              @foreach($posts as $post1)
+              <li>
+                <div class="lp-img">
+                  @if($post1->file)
+                     <img src="{{$post1->file}}" title="Ryan" alt="Ryan">
+                  @endif
+                </div>
+                <div class="lp-text">
+                  <h6><a href="{{ route('post', $post1->slug) }}">{{$post1->name}}</a></h6>
+                  <div class="date">{{$post1->created_at}} | by <a href="#">{{$post1->user->name}}</a></div>
+                </div>
+              </li>
+              @endforeach
           </ul>
           </div>
         </div> <!-- /sidebar-widget -->
@@ -261,18 +247,9 @@
           <h5 class="widget-title font-alt">POPULAR TAGS</h5>
           <div class="widget-popular-tag">
             <ul class="list-style-tag">
-              <li><a href="#">Mrig</a></li>
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">CSS</a></li>
-              <li><a href="#">UI</a></li>
-              <li><a href="#">One Page</a></li>
-              <li><a href="#">Multi</a></li>
-              <li><a href="#">Theme</a></li>
-              <li><a href="#">Bootstrap</a></li>
-              <li><a href="#">Design</a></li>
-              <li><a href="#">UX</a></li>
-              <li><a href="#">Wordpress</a></li>
-              <li><a href="#">Magento</a></li>
+              @foreach($tags as $tag1)
+                <li><a href="{{ route('tag', $tag1->slug) }}">{{$tag1->name}}</a></li>
+              @endforeach
             </ul>
           </div>
         </div> <!-- /sidebar-widget -->

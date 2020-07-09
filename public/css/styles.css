@@ -1077,6 +1077,28 @@ img {
     box-shadow: 0px 1px 27px -3px rgba(0, 0, 0, 0.2);
 }
 
+
+/*Iconos abajo de la imagen usuario.*/
+
+.feature-box-01 .icon1 {
+    left: 30%;
+    /* top: -90px;*/
+    /*border: white 3px solid;*/
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 30px;
+    background-color: #ecb922;
+    color: #ffffff;
+    -webkit-transition: ease-in all 0.3s;
+    -moz-transition: ease-in all 0.3s;
+    -o-transition: ease-in all 0.3s;
+    transition: ease-in all 0.3s;
+}
+
 .feature-box-02 .icon {
     position: absolute;
     left: 30%;
@@ -1103,7 +1125,7 @@ img {
 @media only screen and (max-width: 500px) {
     .feature-box-02 .icon {
         position: absolute;
-        left: 40%;
+        left: 38%;
         top: -50px;
         border-radius: 50%;
         border: white 3px solid;

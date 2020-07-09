@@ -16,9 +16,9 @@
     @foreach($posts as $post)
         <div class="col-12 col-md-12 col-lg-4">
             <div class="blog-item md-m-15px-tb">
-                <a href="#">
+                <a href="{{ route('post', $post->slug) }}">
                 @if($post->file)
-                    <img src="{{ $post->file }}" title="Ryan" alt="Ryan">
+                    <img src="{{ $post->file }}" title="{{ $post->name }}" alt="{{ $post->name }}">
                 @endif
                 </a>
                 <div class="blog-content">
