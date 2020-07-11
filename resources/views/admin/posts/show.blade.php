@@ -2,19 +2,22 @@
 
 @section('content')
 <div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    Ver entrada
-                </div>
-
-                <div class="panel-body">
-                    <p><strong>Nombre</strong> {{ $post->name }}</p>
-                    <p><strong>Slug</strong> {{ $post->slug }}</p>
-                    <p><strong>Descripción</strong> {{ $post->body }}</p>
-                </div>
-            </div>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            @if($post->file)
+              <img src="{{$post->file}}" class="card-img-top" alt="...">
+            @endif
+            <hr>
+            <p class="lead">
+               <b>Nombre:</b>
+               <span class="badge badge-info">{{ $post->name }} </span>  | 
+               <b>Slug:</b>
+               <span class="badge badge-info">{{ $post->slug }}</span>  
+            </p>
+            <hr class="my-4">
+            <p class="lead">
+               <span class="badge badge-danger">Descripción:</span> {!! $post->body !!}
+            </p>
         </div>
     </div>
 </div>

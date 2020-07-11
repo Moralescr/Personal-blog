@@ -173,7 +173,7 @@
         <div class="sidebar-widget">
           <h5 class="widget-title font-alt">NEWSLETTER</h5>
           <div class="widget-newsletter">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>Write your email to subscribe.</p>
             <form>
               <input name="name" placeholder="* Email Address" class="form-control" type="text">
               <button class="m-btn m-btn-theme"><i class="fa ti-email icon-small"></i></button>
