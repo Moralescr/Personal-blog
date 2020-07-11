@@ -88,97 +88,13 @@
         </div>
 
         <div class="blog-comment-area">
-          <h2 class="title-style-1 font-alt">Commets 3</h2>
+          <h2 class="title-style-1 font-alt">Comments</h2>
           <ul class="blog-comment">
-              <li>
-                <div class="row">
-                  <div class="col-6 col-lg-2 col-md-3 sm-m-15px-b">
-                    <img src="/static/img/avtar1.jpg" title="" alt="">
-                  </div> <!-- col -->
-                  <div class="col-lg-10 col-md-9">
-                    <a href="#" class="person">Martin Luthar</a>
-                    <span class="date">17 APRIL 2018, 2:05 AM</span>
-                    <a href="#comment" class="reply">Replay</a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
-                  </div>
-                </div> <!-- row -->
-
-                <!-- Child Comment -->
-                <ul class="child-comment">
-                  <li>
-                    <div class="row">
-                      <div class="col-6 col-lg-2 col-md-3 sm-m-15px-b">
-                        <img src="/static/img/avtar1.jpg" title="" alt="">
-                      </div> <!-- col -->
-                      <div class="col-lg-10 col-md-9">
-                        <a href="#" class="person">Martin Luthar</a>
-                        <span class="date">17 APRIL 2018, 2:05 AM</span>
-                        <a href="#comment" class="reply">Replay</a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                      </div>
-                    </div> <!-- row -->
-                  </li>
-                </ul> <!-- Blog Comment -->
-                <!-- / -->
-              </li>
-
-              <li>
-                <div class="row">
-                  <div class="col-6 col-lg-2 col-md-3 sm-m-15px-b">
-                    <img src="/static/img/avtar1.jpg" title="" alt="">
-                  </div> <!-- col -->
-                  <div class="col-lg-10 col-md-9">
-                    <a href="#" class="person">Martin Luthar</a>
-                    <span class="date">17 APRIL 2018, 2:05 AM</span>
-                    <a href="#comment" class="reply">Replay</a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
-                  </div>
-                </div> <!-- row -->
-              </li>
+              @include('web.sections.discus')          
           </ul>
         </div>
-
-        <div class="blog-comment-form">
-          <h2 class="title-style-1 font-alt">Leave a Reply</h2>
-          <form>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label>Your Name *</label>
-                  <input name="name" placeholder="Enter your full name" class="form-control" type="text">
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label>Your Email *</label>
-                  <input name="name" placeholder="Enter your email" class="form-control" type="text">
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label>Your Comment *</label>
-                  <textarea class="form-control" rows="8" id="comment" name="comment" placeholder="Comment here"></textarea>
-                </div>
-              </div>
-              <div class="col-md-12 p-10px-t">
-                <button class="m-btn m-btn-theme"> Post Comment </button>
-              </div>
-            </div>
-          </form>
-        </div>
-
       </div> <!-- col -->
 
-      
       <!-- side Bar -->
       <div class="col-12 col-md-12 col-lg-3 md-m-30px-b">
         <div class="sidebar-widget">
