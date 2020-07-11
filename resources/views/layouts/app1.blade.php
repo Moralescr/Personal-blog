@@ -5,19 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--
-  ========================================================================
-  EXCLUSIVE ON themeforest.net
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  Template Name   : Adrián
-  Author          : AMORALES
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   Copyright (c) 2020 - AMORALES 
   ========================================================================
   -->
     <!-- Page Title -->
-    <title>Adrian Morales | Development Engineer</title>
+    <title>Moralescr.</title>
     <!-- / -->
-
+    <link rel="shortcut icon" href="/static/img/icono.png" />
     <!---Font Icon-->
     <link href="/static/plugin/font-awesome/css/fontawesome-all.min.css" rel="stylesheet">
     <link href="/static/plugin/themify-icons/themify-icons.css" rel="stylesheet">

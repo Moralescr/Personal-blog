@@ -24,4 +24,12 @@ class Post extends Model
     {
         return $this->belongsToMany(Tag::class);
     }
+
+    //Query scope posts
+    public function scopeName($query, $name) {
+    	if ($name) {
+    		return $query->where('name','like',"%$name%");
+    	}
+    }
+    
 }

@@ -184,9 +184,9 @@
         <div class="sidebar-widget">
           <h5 class="widget-title font-alt">SEARCH</h5>
           <div class="widget-search">
-            <form>
+            <form action="{{route('blog')}}" method="GET">
               <input name="name" placeholder="Search" class="form-control" type="text">
-              <button class="m-btn m-btn-theme"><i class="fa fa-search"></i></button>
+              <button type="submit" class="m-btn m-btn-theme"><i class="fa fa-search"></i></button>
             </form>
           </div>
         </div> <!-- /sidebar-widget -->

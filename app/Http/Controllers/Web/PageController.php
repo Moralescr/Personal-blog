@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Web;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use Carbon\Carbon;
 use App\Post;
 use App\Category;
 use App\Tag;
@@ -17,9 +17,14 @@ class PageController extends Controller
         return view('web.index', compact('posts'));
     }
     //Muestra todos los posts
-    public function blog()
+    public function blog(Request $request)
     {
-        $posts = Post::orderBy('id', 'DESC')->where('status', 'PUBLISHED')->paginate(6);
+        $name = $request->get('name');
+        $posts = Post::orderBy('id', 'DESC')
+               ->where('status', 'PUBLISHED')
+               ->name($name)
+               ->paginate(6);
+
         return view('web.posts', compact('posts'));
     }
 

@@ -32,7 +32,7 @@
                     </div>
                     <!-- /post-meta -->
 
-                    <h4><a class="theme-color" href="#">{{ $post->name }}</a></h4>
+                    <h4><a class="theme-color" href="{{ route('post', $post->slug) }}">{{ $post->name }}</a></h4>
                     <p>
                         {{ $post->excerpt }}
                     </p>
