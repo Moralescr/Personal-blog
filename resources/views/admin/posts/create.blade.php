@@ -6,11 +6,14 @@
         <div class="col-md-8 col-md-offset-2">
             <div class="card card-info">
                 <div class="card-body">
-                    <a href="{{ route('posts.index') }}" class="pull-right btn btn-sm btn-danger">
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <i class="fa fa-warning"></i>
+                        <strong>En este apartado se permite la creación de un post.</strong> 
+                    </div>
+                    <a href="{{ route('posts.index') }}" class="pull-right btn btn-xs btn-success">
                          <i class="fa fa-reply"></i> Regresar 
                     </a>
-                    <h4>Edición de un post</h4>
-                    <hr>
+                    <br><hr>
                     {!! Form::open(['route' => 'posts.store', 'files' => true]) !!}
                         
                         @include('admin.posts.partials.form')

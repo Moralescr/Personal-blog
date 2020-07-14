@@ -9,15 +9,10 @@
                     <div class="alert alert-danger alert-dismissible fade show" role="alert">
                         <i class="fa fa-warning"></i>
                         <strong>En este apartado solo se muestran las categorias creadas por el usuario.</strong> 
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
                     </div>
-                    <a href="{{ route('categories.create') }}" class="pull-right btn btn-sm btn-success">
-                        Crear
-                    </a>
-                    <h4 class="card-title">Listado de categorias</h4>
-
+                    <a href="{{ route('categories.create') }}" class="pull-right btn btn-xs btn-success">
+                       <i class="ti-plus"></i> Crear categoria
+                    </a><br><br>
                     <table class="table table-striped table-hover">
                         <thead>
                             <tr>

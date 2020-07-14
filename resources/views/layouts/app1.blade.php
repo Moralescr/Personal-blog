@@ -70,7 +70,6 @@
     <script src="/static/plugin/magnific/jquery.magnific-popup.min.js"></script>
     <script src="/static/plugin/particles/particles.min.js"></script>
     <script src="/static/plugin/particles/particles-app.js"></script>
-
     <!-- custom -->
     <script src="/static/js/custom.js"></script>
    
