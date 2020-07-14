@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 //Route::redirect('/', 'index');
 
+
 Auth::routes();
 
 //web
@@ -30,4 +31,3 @@ Route::get('tag/{slug}', 'Web\PageController@tag')->name('tag');
 Route::resource('tags', 'Admin\TagController');
 Route::resource('categories', 'Admin\CategoryController');
 Route::resource('posts', 'Admin\PostController');
-

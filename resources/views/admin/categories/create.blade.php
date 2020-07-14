@@ -6,14 +6,11 @@
         <div class="col-md-8 col-md-offset-2">
             <div class="card card-info">
                 <div class="card-body">
-                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                        <i class="fa fa-warning"></i>
-                        <strong>En este apartado se permite la creación de categorías.</strong> 
-                    </div>
-                    <a href="{{ route('categories.index') }}" class="pull-right btn btn-xs btn-success">
+                    <a href="{{ route('categories.index') }}" class="pull-right btn btn-sm btn-danger">
                         <i class="fa fa-reply"></i> Regresar 
                     </a>
-                    <br><hr>
+                    <h4>Creación de una categoria</h4>
+                    <hr>
                     {!! Form::open(['route' => 'categories.store']) !!}
                         
                         @include('admin.categories.partials.form')

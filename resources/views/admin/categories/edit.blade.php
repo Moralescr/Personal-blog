@@ -6,14 +6,11 @@
         <div class="col-md-8 col-md-offset-2">
             <div class="card card-info">
                 <div class="card-body">
-                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                        <i class="fa fa-warning"></i>
-                        <strong>En este apartado se permite la edición de categorías.</strong> 
-                    </div>
-                   <a href="{{ route('categories.index') }}" class="pull-right btn btn-xs btn-success">
-                       <i class="fa fa-reply"></i> Regresar 
+                   <a href="{{ route('categories.index') }}" class="pull-right btn btn-sm btn-danger">
+                   <i class="fa fa-reply"></i> Regresar 
                     </a>
-                    <br><hr>
+                    <h4 class="card-title">Editar una categoría</h4>
+                    <hr>
                     {!! Form::model($category, ['route' => ['categories.update', $category->id], 'method' => 'PUT']) !!}
                         
                         @include('admin.categories.partials.form')
