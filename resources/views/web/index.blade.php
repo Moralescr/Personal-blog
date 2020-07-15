@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- Home Banner Start -->
-<section id="home" class="home-banner gray-bg" style="background-image: url(static/img/overlay-2.jpg);">
+<section id="home" class="home-banner gray-bg" style="background-image: url(img/overlay-2.jpg);">
     <div class="sec-round">
         <div class="container full-height">
             <div class="round-item round-item-1"></div>
@@ -63,9 +63,8 @@
                 </div>
             </div>
             <!-- col -->
-
             <div class="col-md-6 text-center sm-m-45px-t">
-                <img class="animated fadeInUp" src="static/img/moralescr.png" title="" alt="">
+                <img src="img/moralescr.png" title="" alt="">
             </div>
             <!-- col -->
 
@@ -266,13 +265,13 @@
                     <div class="portfolio-col portfolio-hover-01">
                         <div class="portfolio-img">
                             <a href="#">
-                                <img src="static/img/siproh1.png" title="" alt="">
+                                <img src="img/siproh1.png" title="" alt="">
                             </a>
                             <div class="hover">
                                 <div class="action-btn">
                                     <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color">
                                     <i class="fa fa-play-circle"></i></a>
-                                    <a class="lightbox-gallery theme-color" href="/static/img/siproh.png" title="Lightbox gallery image title...">
+                                    <a class="lightbox-gallery theme-color" href="img/siproh.png" title="Lightbox gallery image title...">
                                         <i class="fas fa-expand"></i>
                                     </a>
                                     <a href="#" class="theme-color">
@@ -297,13 +296,13 @@
                     <div class="portfolio-col portfolio-hover-01">
                         <div class="portfolio-img">
                             <a href="#">
-                                <img src="static/img/portfolio-2.jpg" title="" alt="">
+                                <img src="img/portfolio-2.jpg" title="" alt="">
                             </a>
                             <div class="hover">
                                 <div class="action-btn">
                                     <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color">
                                     <i class="fa fa-play-circle"></i></a>
-                                    <a class="lightbox-gallery theme-color" href="static/img/portfolio-2.jpg" title="Lightbox gallery image title...">
+                                    <a class="lightbox-gallery theme-color" href="img/portfolio-2.jpg" title="Lightbox gallery image title...">
                                         <i class="fas fa-expand"></i>
                                     </a>
                                     <a href="#" class="theme-color">
@@ -328,13 +327,13 @@
                     <div class="portfolio-col portfolio-hover-01">
                         <div class="portfolio-img">
                             <a href="#">
-                                <img src="static/img/portfolio-3.jpg" title="" alt="">
+                                <img src="img/portfolio-3.jpg" title="" alt="">
                             </a>
                             <div class="hover">
                                 <div class="action-btn">
                                     <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color">
                                     <i class="fa fa-play-circle"></i></a>
-                                    <a class="lightbox-gallery theme-color" href="static/img/portfolio-3.jpg" title="Lightbox gallery image title...">
+                                    <a class="lightbox-gallery theme-color" href="img/portfolio-3.jpg" title="Lightbox gallery image title...">
                                         <i class="fas fa-expand"></i>
                                     </a>
                                     <a href="#" class="theme-color">
@@ -383,7 +382,7 @@
                 <div id="client-slider-single" class="owl-carousel">
                     <div class="testimonial-col">
                         <div class="img">
-                            <img src="static/img/avtar1.jpg" alt="Ryan" title="Ryan" />
+                            <img src="img/avtar1.jpg" alt="Ryan" title="Ryan" />
                         </div>
                         <h6>Jennifer Lutheran</h6>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
@@ -392,7 +391,7 @@
 
                     <div class="testimonial-col">
                         <div class="img">
-                            <img src="static/img/avtar2.jpg" alt="Ryan" title="Ryan" />
+                            <img src="/img/avtar2.jpg" alt="Ryan" title="Ryan" />
                         </div>
                         <h6>Jennifer Lutheran</h6>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
@@ -401,7 +400,7 @@
 
                     <div class="testimonial-col">
                         <div class="img">
-                            <img src="static/img/avtar3.jpg" alt="Ryan" title="Ryan" />
+                            <img src="/img/avtar3.jpg" alt="Ryan" title="Ryan" />
                         </div>
                         <h6>Jennifer Lutheran</h6>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
@@ -410,7 +409,7 @@
 
                     <div class="testimonial-col">
                         <div class="img">
-                            <img src="static/img/avtar1.jpg" alt="Ryan" title="Ryan" />
+                            <img src="/img/avtar1.jpg" alt="Ryan" title="Ryan" />
                         </div>
                         <h6>Jennifer Lutheran</h6>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>

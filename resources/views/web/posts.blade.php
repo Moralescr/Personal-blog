@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- Page Title -->
-<section class="page-title" style="background-image: url(/static/img/overlay-1.jpg);">
+<section class="page-title" style="background-image: url(/img/overlay-1.jpg);">
 <div class="container">
     <h1 align="left" class="font-alt">My Blog List ❤</h1>
 </div>

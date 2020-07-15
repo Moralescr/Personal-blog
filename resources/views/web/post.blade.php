@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- Page Title -->
-<section class="page-title" style="background-image: url(/static/img/overlay-1.jpg);">
+<section class="page-title" style="background-image: url(/img/overlay-1.jpg);">
 <div class="container">
     <h1 align="left" class="font-alt">My Blog Detail ❤</h1>
 </div>
@@ -111,7 +111,7 @@
           <h5 class="widget-title font-alt">ABOUT ME</h5>
           <div class="widget-about">
             <div class="avtar">
-              <img src="/static/img/team2.jpg" alt="" title="">
+              <img src="/img/team1.jpg" alt="" title="">
             </div>
             <p><b style="color:#C62828">I'm a development engineer and I love programming. 😍🧡</b></p>
           </div>
