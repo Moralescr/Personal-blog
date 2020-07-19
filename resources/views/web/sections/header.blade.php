@@ -9,12 +9,11 @@
 
             <!-- Mobile Toggle -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarRyan" aria-controls="navbarRyan" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <!-- / -->
-
             <!-- Top Menu -->
             <div class="collapse navbar-collapse justify-content-end" id="navbarRyan">
                 <ul class="navbar-nav">
@@ -27,7 +26,6 @@
                 </ul>
             </div>
             <!-- / -->
-
         </div>
         <!-- Container -->
     </nav>
@@ -42,15 +40,13 @@
             <!-- Brand -->
             <a class="navbar-brand" href="{{ route('index') }}">Moralescr <span class="theme-bg1"></span></a>
             <!-- / -->
-
             <!-- Mobile Toggle -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarRyan" aria-controls="navbarRyan" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <!-- / -->
-
             <!-- Top Menu -->
             <div class="collapse navbar-collapse justify-content-end" id="navbarRyan">
                 <ul class="navbar-nav">
@@ -63,7 +59,6 @@
                 </ul>
             </div>
             <!-- / -->
-
         </div>
         <!-- Container -->
     </nav>

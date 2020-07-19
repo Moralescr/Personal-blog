@@ -1,5 +1,5 @@
 @extends('errors::layout')
 
-@section('title', '404')
+@section('title', 'Page not found')
 
-@section('message', 'Página no encontrada')
+@section('message', 'Oops... Sorry, the page you are looking for could not be found.')

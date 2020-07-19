@@ -76,7 +76,7 @@
         </nav>
         @if (session('info'))
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                     <br>
                         <div class="alert alert-success">
@@ -89,7 +89,7 @@
 
         @if(count($errors))            
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="alert alert-success">
                             <ul>

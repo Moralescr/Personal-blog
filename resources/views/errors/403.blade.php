@@ -1,5 +1,5 @@
 @extends('errors::layout')
 
-@section('title', '403')
+@section('title', 'Unauthorized access')
 
-@section('message', 'Acceso no autorizado')
+@section('message', 'Oops... Unauthorized access')

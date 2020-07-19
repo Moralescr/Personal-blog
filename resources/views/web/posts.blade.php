@@ -12,7 +12,8 @@
 <!-- / -->
 <section class="section blog-lising">
 <div class="container">
-  <div class="row">
+@if($posts->first() != null)
+   <div class="row">
     @foreach($posts as $post)
         <div class="col-12 col-md-12 col-lg-4">
             <div class="blog-item md-m-15px-tb">
@@ -45,11 +46,19 @@
             <!-- Blog Item -->
         </div>
     @endforeach  
-</div>
+   </div>
 <!-- row -->
 {{$posts->links()}}
+@else
+<div class="row">
+    <h2 style="color:#C62828; text-align: center;"> 
+        <i class="ti-bell"></i> 
+        Oops ... Sorry, no records found for that name.
+        <a href="{{route('blog')}}">Go back </a>   
+    </h2>
 </div>
-
+@endif
+</div>
 </section>
 
 <!-- Footer-->

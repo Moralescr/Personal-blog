@@ -22,35 +22,34 @@
             @if($post->file)
               <img src="{{ $post->file }}" class="img-responsive" title="" alt="">
             @endif
-          </div>
-          <!--<p><span class="first-letter">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, <strong class="theme-color">sed do eiusmod
-            tempor</strong> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in <u>voluptate velit esse</u> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui <span class="theme-color">officia deserunt mollit</span> anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <strong><a class="theme-color" href="#">sed do eiusmod</a></strong> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
--->
-          <blockquote class="blockquote-left">
-            <p> Lduis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div> 
+         <blockquote class="blockquote-left">
+            <p>  "Our biggest weakness is giving up, the best way to succeed is to always try just one more time"
+                  <b>- Thomas A. Edison -</b>
             </p>
-            <label class="parson">- Ryanr</label>
+            <hr>
+            <label class="parson">
+              Posted by <span class="badge badge-info">{{$post->user->name}}</span>
+            </label>
           </blockquote>
 
           <p>
             {!! $post->body !!}
           </p>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+          </p>
         </div> <!-- content are -->
 
         <div class="blog-tag-nav">
           <div class="row">
             <div class="col-12 col-md-6 align-self-center text-center text-sm-left sm-m-10px-tb">
-              <ul class="list-style-tag">
+              <ul class="list-style-tag"> 
                 @foreach($post->tags as $tag)
                 <li>
                     <a href="{{ route('tag', $tag->slug) }}">

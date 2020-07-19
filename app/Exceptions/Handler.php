@@ -50,6 +50,11 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Throwable $exception)
     {
+        // custom error message
+        if ($exception instanceof \ErrorException) {
+            abort(404);
+        }
+        
         return parent::render($request, $exception);
     }
 }

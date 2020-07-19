@@ -21,7 +21,7 @@
                     <h4>Hello, my name is</h4>
                     <h5 class="font-alt">Adrián Morales</h5>
                     <p>
-                        Welcome to my Web Page 
+                        Welcome to my web site 
                         <a href="{{route('index')}}">
                             <b>
                                <span class="badge badge-danger">Moralescr.</span>
@@ -85,8 +85,8 @@
                         <div class="counter-data" data-count="375">
                             <!--<div class="count">8</div>-->
                             <div class="feature-box-01">
-                                <i class="icon1 theme-bg ti-medall"></i>
-                                <h6><span class="badge badge-link">Happy Clients</span></h6>
+                                <i class="icon1 theme-bg ti-music"></i>
+                                <h6><span class="badge badge-link">Music</span></h6>
                             </div>
                         </div>
                     </div>
@@ -97,10 +97,8 @@
                     <div class="counter-col">
                         <div class="counter-data" data-count="375">
                             <div class="feature-box-01">
-
-                                 <i class="icon1 theme-bg ti-medall"></i>
-                            
-                                 <h6><span class="badge badge-link">Happy Clients</span></h6>
+                                 <i class="icon1 theme-bg ti-game"></i>
+                                 <h6><span class="badge badge-link">Video games</span></h6>
                             </div>
                         </div>
                     </div>
@@ -110,10 +108,9 @@
                 <div class="col-6 col-md-3 col-sm-6 wow fadeInLeft">
                     <div class="counter-col">
                         <div class="counter-data" data-count="550">
-                            <!--<div class="count">20</div>-->
                             <div class="feature-box-01">
-                                <i class="icon1 theme-bg ti-medall"></i>
-                                <h6><span class="badge badge-link">Happy Clients</span></h6>
+                                <i class="icon1 theme-bg ti-camera"></i>
+                                <h6><span class="badge badge-link">Photography</span></h6>
                             </div>
                         </div>
                     </div>
@@ -123,10 +120,9 @@
                 <div class="col-6 col-md-3 col-sm-6 wow fadeInLeft">
                     <div class="counter-col">
                         <div class="counter-data" data-count="450">
-                            <!--<div class="count">4</div>-->
                             <div class="feature-box-01">
-                                <i class="icon1 theme-bg ti-medall"></i>
-                                <h6><span class="badge badge-link">Happy Clients</span></h6>
+                                <i class="icon1 theme-bg ti-cup"></i>
+                                <h6><span class="badge badge-link">Sports</span></h6>
                             </div>
                         </div>
                     </div>
@@ -252,7 +248,6 @@
         <div class="portfolio-filter m-30px-b">
             <ul class="filter text-center">
                 <li class="active" data-filter="*">All</li>
-                <li data-filter=".photoshop">Photoshop</li>
                 <li data-filter=".website">Website</li>
                 <li data-filter=".apps">Apps</li>
             </ul>
@@ -323,7 +318,7 @@
                 </li>
                 <!-- col -->
 
-                <li class="portfolio-item photoshop">
+                <li class="portfolio-item apps">
                     <div class="portfolio-col portfolio-hover-01">
                         <div class="portfolio-img">
                             <a href="#">
@@ -376,7 +371,6 @@
             </div>
         </div>
 
-
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div id="client-slider-single" class="owl-carousel">
@@ -409,13 +403,12 @@
 
                     <div class="testimonial-col">
                         <div class="img">
-                            <img src="/img/avtar1.jpg" alt="Ryan" title="Ryan" />
+                            <img src="/img/avtar3.jpg" alt="Ryan" title="Ryan" />
                         </div>
                         <h6>Jennifer Lutheran</h6>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     </div>
                     <!-- col -->
-
                 </div>
                 <!-- owl -->
             </div>

@@ -24,7 +24,7 @@ class PageController extends Controller
                ->where('status', 'PUBLISHED')
                ->name($name)
                ->paginate(6);
-
+               
         return view('web.posts', compact('posts'));
     }
 
@@ -57,6 +57,8 @@ class PageController extends Controller
         $posts      = Post::orderBy('created_at', 'DESC')->paginate(3);
         $tags       = Tag::orderBy('created_at', 'DESC')->paginate(6);
         $post       = Post::where('slug', $slug)->first();
+
         return view('web.post', compact('post', 'categories', 'posts', 'tags'));
+     
     }
 }
