@@ -21,7 +21,7 @@
                     <h4>Hello, my name is</h4>
                     <h5 class="font-alt">Adrián Morales</h5>
                     <p>
-                        Welcome to my web site 
+                        Welcome to my web site
                         <a href="{{route('index')}}">
                             <b>
                                <span class="badge badge-danger">Moralescr.</span>
@@ -53,10 +53,10 @@
                     <h2>Ing. Adrián E. Morales Guadamúz</h2>
                     <h3>ATM Engineer in <a href="https://clai.com/"> <b>CLAI PAYMENTS © </b> </a> Costa Rica</h3>
                     <p class="text-justify">
-                    I am a young man passionate about technology, able to adapt to any circumstance 
-                    and always give my best in any project, at the same time that I strive to work as a team. 
+                    I am a young man passionate about technology, able to adapt to any circumstance
+                    and always give my best in any project, at the same time that I strive to work as a team.
                     </p>
-                    <p> 
+                    <p>
                       Check out my <a class="m-btn-link theme-after" href="#portfolio">Portfolio</a>
                     </p>
                     <a class="m-btn m-btn-theme" href="#contact">Contact us <i class="ti-arrow-right"></i></a>
@@ -153,12 +153,12 @@
         </div> <br>
         <!-- row -->
         <div class="row">
-            @include('web.sections.abilities') 
+            @include('web.sections.abilities')
         </div>
         <!-- row -->
     </div>
     <!-- container -->
-</section> 
+</section>
 <!-- Service End -->
 
 <!-- Our Skill -->
@@ -168,8 +168,8 @@
             <div class="col-md-6">
                 <div class="skill-left p-80px-r md-p-40px-r sm-p-0px-r sm-m-40px-b">
                     <h3 class="font-alt">My soft skills</h3>
-                    <p class="m-30px-b text-justify"> 
-                    Soft skills are all the attributes or abilities that allow a person to carry out their work effectively. 
+                    <p class="m-30px-b text-justify">
+                    Soft skills are all the attributes or abilities that allow a person to carry out their work effectively.
                     These skills point to the emotional and interpersonal side and how staff work in a company.
                     </p>
                     <a href="#" class="m-btn m-btn-theme">Read More <i class="ti-arrow-right"></i></a>
@@ -449,7 +449,7 @@
                             <div class="post-meta">
                                 By <a href="#">
                                     {{$post->user->name}}
-                                </a> 
+                                </a>
                                 <span class="badge badge-primary">
                                     {{$post->user->created_at}}
                                 </span>
@@ -460,7 +460,7 @@
                             <p>
                                 {{ $post->excerpt }}
                             </p>
-                            <a href="{{ route('post', $post->slug) }}" class="more-btn"> 
+                            <a href="{{ route('post', $post->slug) }}" class="more-btn">
                                 Read More<i class="ti-arrow-right"></i>
                             </a>
                         </div>
@@ -468,7 +468,7 @@
                     </div>
                     <!-- Blog Item -->
                 </div>
-            @endforeach  
+            @endforeach
         </div>
         <br> <br> <br>
         <div class="row">
@@ -481,7 +481,7 @@
         </div>
     </div>
     <!-- container -->
-   
+
 </section>
 <!-- Blog End -->
 

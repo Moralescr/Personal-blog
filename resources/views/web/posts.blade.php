@@ -26,7 +26,7 @@
                     <div class="post-meta">
                         By <a href="#">
                             {{$post->user->name}}
-                        </a> 
+                        </a>
                         <span class="badge badge-primary">
                             {{$post->user->created_at}}
                         </span>
@@ -37,7 +37,7 @@
                     <p>
                         {{ $post->excerpt }}
                     </p>
-                    <a href="{{ route('post', $post->slug) }}" class="more-btn"> 
+                    <a href="{{ route('post', $post->slug) }}" class="more-btn">
                         Read More<i class="ti-arrow-right"></i>
                     </a>
                 </div>
@@ -45,18 +45,23 @@
             </div>
             <!-- Blog Item -->
         </div>
-    @endforeach  
+    @endforeach
    </div>
 <!-- row -->
 {{$posts->links()}}
 @else
-<div class="row">
-    <h2 style="color:#C62828; text-align: center;"> 
-        <i class="ti-bell"></i> 
-        Oops ... Sorry, no records found for that name.
-        <a href="{{route('blog')}}">Go back </a>   
-    </h2>
-</div>
+<blockquote class="blockquote-left">
+    <div style="background-color:#C62828; color:#c0c0c0" class="alert alert-danger alert-sm alert-dismissible fade show" role="alert">
+        <h2>
+        <i class="ti-bell"></i>
+        <strong> Oops ...</strong>  Sorry, no records found for that name.
+        </h2>
+    </div>
+    <hr>
+    <label class="parson col-md-6">
+        <a class="btn btn-primary pull-right" href="{{ route('blog') }}"><i class="ti-arrow-left"></i> Go back</a>
+    </label>
+</blockquote>
 @endif
 </div>
 </section>

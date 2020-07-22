@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  Copyright (c) 2020 - AMORALES 
+  Copyright (c) 2020 - AMORALES
   ========================================================================
   -->
     <!-- Page Title -->
@@ -59,7 +59,7 @@
     <!-- jQuery -->
     <script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
     <script src="{{asset('js/jquery-migrate-3.0.0.min.js')}}"></script>
-    
+
 
     <!-- Plugins -->
     <script src="{{asset('plugin/bootstrap/js/popper.min.js')}}"></script>
@@ -68,9 +68,9 @@
     <script src="{{asset('plugin/isotope/isotope.pkgd.min.js')}}"></script>
     <script src="{{asset('plugin/magnific/jquery.magnific-popup.min.js')}}"></script>
     <script src="{{asset('plugin/particles/particles.min.js')}}"></script>
-    <script src="{{asset('plugin/particles/particles-app.js')}}"></script> 
+    <script src="{{asset('plugin/particles/particles-app.js')}}"></script>
 
-    <script src="{{asset('js/custom.js')}}"></script>  
+    <script src="{{asset('js/custom.js')}}"></script>
 </body>
 <!-- Body End -->
 

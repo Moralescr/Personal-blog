@@ -22,14 +22,14 @@
             @if($post->file)
               <img src="{{ $post->file }}" class="img-responsive" title="" alt="">
             @endif
-          </div> 
+          </div>
          <blockquote class="blockquote-left">
             <p>  "Our biggest weakness is giving up, the best way to succeed is to always try just one more time"
                   <b>- Thomas A. Edison -</b>
             </p>
             <hr>
             <label class="parson">
-              Posted by <span class="badge badge-info">{{$post->user->name}}</span>
+              Posted by <span class="badge badge-primary">{{$post->user->name}}</span>
             </label>
           </blockquote>
 
@@ -42,14 +42,14 @@
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div> <!-- content are -->
 
         <div class="blog-tag-nav">
           <div class="row">
             <div class="col-12 col-md-6 align-self-center text-center text-sm-left sm-m-10px-tb">
-              <ul class="list-style-tag"> 
+              <ul class="list-style-tag">
                 @foreach($post->tags as $tag)
                 <li>
                     <a href="{{ route('tag', $tag->slug) }}">
@@ -89,7 +89,7 @@
         <div class="blog-comment-area">
           <h2 class="title-style-1 font-alt">Comments</h2>
           <ul class="blog-comment">
-              @include('web.sections.discus')          
+              @include('web.sections.discus')
           </ul>
         </div>
       </div> <!-- col -->
