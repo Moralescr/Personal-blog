@@ -53,8 +53,8 @@
 <blockquote class="blockquote-left">
     <div style="background-color:#C62828; color:#c0c0c0" class="alert alert-danger alert-sm alert-dismissible fade show" role="alert">
         <h2>
-        <i class="ti-bell"></i>
-        <strong> Oops ...</strong>  Sorry, no records found for that name.
+        <i class="ti-alert"></i>
+            <strong> Oops ...</strong>  Sorry, no records found | 4 <i class="ti-face-sad"></i> 4  Error Message. |
         </h2>
     </div>
     <hr>
