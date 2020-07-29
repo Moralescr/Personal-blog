@@ -64,7 +64,7 @@
             </div>
             <!-- col -->
             <div class="col-md-6 text-center sm-m-45px-t">
-                <img src="img/moralescr.png" title="" alt="">
+                <img src="img/moralescr.png" title="Adrian Morales" alt="Adrian Morales">
             </div>
             <!-- col -->
 
@@ -233,193 +233,6 @@
 </section>
 <!-- / -->
 
-<!-- Portfolio Start -->
-<section id="portfolio" class="section gray-bg">
-    <div class="container">
-        <div class="row justify-content-center m-60px-b md-m-40px-b sm-m-30px-b">
-            <div class="col-12 col-md-10 col-lg-7">
-                <div class="section-title text-center">
-                    <h2 class="font-alt">My Portfolio 🧡</h2>
-                    <p>This section will show the different projects I have worked on.😊</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="portfolio-filter m-30px-b">
-            <ul class="filter text-center">
-                <li class="active" data-filter="*">All</li>
-                <li data-filter=".website">Website</li>
-                <li data-filter=".apps">Apps</li>
-            </ul>
-        </div>
-        <!-- Portfolio Filter -->
-
-        <div class="portfolio-content">
-            <ul class="portfolio-cols portfolio-cols-3">
-                <li class="portfolio-item website">
-                    <div class="portfolio-col portfolio-hover-01">
-                        <div class="portfolio-img">
-                            <a href="#">
-                                <img src="img/siproh1.png" title="" alt="">
-                            </a>
-                            <div class="hover">
-                                <div class="action-btn">
-                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color">
-                                    <i class="fa fa-play-circle"></i></a>
-                                    <a class="lightbox-gallery theme-color" href="img/siproh.png" title="Lightbox gallery image title...">
-                                        <i class="fas fa-expand"></i>
-                                    </a>
-                                    <a href="#" class="theme-color">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <!-- Video Btn -->
-                            </div>
-                            <!-- Hover -->
-                        </div>
-
-                        <div class="portfolio-info">
-                            <h5>Control de procesos agrícolas</h5>
-                            <span>2019</span>
-                        </div>
-                    </div>
-                    <!-- Portfolio -->
-                </li>
-                <!-- col -->
-
-                <li class="portfolio-item apps">
-                    <div class="portfolio-col portfolio-hover-01">
-                        <div class="portfolio-img">
-                            <a href="#">
-                                <img src="img/portfolio-2.jpg" title="" alt="">
-                            </a>
-                            <div class="hover">
-                                <div class="action-btn">
-                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color">
-                                    <i class="fa fa-play-circle"></i></a>
-                                    <a class="lightbox-gallery theme-color" href="img/portfolio-2.jpg" title="Lightbox gallery image title...">
-                                        <i class="fas fa-expand"></i>
-                                    </a>
-                                    <a href="#" class="theme-color">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <!-- Video Btn -->
-                            </div>
-                            <!-- Hover -->
-                        </div>
-
-                        <div class="portfolio-info">
-                            <h5>Portfolio Template 2</h5>
-                            <span>2018</span>
-                        </div>
-                    </div>
-                    <!-- Portfolio -->
-                </li>
-                <!-- col -->
-
-                <li class="portfolio-item apps">
-                    <div class="portfolio-col portfolio-hover-01">
-                        <div class="portfolio-img">
-                            <a href="#">
-                                <img src="img/portfolio-3.jpg" title="" alt="">
-                            </a>
-                            <div class="hover">
-                                <div class="action-btn">
-                                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-video theme-color">
-                                    <i class="fa fa-play-circle"></i></a>
-                                    <a class="lightbox-gallery theme-color" href="img/portfolio-3.jpg" title="Lightbox gallery image title...">
-                                        <i class="fas fa-expand"></i>
-                                    </a>
-                                    <a href="#" class="theme-color">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <!-- Video Btn -->
-                            </div>
-                            <!-- Hover -->
-                        </div>
-
-                        <div class="portfolio-info">
-                            <h5>Portfolio Template 3</h5>
-                            <span>2017</span>
-                        </div>
-                    </div>
-                    <!-- Portfolio -->
-                </li>
-                <!-- col -->
-
-            </ul>
-            <!-- row -->
-        </div>
-        <!-- portfolio content -->
-    </div>
-    <!-- Container -->
-
-</section>
-<!--  Portfolio End  -->
-
-<!-- Testimonial -->
-<section class="section testimonial-section">
-    <div class="container">
-        <div class="row justify-content-center m-50px-b md-m-40px-b sm-m-25px-b">
-            <div class="col-12 col-md-10 col-lg-7">
-                <div class="section-title text-center">
-                    <h2 class="font-alt">What People Say?</h2>
-                    <p>In this section are the opinions of people who know me and have worked with me. 💻💬</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row justify-content-center">
-            <div class="col-md-12">
-                <div id="client-slider-single" class="owl-carousel">
-                    <div class="testimonial-col">
-                        <div class="img">
-                            <img src="img/avtar1.jpg" alt="Ryan" title="Ryan" />
-                        </div>
-                        <h6>Jennifer Lutheran</h6>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    </div>
-                    <!-- col -->
-
-                    <div class="testimonial-col">
-                        <div class="img">
-                            <img src="/img/avtar2.jpg" alt="Ryan" title="Ryan" />
-                        </div>
-                        <h6>Jennifer Lutheran</h6>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    </div>
-                    <!-- col -->
-
-                    <div class="testimonial-col">
-                        <div class="img">
-                            <img src="/img/avtar3.jpg" alt="Ryan" title="Ryan" />
-                        </div>
-                        <h6>Jennifer Lutheran</h6>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    </div>
-                    <!-- col -->
-
-                    <div class="testimonial-col">
-                        <div class="img">
-                            <img src="/img/avtar3.jpg" alt="Ryan" title="Ryan" />
-                        </div>
-                        <h6>Jennifer Lutheran</h6>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    </div>
-                    <!-- col -->
-                </div>
-                <!-- owl -->
-            </div>
-            <!-- col -->
-        </div>
-        <!-- row -->
-    </div>
-    <!-- container -->
-</section>
-<!--  Testimonial End  -->
-
 <!-- Blog Start -->
 <section id="blog" class="section blog-section gray-bg">
     <div class="container">
@@ -427,7 +240,7 @@
         <div class="row justify-content-center m-60px-b md-m-30px-b sm-m-25px-b">
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
-                    <h2 class="font-alt">My blog 🧡</h2>
+                    <h2 class="font-alt">My blog ❤️</h2>
                     <p>
                       In this section you will find publications on the latest technological trends.
                       We will also create interviews with various systems development specialists. 📚 🏁
@@ -451,7 +264,7 @@
                                     {{$post->user->name}}
                                 </a>
                                 <span class="badge badge-primary">
-                                    {{$post->user->created_at}}
+                                {{\Carbon\Carbon::parse($post->user->created_at)->diffForHumans()}}
                                 </span>
                             </div>
                             <!-- /post-meta -->
@@ -484,6 +297,7 @@
 
 </section>
 <!-- Blog End -->
+<example-component></example-component>
 
 @include('web.sections.contact')
 

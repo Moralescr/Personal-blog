@@ -24,12 +24,14 @@
             @endif
           </div>
          <blockquote class="blockquote-left">
-            <p>  "Our biggest weakness is giving up, the best way to succeed is to always try just one more time"
-                  <b>- Thomas A. Edison -</b>
+            <p>
+                "Our biggest weakness is giving up, the best way to succeed is to always try just one more time"
+                <b>- Thomas A. Edison -</b>
             </p>
             <hr>
             <label class="parson">
-              Posted by <span class="badge badge-primary">{{$post->user->name}}</span>
+              Posted by <span class="badge badge-primary">{{$post->user->name}} </span>
+              <span class="badge badge-danger">{{\Carbon\Carbon::parse($post->created_at)->diffForHumans()}}</span>
             </label>
           </blockquote>
 
@@ -140,7 +142,9 @@
                 </div>
                 <div class="lp-text">
                   <h6><a href="{{ route('post', $post1->slug) }}">{{$post1->name}}</a></h6>
-                  <div class="date">{{$post1->created_at}} | by <a href="#">{{$post1->user->name}}</a></div>
+                  <div class="date"> {{\Carbon\Carbon::parse($post1->created_at)->format('d-m-yy')}} |
+                     by <a href="#">{{$post1->user->name}}</a>
+                  </div>
                 </div>
               </li>
               @endforeach

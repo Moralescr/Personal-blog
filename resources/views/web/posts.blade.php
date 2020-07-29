@@ -28,7 +28,7 @@
                             {{$post->user->name}}
                         </a>
                         <span class="badge badge-primary">
-                            {{$post->user->created_at}}
+                            {{\Carbon\Carbon::parse($post->user->created_at)->format('d-m-yy')}}
                         </span>
                     </div>
                     <!-- /post-meta -->
@@ -65,7 +65,6 @@
 @endif
 </div>
 </section>
-
 <!-- Footer-->
 <footer class="footer footer-blog">
     <div class="container">
