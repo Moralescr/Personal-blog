@@ -11,6 +11,7 @@
   -->
     <!-- Page Title -->
     <title>Moralescr.</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
     <!-- / -->
     <link rel="shortcut icon" href="/static/img/icono.png" />
     <!---Font Icon-->
@@ -27,6 +28,9 @@
     <!-- Theme Style -->
     <link href="{{asset('css/styles.css')}}"  rel="stylesheet">
     <link href="{{asset('css/default.css')}}" rel="stylesheet" id="color_theme">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
     <!-- / -->
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" />
@@ -60,7 +64,6 @@
     <script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
     <script src="{{asset('js/jquery-migrate-3.0.0.min.js')}}"></script>
 
-
     <!-- Plugins -->
     <script src="{{asset('plugin/bootstrap/js/popper.min.js')}}"></script>
     <script src="{{asset('plugin/bootstrap/js/bootstrap.min.js')}}"></script>
@@ -71,6 +74,9 @@
     <script src="{{asset('plugin/particles/particles-app.js')}}"></script>
 
     <script src="{{asset('js/custom.js')}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="{{asset('js/contact.js')}}"></script>
 </body>
 <!-- Body End -->
 

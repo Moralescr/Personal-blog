@@ -31,3 +31,5 @@ Route::get('tag/{slug}', 'Web\PageController@tag')->name('tag');
 Route::resource('tags', 'Admin\TagController');
 Route::resource('categories', 'Admin\CategoryController');
 Route::resource('posts', 'Admin\PostController');
+
+Route::post('contact', 'Admin\ContactController@store');
