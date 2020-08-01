@@ -171,19 +171,7 @@
               @endforeach
             </ul>
           </div>
-        </div> <!-- /sidebar-widget -->
-
-        <div class="sidebar-widget">
-          <h5 class="widget-title font-alt">NEWSLETTER</h5>
-          <div class="widget-newsletter">
-            <p>Write your email to subscribe.</p>
-            <form>
-              <input name="name" placeholder="* Email Address" class="form-control" type="text">
-              <button class="m-btn m-btn-theme"><i class="fa ti-email icon-small"></i></button>
-            </form>
-          </div>
-        </div> <!-- /sidebar-widget -->
-
+        </div>
       </div> <!-- col -->
     </div> <!-- row -->
   </div> <!-- container -->

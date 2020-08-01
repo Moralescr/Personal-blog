@@ -7,9 +7,8 @@
             <h5>HTML5</h5>
             <div class="progress-lt">
                 <h6>Avanzado</h6>
-                <span>95%</span>
                 <div class="progress">
-                    <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                     </div>
                     <!-- /progress-bar -->
                 </div>
@@ -29,7 +28,6 @@
             <h5>CSS3</h5>
             <div class="progress-lt">
                 <h6>Intermedio</h6>
-                <span>70%</span>
                 <div class="progress">
                     <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                     </div>
@@ -51,7 +49,6 @@
             <h5>JavaScript</h5>
             <div class="progress-lt">
                 <h6>Intermedio</h6>
-                <span>70%</span>
                 <div class="progress">
                     <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                     </div>
@@ -73,9 +70,8 @@
             <h5>Bootstrap</h5>
             <div class="progress-lt">
                 <h6>Avanzado</h6>
-                <span>95%</span>
                 <div class="progress">
-                    <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                     </div>
                     <!-- /progress-bar -->
                 </div>
@@ -96,7 +92,6 @@
             <h5>PHP</h5>
             <div class="progress-lt">
                 <h6>Intermedio</h6>
-                <span>70%</span>
                 <div class="progress">
                     <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                     </div>
@@ -118,9 +113,8 @@
             <h5>Laravel</h5>
             <div class="progress-lt">
                 <h6>Intermedio</h6>
-                <span>70%</span>
                 <div class="progress">
-                    <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                     </div>
                     <!-- /progress-bar -->
                 </div>
@@ -140,9 +134,8 @@
             <h5>Vue js</h5>
             <div class="progress-lt">
                 <h6>Básico</h6>
-                <span>60%</span>
                 <div class="progress">
-                    <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                     </div>
                     <!-- /progress-bar -->
                 </div>
@@ -163,7 +156,6 @@
             <h5>Wordpress</h5>
             <div class="progress-lt">
                 <h6>Avanzado</h6>
-                <span>90%</span>
                 <div class="progress">
                     <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                     </div>
@@ -186,9 +178,8 @@
             <h5>Git</h5>
             <div class="progress-lt">
                 <h6>Intermedio</h6>
-                <span>80%</span>
                 <div class="progress">
-                    <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                     </div>
                     <!-- /progress-bar -->
                 </div>
@@ -209,9 +200,8 @@
             <h5>MySQL</h5>
             <div class="progress-lt">
                 <h6>Intermedio</h6>
-                <span>80%</span>
                 <div class="progress">
-                    <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                     </div>
                     <!-- /progress-bar -->
                 </div>
@@ -232,9 +222,8 @@
             <h5>SQLServer</h5>
             <div class="progress-lt">
                 <h6>Intermedio</h6>
-                <span>80%</span>
                 <div class="progress">
-                    <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                     </div>
                     <!-- /progress-bar -->
                 </div>
@@ -255,9 +244,8 @@
             <h5>ASP .NET</h5>
             <div class="progress-lt">
                 <h6>Básico</h6>
-                <span>60%</span>
                 <div class="progress">
-                    <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                     </div>
                     <!-- /progress-bar -->
                 </div>

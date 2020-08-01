@@ -263,7 +263,7 @@
                                 By <a href="#">
                                     {{$post->user->name}}
                                 </a>
-                                <span class="badge badge-primary">
+                                <span class="badge badge-danger">
                                 {{\Carbon\Carbon::parse($post->user->created_at)->diffForHumans()}}
                                 </span>
                             </div>
@@ -273,9 +273,11 @@
                             <p>
                                 {{ $post->excerpt }}
                             </p>
-                            <a href="{{ route('post', $post->slug) }}" class="more-btn">
-                                Read More<i class="ti-arrow-right"></i>
-                            </a>
+                            <span class="badge badge-info">
+                                <a href="{{ route('post', $post->slug) }}" class="more-btn">
+                                    Read More<i class="ti-heart"></i>
+                                </a>
+                            </span>
                         </div>
                         <!-- /blog-content -->
                     </div>
@@ -353,7 +355,7 @@
                                 <textarea id="message" name="message" placeholder="Type a message" rows="3" class="form-control" required></textarea>
                             </div>
                             <div class="send">
-                                <button id="submit" class="m-btn m-btn-theme"><i class="fa fa-envelope-o" aria-hidden="true"></i>Send</button>
+                                <button id="submit" class="m-btn m-btn-theme">Send</button>
                             </div>
                         </form>
                     </div>

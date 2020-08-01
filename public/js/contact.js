@@ -13,7 +13,6 @@ $('#contactForm').on('submit', function(event) {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         },
         data: {
-
             name: name,
             email: email,
             subject: subject,

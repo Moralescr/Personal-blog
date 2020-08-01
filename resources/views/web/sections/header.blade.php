@@ -20,7 +20,6 @@
                     <li><a class="nav-link active" href="#home">Home</a></li>
                     <li><a class="nav-link" href="#aboutus">About Us</a></li>
                     <li><a class="nav-link" href="#services">Technologies</a></li>
-                    <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
                     <li><a class="nav-link" href="#blog">Blog</a></li>
                     <li><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
@@ -32,7 +31,7 @@
     <!-- Navbar -->
 </header>
 <!-- Header End -->
-@else 
+@else
 <!-- Header -->
 <header>
     <nav class="navbar header-nav fixed-top navbar-expand-lg">
@@ -53,7 +52,6 @@
                     <li><a class="nav-link active" href="{{ route('index') }}">Home</a></li>
                     <li><a class="nav-link" href="{{ route('index') }}">About Us</a></li>
                     <li><a class="nav-link" href="{{ route('index') }}">Technologies</a></li>
-                    <li><a class="nav-link" href="{{ route('index') }}">Portfolio</a></li>
                     <li><a class="nav-link" href="{{ route('blog') }}">Blog</a></li>
                     <li><a class="nav-link" href="{{ route('index') }}">Contact</a></li>
                 </ul>

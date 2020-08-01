@@ -27,7 +27,7 @@
                         By <a href="#">
                             {{$post->user->name}}
                         </a>
-                        <span class="badge badge-primary">
+                        <span class="badge badge-danger">
                             {{\Carbon\Carbon::parse($post->user->created_at)->format('d-m-yy')}}
                         </span>
                     </div>
@@ -37,9 +37,11 @@
                     <p>
                         {{ $post->excerpt }}
                     </p>
-                    <a href="{{ route('post', $post->slug) }}" class="more-btn">
-                        Read More<i class="ti-arrow-right"></i>
-                    </a>
+                    <span class="badge badge-info">
+                        <a href="{{ route('post', $post->slug) }}" class="more-btn">
+                            Read More<i class="ti-heart"></i>
+                        </a>
+                    </span>
                 </div>
                 <!-- /blog-content -->
             </div>

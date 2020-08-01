@@ -45,7 +45,7 @@ class ContactController extends Controller
 
         $contact->save();
 
-        return response()->json(['success'=>'Created successfully!']);
+        return response()->json(['success'=>'Successfully sent!']);
     }
 
     /**

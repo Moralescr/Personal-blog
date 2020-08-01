@@ -322,14 +322,14 @@ img {
 }
 
 .more-btn {
-    color: #151515;
-    font-weight: 600;
+    color: #ffff;
+    font-weight: 400;
     position: relative;
     padding: 3px;
     display: inline-block;
     line-height: 18px;
     font-size: 13px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     text-decoration: none !important;
     -webkit-transition: ease all 0.4s;
     -moz-transition: ease all 0.4s;
