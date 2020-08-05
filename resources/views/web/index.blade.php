@@ -179,7 +179,6 @@
                 <div class="skills sm-m-20px-b">
                     <div class="progress-lt">
                         <h6>Good comunication</h6>
-                        <span>100%</span>
                         <div class="progress">
                             <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                             </div>
@@ -190,7 +189,6 @@
                     <!-- /progress-lt -->
                     <div class="progress-lt">
                         <h6>Team work</h6>
-                        <span>100%</span>
                         <div class="progress">
                             <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                             </div>
@@ -201,7 +199,6 @@
                     <!-- /progress-lt -->
                     <div class="progress-lt">
                         <h6>Proactive</h6>
-                        <span>100%</span>
                         <div class="progress">
                             <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                             </div>
@@ -213,7 +210,6 @@
 
                     <div class="progress-lt">
                         <h6>Adaptation to change</h6>
-                        <span>100%</span>
                         <div class="progress">
                             <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                             </div>
@@ -260,22 +256,25 @@
                         </a>
                         <div class="blog-content">
                             <div class="post-meta">
-                                By <a href="#">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <a href="#">
                                     {{$post->user->name}}
-                                </a>
+                                </a> |
+                                <i class="fa fa-clock"> </i>
                                 <span class="badge badge-danger">
-                                {{\Carbon\Carbon::parse($post->user->created_at)->diffForHumans()}}
+                                    {{\Carbon\Carbon::parse($post->user->created_at)->diffForHumans()}}
                                 </span>
                             </div>
                             <!-- /post-meta -->
-
+                            <hr>
                             <h4><a class="theme-color" href="{{ route('post', $post->slug) }}">{{ $post->name }}</a></h4>
                             <p>
-                                {{ $post->excerpt }}
+                                {{substr($post->excerpt, 0, 100) }} ...
                             </p>
+                            <hr>
                             <span class="badge badge-info">
                                 <a href="{{ route('post', $post->slug) }}" class="more-btn">
-                                    Read More<i class="ti-heart"></i>
+                                    Read More<i class="fa fa-mouse-pointer"></i>
                                 </a>
                             </span>
                         </div>
@@ -289,8 +288,8 @@
         <div class="row">
             <div class="send col text-center">
                 <a href="{{ route('blog') }}" class="m-btn m-btn-theme">
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                    Read more
+                     Read more
+                     <i class="ti-arrow-right"></i>
                 </a>
             </div>
         </div>
@@ -355,7 +354,10 @@
                                 <textarea id="message" name="message" placeholder="Type a message" rows="3" class="form-control" required></textarea>
                             </div>
                             <div class="send">
-                                <button id="submit" class="m-btn m-btn-theme">Send</button>
+                                <button id="submit" class="m-btn m-btn-theme">
+                                    Send
+                                    <i class="ti-arrow-right"></i>
+                                </button>
                             </div>
                         </form>
                     </div>

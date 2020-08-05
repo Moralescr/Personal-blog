@@ -24,7 +24,7 @@ class PageController extends Controller
                ->where('status', 'PUBLISHED')
                ->name($name)
                ->paginate(6);
-               
+
         return view('web.posts', compact('posts'));
     }
 
@@ -41,7 +41,7 @@ class PageController extends Controller
 
     //Muestra los posts que pertenecen a una etiqueta
     public function tag($slug)
-    { 
+    {
         $posts = Post::whereHas('tags', function($query) use ($slug) {
             $query->where('slug', $slug);
         })
@@ -59,6 +59,6 @@ class PageController extends Controller
         $post       = Post::where('slug', $slug)->first();
 
         return view('web.post', compact('post', 'categories', 'posts', 'tags'));
-     
+
     }
 }

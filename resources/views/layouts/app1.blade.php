@@ -20,7 +20,7 @@
     <!-- / -->
 
     <!-- Plugin CSS -->
-    <link href="{{asset('plugin/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="{{asset('plugin/owl-carousel/css/owl.carousel.min.css')}}" rel="stylesheet">
     <!-- / -->
 
@@ -64,9 +64,12 @@
     <script src="{{asset('js/jquery-migrate-3.0.0.min.js')}}"></script>
 
     <!-- Plugins -->
-    <script src="{{asset('plugin/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('plugin/magnific/jquery.magnific-popup.min.js')}}"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="{{asset('plugin/particles/particles.min.js')}}"></script>
     <script src="{{asset('plugin/particles/particles-app.js')}}"></script>
+    <script src="{{asset('plugin/isotope/isotope.pkgd.min.js')}}"></script>
+    <script src="{{asset('plugin/owl-carousel/js/owl.carousel.min.js')}}"></script>
 
     <script src="{{asset('js/custom.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>

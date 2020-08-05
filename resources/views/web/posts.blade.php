@@ -7,6 +7,7 @@
 <div class="container">
     <h1 align="left" class="font-alt">My Blog List ❤</h1>
 </div>
+<div style="display:none;" id="home"></div>
 <!-- container -->
 </section>
 <!-- / -->
@@ -30,13 +31,17 @@
                         <span class="badge badge-danger">
                             {{\Carbon\Carbon::parse($post->user->created_at)->format('d-m-yy')}}
                         </span>
+                        <span class="badge badge-success">
+                            {{substr($post->category->name, 0, 20) }} ...
+                        </span>
                     </div>
+                    <hr>
                     <!-- /post-meta -->
-
                     <h4><a class="theme-color" href="{{ route('post', $post->slug) }}">{{ $post->name }}</a></h4>
                     <p>
-                        {{ $post->excerpt }}
+                        {{substr($post->excerpt, 0, 100) }} ...
                     </p>
+                    <hr>
                     <span class="badge badge-info">
                         <a href="{{ route('post', $post->slug) }}" class="more-btn">
                             Read More<i class="ti-heart"></i>

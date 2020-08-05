@@ -7,6 +7,7 @@
 <div class="container">
     <h1 align="left" class="font-alt">My Blog Detail ❤</h1>
 </div>
+<div style="display:none;" id="home"></div>
 <!-- container -->
 </section>
 <!-- / -->
@@ -30,8 +31,12 @@
             </p>
             <hr>
             <label class="parson">
-              Posted by <span class="badge badge-primary">{{$post->user->name}} </span>
-              <span class="badge badge-danger">{{\Carbon\Carbon::parse($post->created_at)->diffForHumans()}}</span>
+              <i class="fa fa-user fa-xs"></i>
+              Posted by: <span class="badge badge-primary">{{$post->user->name}} </span> |
+              <i class="fa fa-tags fa-xs"></i>
+              Category: <span class="badge badge-success">{{$post->category->name }} </span> |
+              <i class="fa fa-clock fa-xs"></i>
+              Date: <span class="badge badge-danger">{{\Carbon\Carbon::parse($post->created_at)->diffForHumans()}}</span>
             </label>
           </blockquote>
 

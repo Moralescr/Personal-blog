@@ -1453,7 +1453,18 @@ img {
 
 .blog-item .blog-content {
     padding: 25px;
+    padding-bottom: 10px;
 }
+
+
+/*
+.blog-item span.category {
+    position: absolute;
+    left: 18px;
+    top: 120px;
+    margin: 0;
+    opacity: .7;
+}*/
 
 .blog-item .blog-content .post-meta {
     margin-bottom: 10px;
