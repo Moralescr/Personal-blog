@@ -95,6 +95,18 @@
 
                 <div class="col-6 col-md-3 col-sm-6 wow fadeInLeft">
                     <div class="counter-col">
+                        <div class="counter-data" data-count="450">
+                            <div class="feature-box-01">
+                                <i class="icon1 theme-bg ti-cup"></i>
+                                <h6><span class="badge badge-warning">Sports</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- col -->
+
+                <div class="col-6 col-md-3 col-sm-6 wow fadeInLeft">
+                    <div class="counter-col">
                         <div class="counter-data" data-count="375">
                             <div class="feature-box-01">
                                  <i class="icon1 theme-bg ti-game"></i>
@@ -117,17 +129,6 @@
                 </div>
                 <!-- col -->
 
-                <div class="col-6 col-md-3 col-sm-6 wow fadeInLeft">
-                    <div class="counter-col">
-                        <div class="counter-data" data-count="450">
-                            <div class="feature-box-01">
-                                <i class="icon1 theme-bg ti-cup"></i>
-                                <h6><span class="badge badge-warning">Sports</span></h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- col -->
             </div>
             <!-- row -->
         </div>
@@ -168,11 +169,7 @@
             <div class="col-md-6">
                 <div class="skill-left p-80px-r md-p-40px-r sm-p-0px-r sm-m-40px-b">
                     <h3 class="font-alt">My soft skills</h3>
-                    <p class="m-30px-b text-justify">
-                    Soft skills are all the attributes or abilities that allow a person to carry out their work effectively.
-                    These skills point to the emotional and interpersonal side and how staff work in a company.
-                    </p>
-                    <a href="#" class="m-btn m-btn-theme">Read More <i class="ti-arrow-right"></i></a>
+                    <img src="https://paulpaulbd.com/wp-content/uploads/2018/10/website-designing.gif" alt="">
                 </div>
             </div>
             <div class="col-md-6">
@@ -210,6 +207,28 @@
 
                     <div class="progress-lt">
                         <h6>Adaptation to change</h6>
+                        <div class="progress">
+                            <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                            <!-- /progress-bar -->
+                        </div>
+                        <!-- /progress -->
+                    </div>
+                    <!-- /progress-lt -->
+
+                    <div class="progress-lt">
+                        <h6>Positive attitude</h6>
+                        <div class="progress">
+                            <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                            <!-- /progress-bar -->
+                        </div>
+                        <!-- /progress -->
+                    </div>
+                    <!-- /progress-lt -->
+
+                    <div class="progress-lt">
+                        <h6>Acceptance of criticism.</h6>
                         <div class="progress">
                             <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                             </div>

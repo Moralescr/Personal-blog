@@ -11,7 +11,6 @@
 <!-- container -->
 </section>
 <!-- / -->
-
 <section class="section blog-lising">
   <div class="container">
     <div class="row">
@@ -27,17 +26,18 @@
          <blockquote class="blockquote-left">
             <p>
                 "Our biggest weakness is giving up, the best way to succeed is to always try just one more time"
-                <b>- Thomas A. Edison -</b>
+               <b>- Thomas A. Edison -</b>
             </p>
             <hr>
             <label class="parson">
-              <i class="fa fa-user fa-xs"></i>
-              Posted by: <span class="badge badge-primary">{{$post->user->name}} </span> |
-              <i class="fa fa-tags fa-xs"></i>
-              Category: <span class="badge badge-success">{{$post->category->name }} </span> |
-              <i class="fa fa-clock fa-xs"></i>
-              Date: <span class="badge badge-danger">{{\Carbon\Carbon::parse($post->created_at)->diffForHumans()}}</span>
-            </label>
+            <div>
+                <i class="fas fa-user fa-xs"></i>
+                <span class="badge badge-primary">{{$post->user->name}} </span>&nbsp;
+                <i class="fas fa-folder fa-xs"></i>
+                <span class="badge badge-success">{{$post->category->name }} </span>&nbsp;
+                <i class="far fa-calendar-alt fa-xs"></i>
+                <span class="badge badge-danger">{{\Carbon\Carbon::parse($post->created_at)->isoformat('D-MMMM-YYYY')}}
+              </div>
           </blockquote>
 
           <p>

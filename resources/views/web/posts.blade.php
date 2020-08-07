@@ -31,9 +31,9 @@
                         </a> |
                         <i class="fa fa-clock fa-xs"> </i>
                         <span class="badge badge-danger">
-                            {{\Carbon\Carbon::parse($post->user->created_at)->format('d-m-yy')}}
+                            {{\Carbon\Carbon::parse($post->user->created_at)->isoformat('D-MMMM-YYYY')}}
                         </span> |
-                        <span class="badge badge-success category">
+                        <span class="badge badge-success">
                             {{substr($post->category->name, 0, 15) }} ...
                         </span>
                     </div>
@@ -55,17 +55,24 @@
             <!-- Blog Item -->
         </div>
     @endforeach
+    {{$posts->links()}}
    </div>
 <!-- row -->
-{{$posts->links()}}
 @else
 <blockquote class="blockquote-left">
     <div style="background-color:#C62828; color:#c0c0c0" class="alert alert-danger alert-sm alert-dismissible fade show" role="alert">
         <h2>
-        <i class="ti-alert"></i>
-            <strong> Oops ...</strong>  Sorry, no records found | 4 <i class="ti-face-sad"></i> 4  Error Message.
+        <i class="ti-face-sad"></i>
+            <strong> Oops ...</strong> Sorry, the page you are looking for could not be found.
         </h2>
     </div>
+    <hr>
+        <div class="widget-search">
+        <form action="{{route('blog')}}" method="GET">
+            <input name="name" placeholder="Search" class="form-control" type="text">
+            <button type="submit" class="m-btn m-btn-theme"><i class="fa fa-search"></i></button>
+        </form>
+        </div>
     <hr>
     <label class="parson col-md-6">
         <a class="btn btn-primary pull-right" href="{{ route('blog') }}"><i class="ti-arrow-left"></i> Go back</a>
