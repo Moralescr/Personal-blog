@@ -25,14 +25,16 @@
                 </a>
                 <div class="blog-content">
                     <div class="post-meta">
-                        By <a href="#">
+                        <i class="fa fa-user fa-xs" aria-hidden="true"></i>
+                        <a href="#">
                             {{$post->user->name}}
-                        </a>
+                        </a> |
+                        <i class="fa fa-clock fa-xs"> </i>
                         <span class="badge badge-danger">
                             {{\Carbon\Carbon::parse($post->user->created_at)->format('d-m-yy')}}
-                        </span>
-                        <span class="badge badge-success">
-                            {{substr($post->category->name, 0, 20) }} ...
+                        </span> |
+                        <span class="badge badge-success category">
+                            {{substr($post->category->name, 0, 15) }} ...
                         </span>
                     </div>
                     <hr>
@@ -44,7 +46,7 @@
                     <hr>
                     <span class="badge badge-info">
                         <a href="{{ route('post', $post->slug) }}" class="more-btn">
-                            Read More<i class="ti-heart"></i>
+                            Read More<i class="fa fa-mouse-pointer"></i>
                         </a>
                     </span>
                 </div>

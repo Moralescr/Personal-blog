@@ -1456,24 +1456,24 @@ img {
     padding-bottom: 10px;
 }
 
-
-/*
 .blog-item span.category {
     position: absolute;
     left: 18px;
-    top: 120px;
+    top: 115px;
     margin: 0;
-    opacity: .7;
-}*/
+}
 
 .blog-item .blog-content .post-meta {
-    margin-bottom: 10px;
     font-size: 12px;
 }
 
 .blog-item .blog-content .post-meta a {
-    color: #151515;
+    color: #7c7c7c;
     font-weight: 700;
+}
+
+.blog-item .blog-content .post-meta i {
+    opacity: 0.5;
 }
 
 .blog-item .blog-content h4 {

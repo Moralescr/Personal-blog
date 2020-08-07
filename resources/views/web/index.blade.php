@@ -86,7 +86,7 @@
                             <!--<div class="count">8</div>-->
                             <div class="feature-box-01">
                                 <i class="icon1 theme-bg ti-music"></i>
-                                <h6><span class="badge badge-link">Music</span></h6>
+                                <h6><span class="badge badge-warning">Music</span></h6>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                         <div class="counter-data" data-count="375">
                             <div class="feature-box-01">
                                  <i class="icon1 theme-bg ti-game"></i>
-                                 <h6><span class="badge badge-link">Video games</span></h6>
+                                 <h6><span class="badge badge-warning">Video games</span></h6>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                         <div class="counter-data" data-count="550">
                             <div class="feature-box-01">
                                 <i class="icon1 theme-bg ti-camera"></i>
-                                <h6><span class="badge badge-link">Photography</span></h6>
+                                <h6><span class="badge badge-warning">Photography</span></h6>
                             </div>
                         </div>
                     </div>
@@ -122,7 +122,7 @@
                         <div class="counter-data" data-count="450">
                             <div class="feature-box-01">
                                 <i class="icon1 theme-bg ti-cup"></i>
-                                <h6><span class="badge badge-link">Sports</span></h6>
+                                <h6><span class="badge badge-warning">Sports</span></h6>
                             </div>
                         </div>
                     </div>
@@ -256,11 +256,11 @@
                         </a>
                         <div class="blog-content">
                             <div class="post-meta">
-                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <i class="fa fa-user fa-xs" aria-hidden="true"></i>
                                 <a href="#">
                                     {{$post->user->name}}
                                 </a> |
-                                <i class="fa fa-clock"> </i>
+                                <i class="fa fa-clock fa-xs"> </i>
                                 <span class="badge badge-danger">
                                     {{\Carbon\Carbon::parse($post->user->created_at)->diffForHumans()}}
                                 </span>
@@ -288,7 +288,7 @@
         <div class="row">
             <div class="send col text-center">
                 <a href="{{ route('blog') }}" class="m-btn m-btn-theme">
-                     Read more
+                     See more
                      <i class="ti-arrow-right"></i>
                 </a>
             </div>

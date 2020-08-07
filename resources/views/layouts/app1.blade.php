@@ -15,13 +15,15 @@
     <!-- / -->
     <link rel="shortcut icon" href="/static/img/icono.png" />
     <!---Font Icon-->
-    <link href="{{asset('plugin/font-awesome/css/fontawesome-all.min.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link href="{{ asset('plugin/themify-icons/themify-icons.css')}}" rel="stylesheet">
     <!-- / -->
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{asset('plugin/owl-carousel/css/owl.carousel.min.css')}}" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     <!-- / -->
 
     <!-- Theme Style -->
