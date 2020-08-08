@@ -169,7 +169,7 @@
             <div class="col-md-6">
                 <div class="skill-left p-80px-r md-p-40px-r sm-p-0px-r sm-m-40px-b">
                     <h3 class="font-alt">My soft skills</h3>
-                    <img src="https://paulpaulbd.com/wp-content/uploads/2018/10/website-designing.gif" alt="">
+                    <img src="img/imagen2-min.jpg" alt="">
                 </div>
             </div>
             <div class="col-md-6">
