@@ -46,7 +46,7 @@
 
 <!-- About us -->
 <section id="aboutus" class="section p-0px-b">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="about-left">
@@ -140,7 +140,7 @@
 
 <!-- Service Start -->
 <section id="services" class="section gray-bg services-section">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <div class="row justify-content-center m-45px-b md-m-30px-b sm-m-25px-b">
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
@@ -164,12 +164,12 @@
 
 <!-- Our Skill -->
 <section class="section skill-section">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-md-6">
                 <div class="skill-left p-80px-r md-p-40px-r sm-p-0px-r sm-m-40px-b">
                     <h3 class="font-alt">My soft skills</h3>
-                    <img src="img/imagen2-min.jpg" alt="">
+                    <img src="img/imagen2-min.jpg" alt="Soft-skills">
                 </div>
             </div>
             <div class="col-md-6">
@@ -250,7 +250,7 @@
 
 <!-- Blog Start -->
 <section id="blog" class="section blog-section gray-bg">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
 
         <div class="row justify-content-center m-60px-b md-m-30px-b sm-m-25px-b">
             <div class="col-12 col-md-10 col-lg-7">
@@ -266,7 +266,7 @@
 
         <div class="row">
             @foreach($posts as $post)
-                <div class="col-12 col-md-12 col-lg-4">
+                <div class="col-12 col-md-12 col-lg-4" data-aos="fade-up">
                     <div class="blog-item md-m-15px-tb">
                         <a href="{{ route('post', $post->slug) }}">
                         @if($post->file)
@@ -321,7 +321,7 @@
 <!-- Contact Start -->
 <section id="contact" class="section p-0px-b contact-section">
     <div class="container">
-        <div class="row justify-content-center m-60px-b md-m-40px-b">
+        <div class="row justify-content-center m-60px-b md-m-40px-b" data-aos="fade-up">
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
                     <h2 class="font-alt">Contact Us</h2>
@@ -333,7 +333,7 @@
             </div>
         </div>
 
-        <div class="contact-us-box">
+        <div class="contact-us-box" data-aos="fade-up">
             <div class="row no-gutters">
                 <div class="col-md-6">
                     <div class="contact-info-box">
@@ -346,7 +346,7 @@
 
                         <div class="contact-info">
                             <i class="icon theme-bg ti-email"></i>
-                            <p>moralesguadamuz@gmail.com<br/>support@mg.com</p>
+                            <p>moralesguadamuz@gmail.com<br/>amorales@clai.com</p>
                         </div>
 
                         <div class="contact-info">

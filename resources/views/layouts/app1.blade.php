@@ -22,6 +22,8 @@
     <!-- Plugin CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{asset('plugin/owl-carousel/css/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     <!-- / -->
@@ -71,11 +73,16 @@
     <script src="{{asset('plugin/particles/particles-app.js')}}"></script>
     <script src="{{asset('plugin/isotope/isotope.pkgd.min.js')}}"></script>
     <script src="{{asset('plugin/owl-carousel/js/owl.carousel.min.js')}}"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="{{asset('js/custom.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script src="{{asset('js/contact.js')}}"></script>
+    <!-- AOS animation -->
+    <script>
+        AOS.init();
+   </script>
 </body>
 <!-- Body End -->
 

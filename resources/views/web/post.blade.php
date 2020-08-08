@@ -18,16 +18,13 @@
       <div class="col-12 col-md-12 col-lg-9 p-50px-r md-p-15px-r">
 
         <div class="bog-content-area">
-          <div class="m-30px-b">
+          <div class="m-30px-b" data-aos="fade-up">
             @if($post->file)
               <img src="{{ $post->file }}" class="img-responsive" title="" alt="">
             @endif
           </div>
-         <blockquote class="blockquote-left">
-            <p>
-                "Our biggest weakness is giving up, the best way to succeed is to always try just one more time"
-               <b>- Thomas A. Edison -</b>
-            </p>
+         <blockquote class="blockquote-left" data-aos="fade-up">
+            <h3>{{$post->name}}</h3>
             <hr>
             <label class="parson">
             <div>
@@ -37,23 +34,14 @@
                 <span class="badge badge-success">{{$post->category->name }} </span>&nbsp;
                 <i class="far fa-calendar-alt fa-xs"></i>
                 <span class="badge badge-danger">{{\Carbon\Carbon::parse($post->created_at)->isoformat('D-MMMM-YYYY')}}
-              </div>
+            </div>
           </blockquote>
-
-          <p>
+          <p data-aos="fade-up">
             {!! $post->body !!}
-          </p>
-
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div> <!-- content are -->
 
-        <div class="blog-tag-nav">
+        <div class="blog-tag-nav" data-aos="fade-up">
           <div class="row">
             <div class="col-12 col-md-6 align-self-center text-center text-sm-left sm-m-10px-tb">
               <ul class="list-style-tag">

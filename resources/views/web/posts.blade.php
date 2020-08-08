@@ -16,7 +16,7 @@
 @if($posts->first() != null)
    <div class="row">
     @foreach($posts as $post)
-        <div class="col-12 col-md-12 col-lg-4">
+        <div class="col-12 col-md-12 col-lg-4" data-aos="fade-up">
             <div class="blog-item md-m-15px-tb">
                 <a href="{{ route('post', $post->slug) }}">
                 @if($post->file)
