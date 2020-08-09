@@ -1133,7 +1133,7 @@ img {
 }
 
 .feature-box-02:hover .icon {
-    background: #333;
+    border: #C62828 3px solid;
 }
 
 .feature-box-02 h5 {
@@ -1190,7 +1190,7 @@ img {
 .counter-col h6 {
     margin: 0;
     padding: 15px 0 0;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     color: #333;
     font-weight: 600;

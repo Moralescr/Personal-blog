@@ -18,7 +18,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarRyan">
                 <ul class="navbar-nav">
                     <li><a class="nav-link active" href="#home">Home</a></li>
-                    <li><a class="nav-link" href="#aboutus">About Us</a></li>
+                    <li><a class="nav-link" href="#aboutus">About Me</a></li>
                     <li><a class="nav-link" href="#services">Technologies</a></li>
                     <li><a class="nav-link" href="#blog">Blog</a></li>
                     <li><a class="nav-link" href="#contact">Contact</a></li>
@@ -50,7 +50,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarRyan">
                 <ul class="navbar-nav">
                     <li><a class="nav-link active" href="{{ route('index') }}">Home</a></li>
-                    <li><a class="nav-link" href="{{ route('index') }}">About Us</a></li>
+                    <li><a class="nav-link" href="{{ route('index') }}">About Me</a></li>
                     <li><a class="nav-link" href="{{ route('index') }}">Technologies</a></li>
                     <li><a class="nav-link" href="{{ route('blog') }}">Blog</a></li>
                     <li><a class="nav-link" href="{{ route('index') }}">Contact</a></li>

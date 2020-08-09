@@ -1,8 +1,7 @@
 <!-- Footer-->
- <footer class="footer">
+ <footer style="background-image: url('http://blog.test:8080/img/footer.png')" class="footer">
       <div class="container">
           <div class="footer-logo">
-           <!-- <span>Ryan <span></span></span>-->
            <p class="msg">"Nothings happens unless we first dream"</p>
           </div>
           <ul class="social-icons">
