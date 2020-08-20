@@ -20,7 +20,7 @@
                    <i class="fab fa-linkedin"></i>
                 </a>
               </li>
-              <li><a href="#"><i class="fa fa-envelope" target="_blank"></i></a></li>
+              <li><a href="mailto:moralesguadamuz@gmail.com?subject=question"><i class="fa fa-envelope" target="_blank"></i></a></li>
           </ul>
           <p style="color:white" class="copyright">
             Made with ❤️ | All Rights Reserved | © 2020 Moralescr
