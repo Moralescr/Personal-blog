@@ -51,7 +51,7 @@
             <div class="col-md-6">
                 <div class="about-left">
                     <h2>Ing. Adrián E. Morales Guadamúz</h2>
-                    <h3>ATM Engineer in <a href="https://clai.com/"> <b>CLAI PAYMENTS © </b> </a> Costa Rica</h3>
+                    <h3>ATM Engineer at <a href="https://clai.com/"> <b>CLAI PAYMENTS © </b> </a> Costa Rica</h3>
                     <p class="text-justify">
                     I am a young man passionate about technology, able to adapt to any circumstance
                     and always give my best in any project, at the same time that I strive to work as a team.
@@ -346,7 +346,7 @@
 
                         <div class="contact-info">
                             <i class="icon theme-bg ti-email"></i>
-                            <p>moralesguadamuz@gmail.com<br/>amorales@clai.com</p>
+                            <p>moralesguadamuz@gmail.com<br/>amorales@test.com</p>
                         </div>
 
                         <div class="contact-info">
