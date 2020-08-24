@@ -966,6 +966,7 @@ img {
 -----------------------------------------*/
 
 .about-left h2 {
+    font-family: cursive;
     font-size: 24px;
     font-weight: 700;
     color: #111;
@@ -998,11 +999,20 @@ img {
 /*-----------------------------------------
 *  Skill Left
 -----------------------------------------*/
+.skill-section hr{ 
+    margin-top: -5px;
+    margin-bottom: 1rem;
+    margin-left: 40px;
+    border: 0;
+    border-top: 2px solid #C62828;
+    width: 70px;
+}
 
 .skill-left h3 {
     color: #151515;
     font-weight: 600;
     margin: 0 0 20px;
+    font-family: cursive;
     font-size: 22px;
 }
 
@@ -1064,6 +1074,18 @@ img {
 .services-section {
     margin-top: -85px;
     padding-top: 170px;
+}
+
+.services-section h2{
+    font-family: cursive;
+}
+
+.services-section hr{ 
+    margin-top: -5px;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid #C62828;
+    width: 70px;
 }
 
 .feature-box-02 {
@@ -1443,6 +1465,18 @@ img {
 /*-----------------------------------------
 *  Blog
 -----------------------------------------*/
+
+.blog-section h2{
+    font-family: cursive;
+}
+
+.blog-section .section-title hr{ 
+    margin-top: -5px;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid #C62828;
+    width: 70px;
+}
 
 .blog-item {
     background: #fff;
@@ -1927,6 +1961,17 @@ blockquote.blockquote-left i {
 /*-----------------------------------------
 *  Contact us
 -----------------------------------------*/
+.contact-section h2{
+    font-family: cursive;
+}
+
+.contact-section hr{ 
+    margin-top: -10px;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid #C62828;
+    width: 70px;
+}
 
 .contact-info-box {
     padding: 8%;

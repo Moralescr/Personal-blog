@@ -50,7 +50,7 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="about-left">
-                    <h2>Ing. Adrián E. Morales Guadamúz</h2>
+                    <h2>Ing. Adrian Morales Guadamúz</h2>
                     <h3>ATM Engineer at <a href="https://clai.com/"> <b>CLAI PAYMENTS © </b> </a> Costa Rica</h3>
                     <p class="text-justify">
                     I am a young man passionate about technology, able to adapt to any circumstance
@@ -144,7 +144,7 @@
         <div class="row justify-content-center m-45px-b md-m-30px-b sm-m-25px-b">
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
-                    <h2 class="font-alt">Technologies</h2>
+                    <h2 class="font-alt">Technologies</h2><hr>
                     <p>
                      This section will show the main technologies in which I have knowledge. <br>
                      For more information download my <a class="m-btn-link theme-after" href="#home">CV</a>
@@ -168,7 +168,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="skill-left p-80px-r md-p-40px-r sm-p-0px-r sm-m-40px-b">
-                    <h3 class="font-alt">My soft skills</h3>
+                    <h3 class="font-alt">My soft skills</h3><hr>
                     <img src="img/imagen2-min.jpg" alt="Soft-skills">
                 </div>
             </div>
@@ -255,7 +255,7 @@
         <div class="row justify-content-center m-60px-b md-m-30px-b sm-m-25px-b">
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
-                    <h2 class="font-alt">My blog ❤️</h2>
+                    <h2 class="font-alt">My blog ❤️</h2><hr>
                     <p>
                       In this section you will find publications on the latest technological trends.
                       We will also create interviews with various systems development specialists. 📚 🏁
@@ -275,13 +275,17 @@
                         </a>
                         <div class="blog-content">
                             <div class="post-meta">
-                                <i class="fa fa-user fa-xs" aria-hidden="true"></i>
+                                <i class="fa fa-user" aria-hidden="true"></i>
                                 <a href="#">
                                     {{$post->user->name}}
-                                </a> |
-                                <i class="fa fa-clock fa-xs"> </i>
+                                </a> |&nbsp; 
+                                <i class="fa fa-clock"> </i>
                                 <span class="badge badge-danger">
                                     {{\Carbon\Carbon::parse($post->user->created_at)->diffForHumans()}}
+                                </span> |
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <span class="badge badge-success">
+                                   NEW POST
                                 </span>
                             </div>
                             <!-- /post-meta -->
@@ -325,6 +329,7 @@
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
                     <h2 class="font-alt">Contact Us</h2>
+                    <hr id="divider" style="background-color:red">
                     <p>
                       I design and develop services, specializing in creating
                       modern websites, web services and online stores.
