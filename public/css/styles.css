@@ -966,7 +966,6 @@ img {
 -----------------------------------------*/
 
 .about-left h2 {
-    font-family: Comic Sans MS;
     font-size: 24px;
     font-weight: 700;
     color: #111;
@@ -1002,7 +1001,7 @@ img {
 .skill-section hr{ 
     margin-top: -5px;
     margin-bottom: 1rem;
-    margin-left: 40px;
+    margin-left: 30px;
     border: 0;
     border-top: 2px solid #C62828;
     width: 70px;
@@ -1012,7 +1011,6 @@ img {
     color: #151515;
     font-weight: 600;
     margin: 0 0 20px;
-    font-family: Comic Sans MS;
     font-size: 22px;
 }
 
@@ -1074,10 +1072,6 @@ img {
 .services-section {
     margin-top: -85px;
     padding-top: 170px;
-}
-
-.services-section h2{
-    font-family: Comic Sans MS;
 }
 
 .services-section hr{ 
@@ -1465,10 +1459,6 @@ img {
 /*-----------------------------------------
 *  Blog
 -----------------------------------------*/
-
-.blog-section h2{
-    font-family: Comic Sans MS;
-}
 
 .blog-section .section-title hr{ 
     margin-top: -5px;
@@ -1961,9 +1951,6 @@ blockquote.blockquote-left i {
 /*-----------------------------------------
 *  Contact us
 -----------------------------------------*/
-.contact-section h2{
-    font-family: Comic Sans MS;
-}
 
 .contact-section hr{ 
     margin-top: -10px;
