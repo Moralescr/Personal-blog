@@ -966,7 +966,7 @@ img {
 -----------------------------------------*/
 
 .about-left h2 {
-    font-family: cursive;
+    font-family: Comic Sans MS;
     font-size: 24px;
     font-weight: 700;
     color: #111;
@@ -1012,7 +1012,7 @@ img {
     color: #151515;
     font-weight: 600;
     margin: 0 0 20px;
-    font-family: cursive;
+    font-family: Comic Sans MS;
     font-size: 22px;
 }
 
@@ -1077,7 +1077,7 @@ img {
 }
 
 .services-section h2{
-    font-family: cursive;
+    font-family: Comic Sans MS;
 }
 
 .services-section hr{ 
@@ -1467,7 +1467,7 @@ img {
 -----------------------------------------*/
 
 .blog-section h2{
-    font-family: cursive;
+    font-family: Comic Sans MS;
 }
 
 .blog-section .section-title hr{ 
@@ -1962,7 +1962,7 @@ blockquote.blockquote-left i {
 *  Contact us
 -----------------------------------------*/
 .contact-section h2{
-    font-family: cursive;
+    font-family: Comic Sans MS;
 }
 
 .contact-section hr{ 
