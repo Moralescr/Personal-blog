@@ -50,7 +50,7 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="about-left">
-                    <h2>Ing. Adrian Morales Guadamúz</h2>
+                    <h2>Adrian Morales Guadamúz</h2>
                     <h3>ATM Engineer at <a href="https://clai.com/"> <b>CLAI PAYMENTS © </b> </a> Costa Rica</h3>
                     <p class="text-justify">
                     I am a young man passionate about technology, able to adapt to any circumstance
@@ -227,17 +227,6 @@
                     </div>
                     <!-- /progress-lt -->
 
-                    <div class="progress-lt">
-                        <h6>Acceptance of criticism.</h6>
-                        <div class="progress">
-                            <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                            <!-- /progress-bar -->
-                        </div>
-                        <!-- /progress -->
-                    </div>
-                    <!-- /progress-lt -->
-
                 </div>
             </div>
             <!-- col -->
@@ -258,7 +247,6 @@
                     <h2 class="font-alt">My blog ❤️</h2><hr>
                     <p>
                       In this section you will find publications on the latest technological trends.
-                      We will also create interviews with various systems development specialists. 📚 🏁
                     </p>
                 </div>
             </div>
@@ -275,15 +263,17 @@
                         </a>
                         <div class="blog-content">
                             <div class="post-meta">
-                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <!--<i class="fa fa-user" aria-hidden="true"></i>-->
+                                <img src="/img/ico.png" alt="">
                                 <a href="#">
                                     {{$post->user->name}}
                                 </a> |&nbsp; 
-                                <i class="fa fa-clock"> </i>
+                                <!--<i class="fa fa-clock"> </i>-->
+                                <img src="/img/reloj.png" alt="">
                                 <span class="badge badge-danger">
                                     {{\Carbon\Carbon::parse($post->user->created_at)->diffForHumans()}}
                                 </span> |
-                                <i class="fas fa-exclamation-triangle"></i>
+                                <img src="/img/campana.png" alt="">
                                 <span class="badge badge-success">
                                    NEW POST
                                 </span>

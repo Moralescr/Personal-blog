@@ -25,16 +25,14 @@
                 </a>
                 <div class="blog-content">
                     <div class="post-meta">
-                        <i class="fa fa-user" aria-hidden="true"></i>
+                       <!-- <i class="fa fa-user" aria-hidden="true"></i>-->
+                       <img src="/img/ico.png" alt="">
                         <a href="#">
                             {{$post->user->name}}
                         </a> |
-                        <i class="fa fa-clock"> </i>
-                        <span class="badge badge-danger">
-                            {{\Carbon\Carbon::parse($post->user->created_at)->isoformat('MMMM-YYYY')}}
-                        </span> |
+                        <img src="/img/carpeta.png" alt="">
                         <span class="badge badge-success">
-                            {{substr($post->category->name, 0, 15) }} ...
+                            {{substr($post->category->name, 0, 24) }} ...
                         </span>
                     </div>
                     <hr>

@@ -7,11 +7,11 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Welcome | Moralescr.</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
-    <link rel="shortcut icon" href="/static/img/icono.png" />
+    <link rel="shortcut icon" href="/img/ico.png" />
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">

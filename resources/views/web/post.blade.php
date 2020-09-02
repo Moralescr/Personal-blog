@@ -28,11 +28,11 @@
             <hr>
             <label class="parson">
             <div>
-                <i class="fas fa-user"></i>
+                <img src="/img/ico.png" alt="">
                 <span class="badge badge-primary">{{$post->user->name}} </span>&nbsp;
-                <i class="far fa-calendar-alt"></i>
-                <span class="badge badge-danger">{{\Carbon\Carbon::parse($post->created_at)->isoformat('MMMM-YYYY')}}</span>&nbsp;
-                <i class="fas fa-folder"></i>
+                <img src="/img/reloj.png" alt="">
+                <span class="badge badge-danger">{{\Carbon\Carbon::parse($post->created_at)->isoformat('DD-MMMM-YYYY')}}</span>&nbsp;
+                <img src="/img/carpeta.png" alt="">
                 <span class="badge badge-success">{{$post->category->name }} </span>
             </div>
           </blockquote>
