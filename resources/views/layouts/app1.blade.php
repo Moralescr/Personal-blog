@@ -47,6 +47,10 @@
 
       gtag('config', 'UA-172343320-1');
     </script>
+    <!--Google recaptcha -->
+    {!! htmlScriptTagJsApi([
+        'action' => 'index'
+    ]) !!}
 
 </head>
 

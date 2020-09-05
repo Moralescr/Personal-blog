@@ -46,7 +46,7 @@
 
 <!-- About us -->
 <section id="aboutus" class="section p-0px-b">
-    <div class="container" data-aos="fade-up">
+    <div class="container" data-aos="fade-up">  
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="about-left">
