@@ -10,10 +10,10 @@
   ========================================================================
   -->
     <!-- Page Title -->
-    <title>Moralescr.</title>
+    <title>Welcome | Moralescr.</title>
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <!-- / -->
-    <link rel="shortcut icon" href="/static/img/icono.png" />
+    <link rel="shortcut icon" href="/img/ico.png" />
     <!---Font Icon-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link href="{{ asset('plugin/themify-icons/themify-icons.css')}}" rel="stylesheet">

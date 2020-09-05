@@ -50,8 +50,8 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="about-left">
-                    <h2>Ing. Adrián E. Morales Guadamúz</h2>
-                    <h3>ATM Engineer in <a href="https://clai.com/"> <b>CLAI PAYMENTS © </b> </a> Costa Rica</h3>
+                    <h2>Adrian Morales Guadamúz</h2>
+                    <h3>ATM Engineer at <a href="https://clai.com/"> <b>CLAI PAYMENTS © </b> </a> Costa Rica</h3>
                     <p class="text-justify">
                     I am a young man passionate about technology, able to adapt to any circumstance
                     and always give my best in any project, at the same time that I strive to work as a team.
@@ -144,7 +144,7 @@
         <div class="row justify-content-center m-45px-b md-m-30px-b sm-m-25px-b">
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
-                    <h2 class="font-alt">Technologies</h2>
+                    <h2 class="font-alt">Technologies</h2><hr>
                     <p>
                      This section will show the main technologies in which I have knowledge. <br>
                      For more information download my <a class="m-btn-link theme-after" href="#home">CV</a>
@@ -168,7 +168,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="skill-left p-80px-r md-p-40px-r sm-p-0px-r sm-m-40px-b">
-                    <h3 class="font-alt">My soft skills</h3>
+                    <h3 class="font-alt">My soft skills</h3><hr>
                     <img src="img/imagen2-min.jpg" alt="Soft-skills">
                 </div>
             </div>
@@ -227,17 +227,6 @@
                     </div>
                     <!-- /progress-lt -->
 
-                    <div class="progress-lt">
-                        <h6>Acceptance of criticism.</h6>
-                        <div class="progress">
-                            <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                            <!-- /progress-bar -->
-                        </div>
-                        <!-- /progress -->
-                    </div>
-                    <!-- /progress-lt -->
-
                 </div>
             </div>
             <!-- col -->
@@ -255,10 +244,9 @@
         <div class="row justify-content-center m-60px-b md-m-30px-b sm-m-25px-b">
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
-                    <h2 class="font-alt">My blog ❤️</h2>
+                    <h2 class="font-alt">My blog ❤️</h2><hr>
                     <p>
                       In this section you will find publications on the latest technological trends.
-                      We will also create interviews with various systems development specialists. 📚 🏁
                     </p>
                 </div>
             </div>
@@ -275,13 +263,19 @@
                         </a>
                         <div class="blog-content">
                             <div class="post-meta">
-                                <i class="fa fa-user fa-xs" aria-hidden="true"></i>
+                                <!--<i class="fa fa-user" aria-hidden="true"></i>-->
+                                <img src="/img/ico.png" alt="">
                                 <a href="#">
                                     {{$post->user->name}}
-                                </a> |
-                                <i class="fa fa-clock fa-xs"> </i>
+                                </a> |&nbsp; 
+                                <!--<i class="fa fa-clock"> </i>-->
+                                <img src="/img/reloj.png" alt="">
                                 <span class="badge badge-danger">
                                     {{\Carbon\Carbon::parse($post->user->created_at)->diffForHumans()}}
+                                </span> |
+                                <img src="/img/campana.png" alt="">
+                                <span class="badge badge-success">
+                                   NEW POST
                                 </span>
                             </div>
                             <!-- /post-meta -->
@@ -325,6 +319,7 @@
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
                     <h2 class="font-alt">Contact Us</h2>
+                    <hr id="divider" style="background-color:red">
                     <p>
                       I design and develop services, specializing in creating
                       modern websites, web services and online stores.
@@ -346,7 +341,7 @@
 
                         <div class="contact-info">
                             <i class="icon theme-bg ti-email"></i>
-                            <p>moralesguadamuz@gmail.com<br/>amorales@clai.com</p>
+                            <p>moralesguadamuz@gmail.com<br/>amorales@test.com</p>
                         </div>
 
                         <div class="contact-info">

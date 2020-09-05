@@ -28,12 +28,12 @@
             <hr>
             <label class="parson">
             <div>
-                <i class="fas fa-user fa-xs"></i>
+                <img src="/img/ico.png" alt="">
                 <span class="badge badge-primary">{{$post->user->name}} </span>&nbsp;
-                <i class="fas fa-folder fa-xs"></i>
-                <span class="badge badge-success">{{$post->category->name }} </span>&nbsp;
-                <i class="far fa-calendar-alt fa-xs"></i>
-                <span class="badge badge-danger">{{\Carbon\Carbon::parse($post->created_at)->isoformat('D-MMMM-YYYY')}}
+                <img src="/img/reloj.png" alt="">
+                <span class="badge badge-danger">{{\Carbon\Carbon::parse($post->created_at)->isoformat('DD-MMMM-YYYY')}}</span>&nbsp;
+                <img src="/img/carpeta.png" alt="">
+                <span class="badge badge-success">{{$post->category->name }} </span>
             </div>
           </blockquote>
           <p data-aos="fade-up">

@@ -25,16 +25,14 @@
                 </a>
                 <div class="blog-content">
                     <div class="post-meta">
-                        <i class="fa fa-user fa-xs" aria-hidden="true"></i>
+                       <!-- <i class="fa fa-user" aria-hidden="true"></i>-->
+                       <img src="/img/ico.png" alt="">
                         <a href="#">
                             {{$post->user->name}}
                         </a> |
-                        <i class="fa fa-clock fa-xs"> </i>
-                        <span class="badge badge-danger">
-                            {{\Carbon\Carbon::parse($post->user->created_at)->isoformat('D-MMMM-YYYY')}}
-                        </span> |
+                        <img src="/img/carpeta.png" alt="">
                         <span class="badge badge-success">
-                            {{substr($post->category->name, 0, 15) }} ...
+                            {{substr($post->category->name, 0, 24) }} ...
                         </span>
                     </div>
                     <hr>
@@ -82,7 +80,7 @@
 </div>
 </section>
 <!-- Footer-->
-<footer class="footer footer-blog">
+<footer style="background-image: url(/img/footer.png)" class="footer footer-blog">
     <div class="container">
             <!-- <span>Ryan <span></span></span>-->
             <p style="color:white" class="msg"><b>'Nothings happens unless we first dream'</b></p>
@@ -103,7 +101,7 @@
                 <i class="fab fa-linkedin"></i>
             </a>
             </li>
-            <li><a href="#"><i class="fa fa-envelope" target="_blank"></i></a></li>
+            <li><a href="mailto:moralesguadamuz@gmail.com?subject=question"><i class="fa fa-envelope" target="_blank"></i></a></li>
         </ul>
         <p style="color:white" class="copyright">
             Made with ❤️ | All Rights Reserved | © 2020 Moralescr
