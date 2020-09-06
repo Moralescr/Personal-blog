@@ -23,4 +23,9 @@ return [
     'portfolio' => 'Revise mi',
     'portfol' => 'Portafolio',
     'contact' => 'Contáctame',
+
+    //Technologies section
+    'subtitle' => 'En esta sección se muestran las principales en laa cuales tengo conocimiento.',
+    'sub2'     =>  'Para más información descargue mi', 
+
 ];

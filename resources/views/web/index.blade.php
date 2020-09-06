@@ -144,8 +144,8 @@
                 <div class="section-title text-center">
                     <h2 class="font-alt">{!! trans('messages.technologies') !!}</h2><hr>
                     <p>
-                     This section will show the main technologies in which I have knowledge. <br>
-                     For more information download my <a class="m-btn-link theme-after" href="#home">CV</a>
+                    {!! trans('messages.subtitle') !!} <br>
+                    {!! trans('messages.sub2') !!} <a class="m-btn-link theme-after" href="#home">CV</a>
                     </p>
                 </div>
             </div>

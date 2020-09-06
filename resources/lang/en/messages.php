@@ -22,4 +22,8 @@ return [
     'portfolio' => 'Check out my',
     'portfol' => 'Portfolio',
     'contact' => 'Contact me',
+
+    //Technologies section
+    'subtitle' => 'This section will show the main technologies in which I have knowledge.',
+    'sub2'     => 'For more information download my',
 ];
