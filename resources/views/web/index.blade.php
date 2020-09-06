@@ -142,7 +142,7 @@
         <div class="row justify-content-center m-45px-b md-m-30px-b sm-m-25px-b">
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
-                    <h2 class="font-alt">Technologies</h2><hr>
+                    <h2 class="font-alt">{!! trans('messages.technologies') !!}</h2><hr>
                     <p>
                      This section will show the main technologies in which I have knowledge. <br>
                      For more information download my <a class="m-btn-link theme-after" href="#home">CV</a>
