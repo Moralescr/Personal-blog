@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    You are logged in! | Moralescr.tech
+                    You are logged in!
                 </div>
             </div>
         </div>
