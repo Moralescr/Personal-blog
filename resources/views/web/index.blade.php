@@ -18,10 +18,10 @@
         <div class="row full-screen align-items-center">
             <div class="col col-md-12 col-lg-8 col-xl-8 p-80px-tb">
                 <div class="home-text-center theme-after m-50px-t">
-                    <h4>Hello, my name is</h4>
+                    <h4>{!! trans('messages.hello') !!}</h4>
                     <h5 class="font-alt">Adrián Morales</h5>
                     <p>
-                        Welcome to my web site
+                    {!! trans('messages.welcome') !!}
                         <a href="{{route('index')}}">
                             <b>
                                <span class="badge badge-danger">Moralescr.</span>
@@ -29,7 +29,7 @@
                         </a>
                     </p>
                     <div class="btn-bar">
-                        <a href="#" class="m-btn-link m-btn-link-white theme-after">Download CV</a>
+                        <a href="#" class="m-btn-link m-btn-link-white theme-after">{!! trans('messages.download') !!}</a>
                     </div>
                 </div>
                 <!-- home-text-center -->
@@ -43,7 +43,6 @@
 </section>
 <!-- Home Banner End -->
 
-
 <!-- About us -->
 <section id="aboutus" class="section p-0px-b">
     <div class="container" data-aos="fade-up">  
@@ -51,15 +50,14 @@
             <div class="col-md-6">
                 <div class="about-left">
                     <h2>Adrian Morales Guadamúz</h2>
-                    <h3>ATM Engineer at <a href="https://clai.com/"> <b>CLAI PAYMENTS © </b> </a> Costa Rica</h3>
+                    <h3>{!! trans('messages.role') !!}<a href="https://clai.com/"> <b>CLAI PAYMENTS © </b> </a> Costa Rica</h3>
                     <p class="text-justify">
-                    I am a young man passionate about technology, able to adapt to any circumstance
-                    and always give my best in any project, at the same time that I strive to work as a team.
+                       {!! trans('messages.me') !!}
                     </p>
                     <p>
-                      Check out my <a class="m-btn-link theme-after" href="#portfolio">Portfolio</a>
+                      {!! trans('messages.portfolio') !!} <a class="m-btn-link theme-after" href="#portfolio">{!! trans('messages.portfol') !!}</a>
                     </p>
-                    <a class="m-btn m-btn-theme" href="#contact">Contact us <i class="ti-arrow-right"></i></a>
+                    <a class="m-btn m-btn-theme" href="#contact">{!! trans('messages.contact') !!} <i class="ti-arrow-right"></i></a>
                 </div>
             </div>
             <!-- col -->

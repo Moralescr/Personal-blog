@@ -63,6 +63,7 @@
     </div>
     <!-- / -->
     @include('web.sections.header')
+
     <main>
          @yield('content')
     </main>
