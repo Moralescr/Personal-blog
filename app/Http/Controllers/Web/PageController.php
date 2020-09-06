@@ -61,4 +61,11 @@ class PageController extends Controller
         return view('web.post', compact('post', 'categories', 'posts', 'tags'));
 
     }
+
+    //Stores languaje in a session
+    public function swap($lang)
+    {
+        session()->put('locale', $lang);
+        return redirect()->back();
+    }
 }

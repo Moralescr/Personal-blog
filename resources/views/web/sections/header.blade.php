@@ -17,11 +17,24 @@
             <!-- Top Menu -->
             <div class="collapse navbar-collapse justify-content-end" id="navbarRyan">
                 <ul class="navbar-nav">
-                    <li><a class="nav-link active" href="#home">Home</a></li>
-                    <li><a class="nav-link" href="#aboutus">About Me</a></li>
-                    <li><a class="nav-link" href="#services">Technologies</a></li>
+                    <li><a class="nav-link active" href="#home">{!! trans('messages.home') !!}</a></li>
+                    <li><a class="nav-link" href="#aboutus">{!! trans('messages.about') !!}</a></li>
+                    <li><a class="nav-link" href="#services">{!! trans('messages.technologies') !!}</a></li>
                     <li><a class="nav-link" href="#blog">Blog</a></li>
-                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                    <li><a class="nav-link" href="#contact">{!! trans('messages.contacth') !!}</a></li>
+                    @if (config('locale.status') && count(config('locale.languages')) > 1)
+                        @foreach (array_keys(config('locale.languages')) as $lang)
+                           <a class="nav-link">
+                            @if ($lang != App::getLocale())
+                                @if($lang == 'es')
+                                    <li><a class="nav-link" href="{!! route('lang.swap', $lang) !!}"><img src="{{ asset('img/es.png')}}" alt="Spanish"></a></li>       
+                                @else
+                                    <li><a class="nav-link" href="{!! route('lang.swap', $lang) !!}"><img src="{{ asset('img/en.png')}}" alt="English"></a></li>
+                                @endif
+                            @endif
+                            </a>
+                        @endforeach
+                    @endif
                 </ul>
             </div>
             <!-- / -->
@@ -49,11 +62,24 @@
             <!-- Top Menu -->
             <div class="collapse navbar-collapse justify-content-end" id="navbarRyan">
                 <ul class="navbar-nav">
-                    <li><a class="nav-link active" href="{{ route('index') }}">Home</a></li>
-                    <li><a class="nav-link" href="{{ route('index') }}">About Me</a></li>
-                    <li><a class="nav-link" href="{{ route('index') }}">Technologies</a></li>
-                    <li><a class="nav-link" href="{{ route('blog') }}">Blog</a></li>
-                    <li><a class="nav-link" href="{{ route('index') }}">Contact</a></li>
+                    <li><a class="nav-link active" href="#home">{!! trans('messages.home') !!}</a></li>
+                    <li><a class="nav-link" href="#aboutus">{!! trans('messages.about') !!}</a></li>
+                    <li><a class="nav-link" href="#services">{!! trans('messages.technologies') !!}</a></li>
+                    <li><a class="nav-link" href="#blog">Blog</a></li>
+                    <li><a class="nav-link" href="#contact">{!! trans('messages.contacth') !!}</a></li>
+                    @if (config('locale.status') && count(config('locale.languages')) > 1)
+                        @foreach (array_keys(config('locale.languages')) as $lang)
+                           <a class="nav-link">
+                            @if ($lang != App::getLocale())
+                                @if($lang == 'es')
+                                    <li><a class="nav-link" href="{!! route('lang.swap', $lang) !!}"><img src="{{ asset('img/es.png')}}" alt="Spanish"></a></li>       
+                                @else
+                                    <li><a class="nav-link" href="{!! route('lang.swap', $lang) !!}"><img src="{{ asset('img/en.png')}}" alt="English"></a></li>
+                                @endif
+                            @endif
+                            </a>
+                        @endforeach
+                    @endif
                 </ul>
             </div>
             <!-- / -->
