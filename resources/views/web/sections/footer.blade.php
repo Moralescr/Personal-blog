@@ -2,7 +2,7 @@
  <footer style="background-image: url(/img/footer.png)" class="footer">
       <div class="container">
           <div class="footer-logo">
-           <p class="msg">"Nothings happens unless we first dream"</p>
+           <p class="msg">"{!! trans('messages.sentence') !!}"</p>
           </div>
           <ul class="social-icons">
               <li>
@@ -23,7 +23,7 @@
               <li><a href="mailto:moralesguadamuz@gmail.com?subject=question"><i class="fa fa-envelope" target="_blank"></i></a></li>
           </ul>
           <p style="color:white" class="copyright">
-            Made with ❤️ | All Rights Reserved | © 2020 Moralescr
+             {!! trans('messages.made') !!} ❤️ |  {!! trans('messages.copyright') !!} | © 2020 Moralescr
           </p>
       </div>
   </footer>

@@ -84,7 +84,7 @@
                             <!--<div class="count">8</div>-->
                             <div class="feature-box-01">
                                 <i class="icon1 theme-bg ti-music"></i>
-                                <h6><span>Music</span></h6>
+                                <h6><span>{!! trans('messages.music') !!} </span></h6>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                         <div class="counter-data" data-count="450">
                             <div class="feature-box-01">
                                 <i class="icon1 theme-bg ti-cup"></i>
-                                <h6><span>Sports</span></h6>
+                                <h6><span>{!! trans('messages.sports') !!} </span></h6>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@
                         <div class="counter-data" data-count="375">
                             <div class="feature-box-01">
                                  <i class="icon1 theme-bg ti-game"></i>
-                                 <h6><span>Video games</span></h6>
+                                 <h6><span>{!! trans('messages.games') !!} </span></h6>
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                         <div class="counter-data" data-count="550">
                             <div class="feature-box-01">
                                 <i class="icon1 theme-bg ti-camera"></i>
-                                <h6><span>Photography</span></h6>
+                                <h6><span>{!! trans('messages.photo') !!} </span></h6>
                             </div>
                         </div>
                     </div>
@@ -166,14 +166,14 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="skill-left p-80px-r md-p-40px-r sm-p-0px-r sm-m-40px-b">
-                    <h3 class="font-alt">My soft skills</h3><hr>
+                    <h3 class="font-alt">{!! trans('messages.mysoftskills') !!}</h3><hr>
                     <img src="img/imagen2-min.jpg" alt="Soft-skills">
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="skills sm-m-20px-b">
                     <div class="progress-lt">
-                        <h6>Good comunication</h6>
+                        <h6>{!! trans('messages.comunication') !!}</h6>
                         <div class="progress">
                             <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                             </div>
@@ -183,7 +183,7 @@
                     </div>
                     <!-- /progress-lt -->
                     <div class="progress-lt">
-                        <h6>Team work</h6>
+                        <h6>{!! trans('messages.teamwork') !!}</h6>
                         <div class="progress">
                             <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                             </div>
@@ -193,18 +193,7 @@
                     </div>
                     <!-- /progress-lt -->
                     <div class="progress-lt">
-                        <h6>Proactive</h6>
-                        <div class="progress">
-                            <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                            <!-- /progress-bar -->
-                        </div>
-                        <!-- /progress -->
-                    </div>
-                    <!-- /progress-lt -->
-
-                    <div class="progress-lt">
-                        <h6>Adaptation to change</h6>
+                        <h6>{!! trans('messages.proactive') !!}</h6>
                         <div class="progress">
                             <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                             </div>
@@ -215,7 +204,18 @@
                     <!-- /progress-lt -->
 
                     <div class="progress-lt">
-                        <h6>Positive attitude</h6>
+                        <h6>{!! trans('messages.adaptation') !!}</h6>
+                        <div class="progress">
+                            <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                            <!-- /progress-bar -->
+                        </div>
+                        <!-- /progress -->
+                    </div>
+                    <!-- /progress-lt -->
+
+                    <div class="progress-lt">
+                        <h6>{!! trans('messages.positive') !!}</h6>
                         <div class="progress">
                             <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                             </div>
@@ -242,9 +242,9 @@
         <div class="row justify-content-center m-60px-b md-m-30px-b sm-m-25px-b">
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
-                    <h2 class="font-alt">My blog ❤️</h2><hr>
+                    <h2 class="font-alt">{!! trans('messages.blog') !!} ❤️</h2><hr>
                     <p>
-                      In this section you will find publications on the latest technological trends.
+                       {!! trans('messages.subt') !!}
                     </p>
                 </div>
             </div>
@@ -273,7 +273,7 @@
                                 </span> |
                                 <img src="/img/campana.png" alt="">
                                 <span class="badge badge-success">
-                                   NEW POST
+                                   {!! trans('messages.newpost') !!}
                                 </span>
                             </div>
                             <!-- /post-meta -->
@@ -285,7 +285,8 @@
                             <hr>
                             <span class="badge badge-info">
                                 <a href="{{ route('post', $post->slug) }}" class="more-btn">
-                                    Read More<i class="fa fa-mouse-pointer"></i>
+                                    {!! trans('messages.readmore') !!}
+                                    <i class="fa fa-mouse-pointer"></i>
                                 </a>
                             </span>
                         </div>
@@ -299,7 +300,7 @@
         <div class="row">
             <div class="send col text-center">
                 <a href="{{ route('blog') }}" class="m-btn m-btn-theme">
-                     See more
+                     {!! trans('messages.seeall') !!}
                      <i class="ti-arrow-right"></i>
                 </a>
             </div>
@@ -316,11 +317,10 @@
         <div class="row justify-content-center m-60px-b md-m-40px-b" data-aos="fade-up">
             <div class="col-12 col-md-10 col-lg-7">
                 <div class="section-title text-center">
-                    <h2 class="font-alt">Contact Us</h2>
+                    <h2 class="font-alt">{!! trans('messages.contact') !!}</h2>
                     <hr id="divider" style="background-color:red">
                     <p>
-                      I design and develop services, specializing in creating
-                      modern websites, web services and online stores.
+                      {!! trans('messages.subc') !!}
                     </p>
                 </div>
             </div>
@@ -330,8 +330,8 @@
             <div class="row no-gutters">
                 <div class="col-md-6">
                     <div class="contact-info-box">
-                        <h2>get in touch</h2>
-                        <p class="desc">Contact me and tell me how I can help you,</p>
+                        <h2>{!! trans('messages.getouch') !!}</h2>
+                        <p class="desc">{!! trans('messages.desc') !!}</p>
                         <div class="contact-info">
                             <i class="icon theme-bg ti-direction"></i>
                             <p>La sabana,<br> San José, Costa Rica.</p>
@@ -351,23 +351,23 @@
                 <div class="col-md-6">
                     <!-- Contact Form -->
                     <div class="contact-form">
-                        <h2>Say Something</h2>
+                        <h2>{!! trans('messages.say') !!}</h2>
                         <form id="contactForm">
                             <div class="form-group">
-                                <input id="name" name="name" placeholder="Name" class="form-control" type="text" required>
+                                <input id="name" name="name" placeholder="{!! trans('messages.nameform') !!}" class="form-control" type="text" required>
                             </div>
                             <div class="form-group">
-                                <input id="email" name="email" placeholder="Email" class="form-control" type="email" required>
+                                <input id="email" name="email" placeholder="{!! trans('messages.email') !!}" class="form-control" type="email" required>
                             </div>
                             <div class="form-group">
-                                <input id="subject" name="subject" placeholder="Subject" class="form-control" type="text" required>
+                                <input id="subject" name="subject" placeholder="{!! trans('messages.subject') !!}" class="form-control" type="text" required>
                             </div>
                             <div class="form-group">
-                                <textarea id="message" name="message" placeholder="Type a message" rows="3" class="form-control" required></textarea>
+                                <textarea id="message" name="message" placeholder="{!! trans('messages.typemsg') !!}" rows="3" class="form-control" required></textarea>
                             </div>
                             <div class="send">
                                 <button id="submit" class="m-btn m-btn-theme">
-                                    Send
+                                    {!! trans('messages.send') !!}
                                     <i class="ti-arrow-right"></i>
                                 </button>
                             </div>

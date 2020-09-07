@@ -83,7 +83,7 @@
 <footer style="background-image: url(/img/footer.png)" class="footer footer-blog">
     <div class="container">
             <!-- <span>Ryan <span></span></span>-->
-            <p style="color:white" class="msg"><b>'Nothings happens unless we first dream'</b></p>
+            <p style="color:white" class="msg"><b>"{!! trans('messages.sentence') !!}"</b></p>
         </div>
         <ul class="social-icons">
             <li>
@@ -104,7 +104,7 @@
             <li><a href="mailto:moralesguadamuz@gmail.com?subject=question"><i class="fa fa-envelope" target="_blank"></i></a></li>
         </ul>
         <p style="color:white" class="copyright">
-            Made with ❤️ | All Rights Reserved | © 2020 Moralescr
+           {!! trans('messages.made') !!} ❤️ | {!! trans('messages.copyright') !!} | © 2020 Moralescr
         </p>
     </div>
 </footer>
