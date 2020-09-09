@@ -31,7 +31,7 @@ return [
     'photo'   => 'Fotografía',
 
     //Technologies section
-    'subtitle' => 'En esta sección se muestran las principales en las cuales tengo conocimiento',
+    'subtitle' => 'En esta sección se muestran las principales tecnologías en las cuales tengo conocimiento',
     'sub2'     => 'Para más información descargue mi', 
     'basic'    => 'Básico',
     'intermediate' => 'Intermedio',
