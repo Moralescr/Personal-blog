@@ -62,7 +62,7 @@
             </div>
             <!-- col -->
             <div class="col-md-6 text-center sm-m-45px-t">
-                <img src="img/moralescr.png" title="Adrian Morales" alt="Adrian Morales">
+                <img src="img/morales.png" title="Adrian Morales" alt="Adrian Morales">
             </div>
             <!-- col -->
 
