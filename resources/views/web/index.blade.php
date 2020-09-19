@@ -50,7 +50,7 @@
             <div class="col-md-6">
                 <div class="about-left">
                     <h2>Adrian Morales Guadamúz</h2>
-                    <h3>{!! trans('messages.role') !!}<a href="https://clai.com/"> <b>CLAI PAYMENTS © </b> </a> Costa Rica</h3>
+                    <h3><a href="">{!! trans('messages.role') !!}</a></h3>
                     <p class="text-justify">
                        {!! trans('messages.me') !!}
                     </p>
@@ -258,7 +258,7 @@
                         @if($post->file)
                             <img src="{{ $post->file }}" title="{{$post->user->name}}" alt="{{ $post->name }}">
                         @endif
-                        </a>
+                        </a> 
                         <div class="blog-content">
                             <div class="post-meta">
                                 <!--<i class="fa fa-user" aria-hidden="true"></i>-->
@@ -345,7 +345,8 @@
                         <div class="contact-info">
                             <i class="icon theme-bg ti-mobile"></i>
                             <p>(+506) 8404-3853,<br/> (+506) 8404-3853 </p>
-                        </div>
+                        </div><br>
+                        <img src="img/mapa.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-6">

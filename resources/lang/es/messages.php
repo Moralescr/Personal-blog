@@ -15,11 +15,10 @@ return [
     'download'=> 'Descargar CV', 
 
     //About us
-    'role'    => 'Ingeniero de ATM´s en',
-    'me'      => 'Soy un joven apasionado por la tecnología, 
-                  capaz de adaptarme a cualquier circunstancia y dar siempre 
-                  lo mejor de mí en cualquier proyecto, al mismo tiempo que 
-                  me esfuerzo por trabajar en equipo.',
+    'role'    => 'Ingeniero de Software',
+    'me'      => 'Joven ingeniero costarricense amante de la naturaleza, con una visión clara de aportar a la sociedad. 
+                  Me encanta ayudar especialmente a personas emprendedoras en procesos de transformación digital 
+                  aumentando las posibilidades de llevar su negocio al nivel que demanda la actualidad.',
     'portfolio' => 'Revise mi',
     'portfol'   => 'Portafolio',
     'contact'   => 'Contáctame',
@@ -31,7 +30,7 @@ return [
     'photo'   => 'Fotografía',
 
     //Technologies section
-    'subtitle' => 'En esta sección se muestran las principales tecnologías en las cuales tengo conocimiento',
+    'subtitle' => 'En esta sección se muestran algunas tecnologías en las cuales tengo conocimiento',
     'sub2'     => 'Para más información descargue mi', 
     'basic'    => 'Básico',
     'intermediate' => 'Intermedio',
@@ -67,5 +66,11 @@ return [
     'sentence' => 'No sucede nada a menos que primero soñemos',
     'made'     => 'Hecho con el',
     'copyright'=> 'Todos los derechos reservados',
+
+    //blog
+    'search'   => 'Buscar',
+    'category' => 'Categorias',
+    'popular'  => 'Más populares',
+    'tag'      => 'Etiquetas populares',
 
 ];

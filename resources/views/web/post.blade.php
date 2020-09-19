@@ -5,7 +5,7 @@
 <!-- Page Title -->
 <section class="page-title" style="background-image: url(/img/overlay-1.jpg);">
 <div class="container">
-    <h1 align="left" class="font-alt">My Blog Detail ❤</h1>
+    <h1 align="left" class="font-alt">My Blog ❤</h1>
 </div>
 <div style="display:none;" id="home"></div>
 <!-- container -->
@@ -92,17 +92,17 @@
       <!-- side Bar -->
       <div class="col-12 col-md-12 col-lg-3 md-m-30px-b">
         <div class="sidebar-widget">
-          <h5 class="widget-title font-alt">SEARCH</h5>
+          <h5 class="widget-title font-alt">{!! trans('messages.search') !!}</h5>
           <div class="widget-search">
             <form action="{{route('blog')}}" method="GET">
-              <input name="name" placeholder="Search" class="form-control" type="text">
+              <input name="name" placeholder="{!! trans('messages.search') !!}" class="form-control" type="text">
               <button type="submit" class="m-btn m-btn-theme"><i class="fa fa-search"></i></button>
             </form>
           </div>
         </div> <!-- /sidebar-widget -->
 
         <div class="sidebar-widget">
-          <h5 class="widget-title font-alt">ABOUT ME</h5>
+          <h5 class="widget-title font-alt">{!! trans('messages.about') !!}</h5>
           <div class="widget-about">
             <div class="avtar">
               <img src="/img/team1.jpg" alt="" title="">
@@ -112,7 +112,7 @@
         </div> <!-- /sidebar-widget -->
 
         <div class="sidebar-widget">
-          <h5 class="widget-title font-alt">CATEGORIES</h5>
+          <h5 class="widget-title font-alt">{!! trans('messages.category') !!}</h5>
           <div class="widget-categories">
             <ul class="list-style-1">
               @foreach($categories as $category)
@@ -123,7 +123,7 @@
         </div> <!-- /sidebar-widget -->
 
         <div class="sidebar-widget">
-          <h5 class="widget-title font-alt">POPULAR POST</h5>
+          <h5 class="widget-title font-alt">{!! trans('messages.popular') !!}</h5>
           <div class="widget-categories">
             <ul class="latest-post">
               @foreach($posts as $post1)
@@ -156,7 +156,7 @@
         </div> <!-- /sidebar-widget -->
 
         <div class="sidebar-widget">
-          <h5 class="widget-title font-alt">POPULAR TAGS</h5>
+          <h5 class="widget-title font-alt">{!! trans('messages.tag') !!}</h5>
           <div class="widget-popular-tag">
             <ul class="list-style-tag">
               @foreach($tags as $tag1)

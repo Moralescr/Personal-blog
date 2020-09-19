@@ -50,6 +50,7 @@
                             @endif
                         @else
                            <li class="nav-item"> <a class="nav-link"  href="{{ route('tags.index') }}"> Etiquetas </a> </li>
+                           <li class="nav-item"> <a class="nav-link"  href="{{ route('messages') }}"> Mensajes </a> </li>
                            <li class="nav-item"> <a class="nav-link"  href="{{ route('categories.index') }}"> Categorías </a> </li>
                            <li class="nav-item"> <a class="nav-link"  href="{{ route('posts.index') }}"> Entradas</a> </li>
                            <li class="nav-item dropdown">

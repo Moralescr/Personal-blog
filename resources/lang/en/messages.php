@@ -15,10 +15,10 @@ return [
     'download'=> 'Download CV', 
 
     // Abouts us
-    'role'    => 'ATM Engineer at',
-    'me'      => 'I am a young man passionate about technology, 
-                  able to adapt to any circumstance and always give my best 
-                  in any project, at the same time that I strive to work as a team.',
+    'role'    => 'Software Engineer',
+    'me'      => 'Young Costa Rican engineer who loves nature, with a clear vision of contributing to society. 
+                  I especially love helping entrepreneurs in the digital transformation processes, 
+                  increasing the possibilities of taking their business to the level that is demanded today.',
     'portfolio' => 'Check out my',
     'portfol'   => 'Portfolio',
     'contact'   => 'Contact me',
@@ -30,19 +30,19 @@ return [
      'photo'   => 'Photography',
 
     //Technologies section
-    'subtitle' => 'This section will show the main technologies in which I have knowledge',
+    'subtitle' => 'This section will show any technologies in which I have knowledge',
     'sub2'     => 'For more information download my',
     'basic'    => 'Basic',
     'intermediate' => 'Intermediate',
     'advanced'     => 'Advanced', 
 
-      //Soft skills section
-      'mysoftskills'  => 'My soft skills',
-      'comunication'  => 'Good comunication',
-      'teamwork'      => 'Team Work',
-      'proactive'     => 'Proactive',
-      'adaptation'    => 'Adaptation to change',
-      'positive'      => 'Positive Attitude',
+    //Soft skills section
+    'mysoftskills'  => 'My soft skills',
+    'comunication'  => 'Good comunication',
+    'teamwork'      => 'Team Work',
+    'proactive'     => 'Proactive',
+    'adaptation'    => 'Adaptation to change',
+    'positive'      => 'Positive Attitude',
 
       //Blog section
     'blog'     => 'My blog',
@@ -66,5 +66,11 @@ return [
      'sentence' => 'Nothings happens unless we first dream',
      'made'     => 'Made with',
      'copyright'=> 'All Rights Reserved',
+
+     //blog
+     'search'   => 'Search',
+     'category' => 'Categories',
+     'popular'  => 'Popular posts',
+     'tag'      => 'Popular tags',
 
 ];

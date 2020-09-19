@@ -5,7 +5,7 @@
 <!-- Page Title -->
 <section class="page-title" style="background-image: url(/img/overlay-1.jpg);">
 <div class="container">
-    <h1 align="left" class="font-alt">My Blog List ❤</h1>
+    <h1 align="left" class="font-alt">My Blog ❤</h1>
 </div>
 <div style="display:none;" id="home"></div>
 <!-- container -->
@@ -30,6 +30,10 @@
                         <a href="#">
                             {{$post->user->name}}
                         </a> |
+                        <img src="/img/reloj.png" alt="">
+                                <span class="badge badge-danger">
+                                    {{\Carbon\Carbon::parse($post->user->created_at)->diffForHumans()}}
+                                </span> |
                         <img src="/img/carpeta.png" alt="">
                         <span class="badge badge-success">
                             {{substr($post->category->name, 0, 24) }} ...
