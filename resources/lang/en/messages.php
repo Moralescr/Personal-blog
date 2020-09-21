@@ -16,7 +16,7 @@ return [
 
     // Abouts us
     'role'    => 'Software Engineer',
-    'me'      => 'Young Costa Rican engineer who loves nature, with a clear vision of contributing to society. 
+    'me'      => 'Young Costa Rican engineer who loves nature, with a vision of contributing to society. 
                   I especially love helping entrepreneurs in the digital transformation processes, 
                   increasing the possibilities of taking their business to the level that is demanded today.',
     'portfolio' => 'Check out my',
@@ -72,5 +72,6 @@ return [
      'category' => 'Categories',
      'popular'  => 'Popular posts',
      'tag'      => 'Popular tags',
+     'comments' => 'Comments',
 
 ];

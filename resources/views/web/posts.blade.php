@@ -5,7 +5,7 @@
 <!-- Page Title -->
 <section class="page-title" style="background-image: url(/img/overlay-1.jpg);">
 <div class="container">
-    <h1 align="left" class="font-alt">My Blog ❤</h1>
+    <h1 align="left" class="font-alt">{!! trans('messages.blog') !!} ❤</h1>
 </div>
 <div style="display:none;" id="home"></div>
 <!-- container -->

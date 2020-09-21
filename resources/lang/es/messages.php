@@ -72,5 +72,6 @@ return [
     'category' => 'Categorias',
     'popular'  => 'Más populares',
     'tag'      => 'Etiquetas populares',
+    'comments' => 'Comentarios',
 
 ];
