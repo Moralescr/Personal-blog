@@ -5,7 +5,7 @@
 <!-- Page Title -->
 <section class="page-title" style="background-image: url(/img/overlay-1.jpg);">
 <div class="container">
-    <h1 align="left" class="font-alt">My Blog ❤</h1>
+    <h1 align="left" class="font-alt">{!! trans('messages.blog') !!} ❤</h1>
 </div>
 <div style="display:none;" id="home"></div>
 <!-- container -->
@@ -23,18 +23,19 @@
               <img src="{{ $post->file }}" class="img-responsive" title="" alt="">
             @endif
           </div>
-         <blockquote class="blockquote-left" data-aos="fade-up">
-            <h3>{{$post->name}}</h3>
-            <hr>
-            <label class="parson">
-            <div>
-                <img src="/img/ico.png" alt="">
-                <span class="badge badge-primary">{{$post->user->name}} </span>&nbsp;
-                <img src="/img/reloj.png" alt="">
-                <span class="badge badge-danger">{{\Carbon\Carbon::parse($post->created_at)->isoformat('DD-MMMM-YYYY')}}</span>&nbsp;
-                <img src="/img/carpeta.png" alt="">
-                <span class="badge badge-success">{{$post->category->name }} </span>
-            </div>
+          <div class ="alert alert-info">
+            <h3><b>{{$post->name}}</b></h3>  
+          </div>
+          <blockquote class="blockquote-left" data-aos="fade-up">
+              <label class="parson">
+              <div>
+                  <img src="/img/ico.png" alt="">
+                  <span class="badge badge-primary">{{$post->user->name}} </span>&nbsp;
+                  <img src="/img/reloj.png" alt="">
+                  <span class="badge badge-danger">{{\Carbon\Carbon::parse($post->created_at)->isoformat('DD-MMMM-YYYY')}}</span>&nbsp;
+                  <img src="/img/carpeta.png" alt="">
+                  <span class="badge badge-success">{{$post->category->name }} </span>
+              </div>
           </blockquote>
           <p data-aos="fade-up">
             {!! $post->body !!}
@@ -82,7 +83,7 @@
         </div>
 
         <div class="blog-comment-area">
-          <h2 class="title-style-1 font-alt">Comments</h2>
+          <h2 class="title-style-1 font-alt">{!! trans('messages.comments') !!}</h2>
           <ul class="blog-comment">
               @include('web.sections.discus')
           </ul>
@@ -107,7 +108,7 @@
             <div class="avtar">
               <img src="/img/team1.jpg" alt="" title="">
             </div>
-            <p><b style="color:#C62828">I'm a development engineer and I love programming. 😍🧡</b></p>
+            <p><b style="color:#C62828">I'm a software engineer and love programming. 😍🧡</b></p>
           </div>
         </div> <!-- /sidebar-widget -->
 
