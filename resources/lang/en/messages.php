@@ -74,4 +74,8 @@ return [
      'tag'      => 'Popular tags',
      'comments' => 'Comments',
 
+     //Search blog null
+    'goback'   => 'Go back',
+    'notfound' => 'Sorry, no records found, search again please.'
+
 ];
