@@ -74,4 +74,8 @@ return [
     'tag'      => 'Etiquetas populares',
     'comments' => 'Comentarios',
 
+    //Search blog null
+    'goback'   => 'Regresar',
+    'notfound' => 'Lo sentimos, no encontramos registros.'
+
 ];

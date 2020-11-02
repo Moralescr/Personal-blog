@@ -65,19 +65,19 @@
     <div style="background-color:#C62828; color:#c0c0c0" class="alert alert-danger alert-sm alert-dismissible fade show" role="alert">
         <h2>
         <i class="ti-face-sad"></i>
-            <strong> Oops ...</strong> Sorry, the page you are looking for has no records.
+            <strong> Oops ...</strong> {!! trans('messages.notfound') !!}
         </h2>
     </div>
     <hr>
     <div class="widget-search">
         <form action="{{route('blog')}}" method="GET">
-            <input name="name" placeholder="Search" class="form-control" type="text">
+            <input name="name" placeholder="{!! trans('messages.search') !!}" class="form-control" type="text">
             <button type="submit" class="m-btn m-btn-theme"><i class="fa fa-search"></i></button>
         </form>
     </div>
     <hr>
     <label class="parson col-md-6">
-        <a class="btn btn-primary pull-right" href="{{ route('blog') }}"><i class="ti-arrow-left"></i> Go back</a>
+        <a class="btn btn-primary pull-right" href="{{ route('blog') }}"><i class="ti-arrow-left"></i> {!! trans('messages.goback') !!}</a>
     </label>
 </blockquote>
 @endif
