@@ -29,7 +29,7 @@
           <blockquote class="blockquote-left" data-aos="fade-up">
               <label class="parson">
               <div>
-                  <img src="/img/ico.png" alt="">
+                  <img src="/img/user.png" alt="">
                   <span class="badge badge-primary">{{$post->user->name}} </span>&nbsp;
                   <img src="/img/reloj.png" alt="">
                   <span class="badge badge-danger">{{\Carbon\Carbon::parse($post->created_at)->isoformat('DD-MMMM-YYYY')}}</span>&nbsp;

@@ -49,6 +49,7 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="about-left">
+                <img width="100px" height="100px" class="img-responsive" src="/img/hat.png" alt="">
                     <h2>Adrian Morales Guadamúz</h2>
                     <h3><a href="">{!! trans('messages.role') !!}</a></h3>
                     <p class="text-justify">
@@ -262,14 +263,14 @@
                         <div class="blog-content">
                             <div class="post-meta">
                                 <!--<i class="fa fa-user" aria-hidden="true"></i>-->
-                                <img src="/img/ico.png" alt="">
+                                <img src="/img/user.png" alt="">
                                 <a href="#">
                                     {{$post->user->name}}
                                 </a> |&nbsp; 
                                 <!--<i class="fa fa-clock"> </i>-->
                                 <img src="/img/reloj.png" alt="">
                                 <span class="badge badge-danger">
-                                    {{\Carbon\Carbon::parse($post->user->created_at)->diffForHumans()}}
+                                    {{\Carbon\Carbon::parse($post->created_at)->diffForHumans()}}
                                 </span> |
                                 <img src="/img/campana.png" alt="">
                                 <span class="badge badge-success">

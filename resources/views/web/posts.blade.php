@@ -26,7 +26,7 @@
                 <div class="blog-content">
                     <div class="post-meta">
                        <!-- <i class="fa fa-user" aria-hidden="true"></i>-->
-                       <img src="/img/ico.png" alt="">
+                       <img src="/img/user.png" alt="">
                         <a href="#">
                             {{$post->user->name}}
                         </a> |
