@@ -1114,6 +1114,10 @@ img {
     transition: ease-in all 0.3s;
 }
 
+.feature-box-01 .icon1:hover{
+    border: #b33131b4 1px solid;
+}
+
 .feature-box-02 .icon {
     position: absolute;
     left: 30%;
