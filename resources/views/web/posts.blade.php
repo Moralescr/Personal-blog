@@ -32,7 +32,7 @@
                         </a> |
                         <img src="/img/reloj.png" alt="">
                                 <span class="badge badge-danger">
-                                    {{\Carbon\Carbon::parse($post->user->created_at)->diffForHumans()}}
+                                    {{\Carbon\Carbon::parse($post->created_at)->diffForHumans()}}
                                 </span> |
                         <img src="/img/carpeta.png" alt="">
                         <span class="badge badge-success">
@@ -48,7 +48,8 @@
                     <hr>
                     <span class="badge badge-info">
                         <a href="{{ route('post', $post->slug) }}" class="more-btn">
-                            Read More<i class="fa fa-mouse-pointer"></i>
+                            {!! trans('messages.readmore') !!}
+                            <i class="fa fa-mouse-pointer"></i>
                         </a>
                     </span>
                 </div>
