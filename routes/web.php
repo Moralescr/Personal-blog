@@ -26,6 +26,7 @@ Route::get('post/{slug}', 'Web\PageController@post')->name('post');
 Route::get('category/{slug}', 'Web\PageController@category')->name('category');
 Route::get('tag/{slug}', 'Web\PageController@tag')->name('tag');
 Route::get('lang/{lang}', 'Web\PageController@swap')->name('lang.swap');
+Route::get('profile','Web\PageController@profile')->name('profile');
 
 //admin
 Route::resource('tags', 'Admin\TagController');
@@ -33,3 +34,4 @@ Route::resource('categories', 'Admin\CategoryController');
 Route::resource('posts', 'Admin\PostController');
 Route::get('messages', 'Admin\ContactController@index')->name('messages');
 Route::post('contact', 'Admin\ContactController@store');
+
