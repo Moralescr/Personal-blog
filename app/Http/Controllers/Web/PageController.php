@@ -16,6 +16,12 @@ class PageController extends Controller
         $posts = Post::orderBy('id', 'DESC')->where('status', 'PUBLISHED')->paginate(3);
         return view('web.index', compact('posts'));
     }
+
+    public function profile()
+    {
+
+        return view('web.sections.profile');
+    }
     //Muestra todos los posts
     public function blog(Request $request)
     {

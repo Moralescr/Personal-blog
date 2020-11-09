@@ -46,11 +46,7 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-172343320-1');
-    </script>
-    <!--Google recaptcha -->
-    {!! htmlScriptTagJsApi([   
-     'action' => 'index'
-    ]) !!}
+    </script>  
 </head>
 
 <!-- Body Start -->
@@ -60,7 +56,12 @@
      <div id="loading">
         <div class="load-circle"><span class="one"></span></div>
     </div>
-    <!-- / -->
+   
+
+    <a href="https://api.whatsapp.com/send?phone=50684043853&text=Me%20gustar%C3%ADa%20trabajar%20con%20usted.%20%C2%BFPuedo%20contarle%20de%20mi%20proyecto?" class="float" target="_blank">
+      <i class="fab fa-whatsapp my-float"></i>
+    </a>
+
     @include('web.sections.header')
 
     <main>

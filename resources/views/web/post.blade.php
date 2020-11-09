@@ -96,7 +96,7 @@
           <h5 class="widget-title font-alt">{!! trans('messages.search') !!}</h5>
           <div class="widget-search">
             <form action="{{route('blog')}}" method="GET">
-              <input name="name" placeholder="{!! trans('messages.search') !!}" class="form-control" type="text">
+              <input name="name" placeholder="{!! trans('messages.search') !!}" class="form-control" required type="text">
               <button type="submit" class="m-btn m-btn-theme"><i class="fa fa-search"></i></button>
             </form>
           </div>
