@@ -12,7 +12,7 @@ return [
     //Home banner
     'welcome' => 'Bienvenido a mi sitio web',
     'hello'   => 'Hola, mi nombre es',
-    'download'=> 'Descargar CV', 
+    'download'=> 'Feliz navidad', 
 
     //About us
     'role'    => 'Ingeniero de Software',
