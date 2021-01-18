@@ -12,7 +12,7 @@ return [
     //Home banner
     'welcome' => 'Bienvenido a mi sitio web',
     'hello'   => 'Hola, mi nombre es',
-    'download'=> 'Feliz navidad', 
+    'download'=> '2021', 
 
     //About us
     'role'    => 'Ingeniero de Software',
@@ -31,7 +31,6 @@ return [
 
     //Technologies section
     'subtitle' => 'En esta sección se muestran algunas tecnologías en las cuales tengo conocimiento',
-    'sub2'     => 'Para más información descargue mi', 
     'basic'    => 'Básico',
     'intermediate' => 'Intermedio',
     'advanced'     => 'Avanzado', 

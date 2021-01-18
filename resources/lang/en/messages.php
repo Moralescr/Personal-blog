@@ -9,10 +9,10 @@ return [
     'technologies' => 'Technologies',
     'contacth'     => 'Contact',
 
-    //Home banner
+    //Home banner∫
     'welcome' => 'Welcome to my website',
     'hello'   => 'Hello, my name is',
-    'download'=> 'Merry Christmas', 
+    'download'=> '2021', 
 
     // Abouts us
     'role'    => 'Software Engineer',
@@ -31,7 +31,6 @@ return [
 
     //Technologies section
     'subtitle' => 'This section will show any technologies in which I have knowledge',
-    'sub2'     => 'For more information download my',
     'basic'    => 'Basic',
     'intermediate' => 'Intermediate',
     'advanced'     => 'Advanced', 
