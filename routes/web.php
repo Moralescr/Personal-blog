@@ -13,9 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::redirect('/', 'index');
-
-
 Auth::routes();
 
 //web

@@ -68,7 +68,7 @@ class PageController extends Controller
 
     }
 
-    //Stores languaje in a session
+    //Devuelve el idioma en sesión
     public function swap($lang)
     {
         session()->put('locale', $lang);

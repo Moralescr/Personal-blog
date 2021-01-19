@@ -23,7 +23,7 @@
               <li><a href="mailto:moralesguadamuz@gmail.com?subject=question"><i class="fa fa-envelope" target="_blank"></i></a></li>
           </ul>
           <p style="color:white" class="copyright">
-             {!! trans('messages.made') !!} ❤️ |  {!! trans('messages.copyright') !!} | © 2020 Moralescr
+             {!! trans('messages.made') !!} ❤️ |  {!! trans('messages.copyright') !!} | © 2020-2021 Moralescr
           </p>
       </div>
   </footer>
