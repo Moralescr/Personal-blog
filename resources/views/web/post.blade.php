@@ -146,7 +146,7 @@
           </div>
         </div> <!-- /sidebar-widget -->
 
-        <div class="sidebar-widget">
+        <!--<div class="sidebar-widget">
           <h5 class="widget-title font-alt">ARCHIVE</h5>
           <div class="widget-archive">
             <ul class="list-style-1">
@@ -154,7 +154,7 @@
               <li><a href="#">July 2020</a></li>
             </ul>
           </div>
-        </div> <!-- /sidebar-widget -->
+        </div> -->
 
         <div class="sidebar-widget">
           <h5 class="widget-title font-alt">{!! trans('messages.tag') !!}</h5>
