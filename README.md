@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, welcome to my blog project</h1>
+<h1 align="center">Hi 👋, welcome to my blog project :heart:</h1>
 
 ## Home page
 
@@ -8,7 +8,7 @@
 
 <img width="1438" alt="about me" src="https://user-images.githubusercontent.com/42954578/108292002-dd5f4080-7158-11eb-8ea0-caef0e75c569.png">
 
-## About technologies
+## About tecnologies
 
 <img width="1321" alt="technologies" src="https://user-images.githubusercontent.com/42954578/108291871-9ec98600-7158-11eb-9c66-f7c208cb5ada.png">
 
