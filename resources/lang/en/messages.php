@@ -8,11 +8,12 @@ return [
     'about'=> 'About me', 
     'technologies' => 'Technologies',
     'contacth'     => 'Contact',
+    'welcomeTitle' => 'Welcome',
 
-    //Home banner∫
+    //Home banner
     'welcome' => 'Welcome to my website',
-    'hello'   => 'Hello, my name is',
-    'download'=> '2021', 
+    'hello'   => 'Hi, my name is',  
+    'holiday' => 'My birthday',
 
     // Abouts us
     'role'    => 'Software Engineer',

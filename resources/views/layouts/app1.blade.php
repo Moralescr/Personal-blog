@@ -10,7 +10,7 @@
   ========================================================================
   -->
     <!-- Page Title -->
-    <title>Welcome | Moralescr.</title>
+    <title>{!! trans('messages.welcomeTitle') !!} | Moralescr.</title>
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <!-- / -->
     <link rel="shortcut icon" href="/img/ico.png" />
