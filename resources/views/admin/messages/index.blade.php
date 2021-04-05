@@ -14,7 +14,7 @@
                         </button>
                     </div>
                     <a href="" class="pull-right btn btn-sm btn-success">
-                        Crear
+                        Crear 
                     </a>
                     <h4 class="card-title">Listado de mensajes</h4>
 

@@ -8,11 +8,12 @@ return [
     'about'   => 'Acerca de mi',
     'technologies' => 'Tecnologías',
     'contacth'     => 'Contacto',
+    'welcomeTitle' => 'Bienvenido(a)',
 
     //Home banner
-    'welcome' => 'Bienvenido a mi sitio web',
+    'welcome' => 'Bienvenido(a) a mi sitio web',
     'hello'   => 'Hola, mi nombre es',
-    'download'=> '2021', 
+    'holiday' => 'Mi cumpleaños',
 
     //About us
     'role'    => 'Ingeniero de Software',
@@ -21,7 +22,7 @@ return [
                   aumentando las posibilidades de llevar su negocio al nivel que demanda la actualidad.',
     'portfolio' => 'Revise mi',
     'portfol'   => 'Portafolio',
-    'contact'   => 'Contáctame',
+    'contact'   => 'Contáctame',   
 
     //Counter section
     'music'   => 'Música',

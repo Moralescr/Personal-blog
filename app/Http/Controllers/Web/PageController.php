@@ -17,12 +17,12 @@ class PageController extends Controller
         return view('web.index', compact('posts'));
     }
 
-    public function profile()
+    public function about()
     {
+       return view('web.sections.about');
+    }      
 
-        return view('web.sections.profile');
-    }
-    //Muestra todos los posts
+    // Show all posts
     public function blog(Request $request)
     {
         $name = $request->get('name');
@@ -34,7 +34,7 @@ class PageController extends Controller
         return view('web.posts', compact('posts'));
     }
 
-    //Muestra los posts que pertenecen a una categoría
+    // Show posts related to a category
     public function category($slug)
     {
         $category = Category::where('slug', $slug)->pluck('id')->first();
@@ -45,7 +45,7 @@ class PageController extends Controller
         return view('web.posts', compact('posts'));
     }
 
-    //Muestra los posts que pertenecen a una etiqueta
+    // Show posts related to a tag
     public function tag($slug)
     {
         $posts = Post::whereHas('tags', function($query) use ($slug) {
@@ -56,7 +56,7 @@ class PageController extends Controller
         return view('web.posts', compact('posts'));
     }
 
-    //Muestra el detalle de un post
+    // Show a detail of the publication
     public function post($slug)
     {
         $categories = Category::orderBy('id', 'DESC')->paginate(4);
@@ -68,7 +68,7 @@ class PageController extends Controller
 
     }
 
-    //Devuelve el idioma en sesión
+    // Return the language of a session
     public function swap($lang)
     {
         session()->put('locale', $lang);
