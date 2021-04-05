@@ -26,12 +26,12 @@
 
                         <div class="contact-info">
                             <i class="icon theme-bg ti-email"></i>
-                            <p>moralesguadamuz@gmail.com<br/>support@mg.com</p>
+                            <p>moralesguadamuz@gmail.com<br/> <!-- support@mg.com</p> --> 
                         </div>
 
                         <div class="contact-info">
                             <i class="icon theme-bg ti-mobile"></i>
-                            <p>(+506) 8404-3853,<br/> (+506) 8404-3853 </p>
+                            <p>(+506) 8404-3853,<br/> <!-- (+506) 8404-3853 </p> -->
                         </div>
                     </div>
                 </div>
