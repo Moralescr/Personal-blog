@@ -6,7 +6,7 @@
 <!-- Page Title -->
 <section class="page-title" style="background-image: url(/img/overlay-1.jpg);">
     <div class="container">
-        <h1 align = "left" class="font-alt">{!! trans('messages.about') !!} ...</h1>
+        <h1 align = "left" class="font-alt">{!! trans('messages.about') !!} </h1>
     </div>
     <div style="display:none;" id="home"></div>
 </section>
@@ -26,7 +26,9 @@
                     <p>
                       {!! trans('messages.portfolio') !!} <a class="m-btn-link theme-after" href="#portfolio">{!! trans('messages.portfol') !!}</a>
                     </p>
-                    <a class="m-btn m-btn-theme" href="#contact">{!! trans('messages.contact') !!} <i class="ti-arrow-right"></i></a>
+                    <a class="m-btn m-btn-theme" target="_blank" href="https://api.whatsapp.com/send?phone=50684043853&text=Me%20gustar%C3%ADa%20trabajar%20con%20usted.%20%C2%BFPuedo%20contarle%20de%20mi%20proyecto?">
+                        {!! trans('messages.contact') !!} <i class="ti-arrow-right"></i>
+                    </a>
                 </div>
             </div>
             <!-- col -->

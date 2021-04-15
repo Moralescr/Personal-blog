@@ -13,7 +13,7 @@ return [
     //Home banner
     'welcome' => 'Welcome to my website',
     'hello'   => 'Hi, my name is',  
-    'holiday' => 'My birthday',
+    'holiday' => 'Do you need a web page?',
 
     // Abouts us
     'role'    => 'Software Engineer',

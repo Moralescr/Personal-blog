@@ -13,7 +13,7 @@ return [
     //Home banner
     'welcome' => 'Bienvenido(a) a mi sitio web',
     'hello'   => 'Hola, mi nombre es',
-    'holiday' => 'Mi cumpleaños',
+    'holiday' => '¿Necesitas una página web?',
 
     //About us
     'role'    => 'Ingeniero de Software',
