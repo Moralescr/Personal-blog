@@ -23,7 +23,7 @@
         <div class="row full-screen align-items-center">
             <div class="col col-md-12 col-lg-8 col-xl-8 p-80px-tb">
                 <div class="home-text-center theme-after m-50px-t">
-                    <img width="100px" height="100px" class="img-responsive" src="/img/balloons.png" alt="">
+                    <img width="100px" height="100px" class="img-responsive" src="/img/code.png" alt="">
                     <h4>{!! trans('messages.hello') !!}</h4>
                        <h5 class="font-alt">Adrián Morales</h5>
                     <p>
