@@ -23,7 +23,16 @@
               <li><a href="mailto:moralesguadamuz@gmail.com?subject=question"><i class="fa fa-envelope" target="_blank"></i></a></li>
           </ul>
           <p style="color:white" class="copyright">
-             {!! trans('messages.made') !!} ❤️ |  {!! trans('messages.copyright') !!} | © 2020-2021 Moralescr
+             {!! trans('messages.made') !!} ❤️ |  {!! trans('messages.copyright') !!} 
+             | © <span id="copyright" > </span> Moralescr
           </p>
       </div>
   </footer>
+  
+  <script>
+     //Selecciona el elemento a pasarle el dato
+     const copyright = document.querySelector('#copyright');
+     let year = new Date().getFullYear(); //Obtiene año actual
+     //Asigna contenido a elemento HTML
+     copyright.textContent = `${year}`;;
+  </script>
