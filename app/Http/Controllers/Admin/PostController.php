@@ -59,7 +59,7 @@ class PostController extends Controller
      */
     public function store(PostStoreRequest $request)
     {
-
+        
         $post = Post::create($request->all());
         $this->authorize('pass', $post);
 
@@ -139,9 +139,13 @@ class PostController extends Controller
      */
     public function destroy($id)
     {
-        $post = Post::find($id)->delete();
-        $this->authorize('pass', $post);
+        $post = Post::find($id);
 
+        /*  Si se muestran todos los posts se debe de validar para eliminar sino no
+        $this->authorize('pass', $post);
+        if($res->allow() == true );
+        { } */
+        
         return back()->with('info', 'Eliminado correctamente');
     }
 }

@@ -10,9 +10,9 @@
             <hr>
             <p class="lead">
                <b>Nombre:</b>
-               <span class="badge badge-info">{{ $post->name }} </span>  | 
+               <span class="badge badge-info text-white">{{ $post->name }} </span>  
                <b>Slug:</b>
-               <span class="badge badge-info">{{ $post->slug }}</span>  
+               <span class="badge badge-info text-white">{{ $post->slug }}</span>  
             </p>
             <hr class="my-4">
             <p class="lead">

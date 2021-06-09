@@ -6,18 +6,10 @@
         <div class="col-md-8 col-md-offset-2">
             <div class="card card-default">
                 <div class="card-body">
-                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                        <i class="fa fa-warning"></i>
-                        <strong>En este apartado solo se muestran las etiquetas creadas por el usuario.</strong> 
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
                     <a href="{{ route('tags.create') }}" class="pull-right btn btn-sm btn-success">
                         Crear
                     </a>
-                    <h4 class="card-title">Listado de etiquetas</h4>
-
+                    <h2> <span class="badge badge-danger">Lista de etiquetas </span> </h2>
                     <table class="table table-striped table-hover">
                         <thead>
                             <tr>

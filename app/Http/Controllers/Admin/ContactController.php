@@ -23,7 +23,7 @@ class ContactController extends Controller
     public function index()
     {
         $messages = Contact::all();
-      
+
         return view('admin.messages.index', compact('messages'));
     }
 
@@ -69,35 +69,12 @@ class ContactController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Contact  $contact
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Contact $contact)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Contac  $contac
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, Contac $contac)
-    {
-        //
-    }
-
-    /**
      * Remove the specified resource from storage.
      *
      * @param  \App\Contac  $contac
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Contac $contac)
+    public function destroy(Contact $contac)
     {
         //
     }
