@@ -139,7 +139,7 @@ class PostController extends Controller
      */
     public function destroy($id)
     {
-        $post = Post::find($id);
+        Post::find($id)->delete();
 
         /*  Si se muestran todos los posts se debe de validar para eliminar sino no
         $this->authorize('pass', $post);

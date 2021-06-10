@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  Copyright (c) 2020 - AMORALES
+  Copyright (c) 2021 - AMORALES
   ========================================================================
   -->
     <!-- Page Title -->
@@ -84,11 +84,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script src="{{asset('js/contact.js')}}"></script>
+    
     <!-- AOS animation -->
     <script>
         AOS.init();
-   </script>
+    </script>
+  
 </body>
 <!-- Body End -->
-
 </html>

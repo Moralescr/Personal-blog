@@ -1,5 +1,5 @@
 <!-- Footer-->
- <footer style="background-image: url(/img/footer.png)" class="footer">
+ <footer id ="footer" style="background-image: url(/img/footer.png)" class="footer">
       <div class="container">
           <div class="footer-logo">
            <p class="msg">"{!! trans('messages.sentence') !!}"</p>
@@ -28,7 +28,11 @@
           </p>
       </div>
   </footer>
-  
+<style>
+   .footer{
+      background: no-repeat;
+   }
+</style>
   <script>
      //Selecciona el elemento a pasarle el dato
      const copyright = document.querySelector('#copyright');
