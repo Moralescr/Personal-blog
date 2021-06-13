@@ -6,14 +6,16 @@ return [
     //Navegation
     'home'    => 'Inicio', 
     'about'   => 'Acerca de mi',
-    'technologies' => 'Tecnologías',
+    'certificate' => 'Certiifcados',
+    'technologies' => 'Mis habilidades como desarrollador',
     'contacth'     => 'Contacto',
     'welcomeTitle' => 'Bienvenido(a)',
 
     //Home banner
-    'welcome' => 'Bienvenido(a) a mi sitio web',
+    'welcome' => 'Soy',
     'hello'   => 'Hola, mi nombre es',
-    'holiday' => '¿Necesitas una página web?',
+    'holiday' => 'Bienvenido(a) a mi sitio web',
+    'profession' => 'ingeniero de software',
 
     //About us
     'role'    => 'Ingeniero de Software',

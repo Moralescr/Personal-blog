@@ -20,7 +20,12 @@ class PageController extends Controller
     public function about()
     {
        return view('web.sections.about');
-    }      
+    }   
+    
+    public function certificates()
+    {
+        return view('web.sections.certificates');
+    }
 
     // Show all posts
     public function blog(Request $request)

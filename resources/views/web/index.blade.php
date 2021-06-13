@@ -30,7 +30,7 @@
                         {!! trans('messages.welcome') !!}
                         <a href="{{route('index')}}">
                             <b>
-                               <span class="badge badge-danger">Moralescr.</span>
+                               <span class="badge badge-danger">{!! trans('messages.profession') !!}</span>
                             </b>
                         </a>
                     </p>

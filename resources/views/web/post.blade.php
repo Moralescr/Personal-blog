@@ -108,7 +108,7 @@
             <div class="avtar">
               <img src="/img/team1.jpg" alt="" title="">
             </div>
-            <p><b style="color:#C62828">I'm a software engineer and love programming. 😍🧡</b></p>
+            <p><b style="color:#C62828">I'm software engineer and love programming 😍🧡</b></p>
           </div>
         </div> <!-- /sidebar-widget -->
 

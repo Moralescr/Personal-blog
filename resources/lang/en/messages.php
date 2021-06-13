@@ -6,14 +6,16 @@ return [
     //Navegation
     'home' => 'Home',
     'about'=> 'About me', 
-    'technologies' => 'Technologies',
+    'certificate' => 'Certificates',
+    'technologies' => 'My developer skills',
     'contacth'     => 'Contact',
     'welcomeTitle' => 'Welcome',
 
     //Home banner
-    'welcome' => 'Welcome to my website',
+    'welcome' => 'I am',
     'hello'   => 'Hi, my name is',  
-    'holiday' => 'Do you need a web page?',
+    'holiday' => 'Welcome to my website',
+    'profession' => 'Software Engineer',
 
     // Abouts us
     'role'    => 'Software Engineer',
