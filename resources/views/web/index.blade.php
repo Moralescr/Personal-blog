@@ -3,9 +3,9 @@
 @section('content')
 
 <!--Google recaptcha -->
-{!! htmlScriptTagJsApi([  
+<!-- {!! htmlScriptTagJsApi([  
     'action' => 'index'
-]) !!} 
+]) !!} -->
 
 <!-- Home Banner Start -->
 <section id="home" class="home-banner gray-bg" style="background-image: url(img/overlay-2.jpg);">
