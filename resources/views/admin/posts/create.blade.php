@@ -9,7 +9,7 @@
                     <a href="{{ route('posts.index') }}" class="pull-right btn btn-sm btn-danger">
                          <i class="fa fa-reply"></i> Regresar 
                     </a>
-                    <h4>Edición de un post</h4>
+                    <h4>Creación de una publicación</h4>
                     <hr>
                     {!! Form::open(['route' => 'posts.store', 'files' => true]) !!}
                         
