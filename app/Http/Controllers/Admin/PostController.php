@@ -38,6 +38,27 @@ class PostController extends Controller
         return view('admin.posts.index', compact('posts'));
     }
 
+    //Upload images (CKEDITOR)
+    public function upload(Request $request)
+    {
+        if ($request->hasFile('upload')) {
+            $originName = $request->file('upload')->getClientOriginalName();
+            $fileName   = pathinfo($originName, PATHINFO_FILENAME);
+            $extension  = $request->file('upload')->getClientOriginalExtension();
+            $fileName   = $fileName . '_' . time() . '.' . $extension;
+
+            $request->file('upload')->move(public_path('imagesCK'), $fileName);
+
+            $CKEditorFuncNum = $request->input('CKEditorFuncNum');
+            $url = asset('/imagesCK/' . $fileName);
+            $msg = 'Image uploaded successfully';
+            $response = "<script> window.parent.CKEDITOR.tools.callFunction($CKEditorFuncNum, '$url', '$msg')  </script>";
+
+            @header('Content-type: text/html; charset=utf-8');
+            echo $response;
+        }
+    }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -59,12 +80,12 @@ class PostController extends Controller
      */
     public function store(PostStoreRequest $request)
     {
-        
+
         $post = Post::create($request->all());
         $this->authorize('pass', $post);
 
         //IMAGE 
-        if($request->file('image')){
+        if ($request->file('image')) {
             $path = Storage::disk('public')->put('image',  $request->file('image'));
             $post->fill(['file' => asset($path)])->save();
         }
@@ -120,7 +141,7 @@ class PostController extends Controller
         $post->fill($request->all())->save();
 
         //IMAGE 
-        if($request->file('image')){
+        if ($request->file('image')) {
             $path = Storage::disk('public')->put('image',  $request->file('image'));
             $post->fill(['file' => asset($path)])->save();
         }
@@ -145,7 +166,7 @@ class PostController extends Controller
         $this->authorize('pass', $post);
         if($res->allow() == true );
         { } */
-        
+
         return back()->with('info', 'Eliminado correctamente');
     }
 }

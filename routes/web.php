@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-//web
+//Front end routes
 Route::get('/', 'Web\PageController@index')->name('index');
 
 Route::get('/blog', 'Web\PageController@blog')->name('blog');
@@ -26,10 +26,11 @@ Route::get('lang/{lang}', 'Web\PageController@swap')->name('lang.swap');
 Route::get('about', 'Web\PageController@about')->name('about');
 Route::get('certificates', 'Web\PageController@certificates')->name('certificates');
 
-//admin
+//Backend routes
 Route::resource('tags', 'Admin\TagController');
 Route::resource('categories', 'Admin\CategoryController');
 Route::resource('posts', 'Admin\PostController');
 Route::get('messages', 'Admin\ContactController@index')->name('messages');
 Route::post('contact', 'Admin\ContactController@store');
+Route::post('upload', 'Admin\PostController@upload')->name('upload'); //CKEDITOR upload images
 

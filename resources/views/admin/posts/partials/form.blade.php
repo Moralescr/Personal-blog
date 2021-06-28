@@ -35,14 +35,17 @@
 	@endforeach
 	</div>
 </div>
+
 <div class="form-group">
     {{ Form::label('excerpt', 'Extracto') }}
     {{ Form::textarea('excerpt', null, ['class' => 'form-control', 'rows' => '2']) }}
 </div>
+
 <div class="form-group">
     {{ Form::label('body', 'Descripción') }}
     {{ Form::textarea('body', null, ['class' => 'form-control']) }}
 </div>
+
 <div class="form-group">
     {{ Form::submit('Guardar', ['class' => 'btn btn-sm btn-primary']) }}
 </div>
@@ -50,17 +53,23 @@
 @section('scripts')
 <script src="{{ asset('vendor/stringToSlug/jquery.stringToSlug.min.js') }}"></script>
 <script src="{{ asset('vendor/ckeditor/ckeditor.js') }}"></script>
+
 <script>
 	$(document).ready(function(){
+		//StringToSlug options
 	    $("#name, #slug").stringToSlug({
 	        callback: function(text){
 	            $('#slug').val(text);
 	        }
-	    });
-
+	    }); 
+		//CKEDITOR options
 	    CKEDITOR.config.height = 400;
 		CKEDITOR.config.width  = 'auto';
-		CKEDITOR.replace('body');
+		CKEDITOR.replace('body', {
+			filebrowserUploadUrl: "{{ route('upload', ['_token' => csrf_token() ]) }}",
+			filebrowserUploadMethod: 'form'
+		});
 	});
+
 </script>
 @endsection
