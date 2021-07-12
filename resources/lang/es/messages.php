@@ -6,7 +6,7 @@ return [
     //Navegation
     'home'    => 'Inicio', 
     'about'   => 'Acerca de mi',
-    'certificate' => 'Certiifcados',
+    'certificate' => 'Certificados',
     'technologies' => 'Mis habilidades como desarrollador',
     'contacth'     => 'Contacto',
     'welcomeTitle' => 'Bienvenido(a)',

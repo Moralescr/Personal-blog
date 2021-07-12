@@ -65,7 +65,7 @@ return [
     'send'    => 'Send',
 
      //Footer section
-     'sentence' => 'Nothings happens unless we first dream',
+     'sentence' => 'Nothing happens unless we first dream',
      'made'     => 'Made with',
      'copyright'=> 'All Rights Reserved',
 
