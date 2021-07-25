@@ -8,13 +8,13 @@
 ]) !!} -->
 
 <!-- Home Banner Start -->
-<section id="home" class="home-banner gray-bg" style="background-image: url(img/main.png);">
+<section id="home" class="home-banner gray-bg" style="background-image: url(img/overlay-2.jpg);">
     <div class="sec-round">
         <div class="container full-height">
-            <div class="round-item round-item-1"></div>
+           <!-- <div class="round-item round-item-1"></div>
             <div class="round-item round-item-2"></div>
             <div class="round-item round-item-3"></div>
-            <div class="round-item round-item-4"></div>  
+            <div class="round-item round-item-4"></div>  -->
         </div>
     </div>
 
