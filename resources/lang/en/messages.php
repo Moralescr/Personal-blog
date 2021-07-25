@@ -12,7 +12,7 @@ return [
     'welcomeTitle' => 'Welcome',
 
     //Home banner
-    'welcome' => 'I am',
+    'welcome' => "I'm",
     'hello'   => 'Hi, my name is',  
     'holiday' => 'Welcome to my website',
     'profession' => 'Software Engineer',

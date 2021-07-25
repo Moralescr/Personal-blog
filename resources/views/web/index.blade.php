@@ -8,14 +8,13 @@
 ]) !!} -->
 
 <!-- Home Banner Start -->
-<section id="home" class="home-banner gray-bg" style="background-image: url(img/overlay-2.jpg);">
+<section id="home" class="home-banner gray-bg" style="background-image: url(img/main.png);">
     <div class="sec-round">
         <div class="container full-height">
             <div class="round-item round-item-1"></div>
             <div class="round-item round-item-2"></div>
             <div class="round-item round-item-3"></div>
-            <div class="round-item round-item-4"></div>
-            <div class="round-item round-item-5"></div>
+            <div class="round-item round-item-4"></div>  
         </div>
     </div>
 
@@ -35,7 +34,7 @@
                         </a>
                     </p>
                     <div class="btn-bar">
-                        <a href="#" class="m-btn-link m-btn-link-white theme-after"> {!! trans('messages.holiday') !!} </a>
+                        <a href="#" class="m-btn-link m-btn-link-white theme-after">{!! trans('messages.holiday') !!} </a>
                     </div>
                 </div>
                 <!-- home-text-center -->
@@ -44,7 +43,7 @@
         </div>
     </div>
     <!-- container -->
-    <a href="#aboutus" data-scroll="smooth" class="mouse-icon hidden-sm"><span class="wheel"></span></a>
+    <a href="#blog" data-scroll="smooth" class="mouse-icon hidden-sm"><span class="wheel"></span></a>
 </section>
 <!-- Home Banner End -->
 
