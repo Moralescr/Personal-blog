@@ -48,10 +48,10 @@ return [
 
       //Blog section
     'blog'     => 'My blog',
-    'subt'     => 'In this section you will find publications on the latest technological trends',
+    'subt'     => 'This section shows different publications about technology',
     'readmore' => 'Read more',
     'seeall'   => 'See all',
-    'newpost'  => 'New post',
+    'newpost'  => 'Recent',
 
     //Contact section
     'subc'    => 'I design and develop services, modern websites, web services and online stores',
@@ -65,7 +65,7 @@ return [
     'send'    => 'Send',
 
      //Footer section
-     'sentence' => 'Nothing happens unless we first dream',
+     'sentence' => "If you have dreams, don't give up and make them come true",
      'made'     => 'Made with',
      'copyright'=> 'All Rights Reserved',
 

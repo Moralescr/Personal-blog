@@ -48,10 +48,10 @@ return [
 
     //Blog section
     'blog'     => 'Mi blog',
-    'subt'     => 'En esta sección encontrará publicaciones sobre las últimas tendencias tecnológicas',
+    'subt'     => 'En esta sección se muestran diversas publicaciones sobre tecnología',
     'readmore' => 'Leer más',
     'seeall'   => 'Ver todos',
-    'newpost'  => 'Nuevo',
+    'newpost'  => 'Reciente',
 
     //Contact section
     'subc'    => 'Diseño y desarrollo servicios, sitios web modernos, servicios web y tiendas en línea',
@@ -65,7 +65,7 @@ return [
     'send'    => 'Enviar',
 
     //Footer section
-    'sentence' => 'No sucede nada a menos que primero soñemos',
+    'sentence' => 'Si tienes sueños, no te rindas y hazlos realidad',
     'made'     => 'Hecho con el',
     'copyright'=> 'Todos los derechos reservados',
 

@@ -21,7 +21,7 @@
                         <p class="desc">{!! trans('messages.desc') !!}</p>
                         <div class="contact-info">
                             <i class="icon theme-bg ti-direction"></i>
-                            <p>La sabana,<br> San José, Costa Rica.</p>
+                            <p>Escazú, <br> San José, Costa Rica.</p>
                         </div>
 
                         <div class="contact-info">
