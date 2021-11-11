@@ -65,7 +65,7 @@ return [
     'send'    => 'Enviar',
 
     //Footer section
-    'sentence' => 'Si tienes sueños, no te rindas y hazlos realidad',
+    'sentence' => 'Nunca es tarde  así que lucha por tus sueños',
     'made'     => 'Hecho con el',
     'copyright'=> 'Todos los derechos reservados',
 

@@ -65,7 +65,7 @@ return [
     'send'    => 'Send',
 
      //Footer section
-     'sentence' => "If you have dreams, don't give up and make them come true",
+     'sentence' => "It is never too late, so fight for your dreams",
      'made'     => 'Made with',
      'copyright'=> 'All Rights Reserved',
 
