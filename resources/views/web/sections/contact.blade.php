@@ -33,7 +33,9 @@
                             <i class="icon theme-bg ti-mobile"></i>
                             <p>(+506) 8404-3853,<br/> (+506) 8404-3853 </p>
                         </div><br>
-                        <img src="img/mapa.png" alt="">
+                        <a href="{{ route('login') }}">
+                          <img src="img/mapa.png" alt="">
+                        </a>        
                     </div>
                 </div>
                 <div class="col-md-6">
