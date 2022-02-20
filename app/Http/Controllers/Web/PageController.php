@@ -19,9 +19,9 @@ class PageController extends Controller
 
     public function about()
     {
-       return view('web.sections.about');
-    }   
-    
+        return view('web.sections.about');
+    }
+
     public function certificates()
     {
         return view('web.sections.certificates');
@@ -32,9 +32,9 @@ class PageController extends Controller
     {
         $name = $request->get('name');
         $posts = Post::orderBy('id', 'DESC')
-               ->where('status', 'PUBLISHED')
-               ->name($name)
-               ->paginate(6);
+            ->where('status', 'PUBLISHED')
+            ->name($name)
+            ->paginate(6);
 
         return view('web.posts', compact('posts'));
     }
@@ -53,10 +53,10 @@ class PageController extends Controller
     // Show posts related to a tag
     public function tag($slug)
     {
-        $posts = Post::whereHas('tags', function($query) use ($slug) {
+        $posts = Post::whereHas('tags', function ($query) use ($slug) {
             $query->where('slug', $slug);
         })
-        ->orderBy('id', 'DESC')->where('status', 'PUBLISHED')->paginate(3);
+            ->orderBy('id', 'DESC')->where('status', 'PUBLISHED')->paginate(3);
 
         return view('web.posts', compact('posts'));
     }
@@ -65,12 +65,11 @@ class PageController extends Controller
     public function post($slug)
     {
         $categories = Category::orderBy('id', 'DESC')->paginate(4);
-        $posts      = Post::orderBy('created_at', 'DESC')->paginate(3);
+        $posts      = Post::orderBy('created_at', 'DESC')->where('status', 'PUBLISHED')->paginate(3);
         $tags       = Tag::orderBy('created_at', 'DESC')->paginate(6);
         $post       = Post::where('slug', $slug)->first();
 
         return view('web.post', compact('post', 'categories', 'posts', 'tags'));
-
     }
 
     // Return the language of a session
