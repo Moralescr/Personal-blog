@@ -11,24 +11,26 @@
     <br>
     <br>
     <br>
-    <h3 align="center">
+    <div class="container">
+        <h3 class="text-align: justify;" align="center">
+            Para celebrar tu cumpleaños había pensado en un crucero por el Caribe. <br>
+            ¿Te importaría cuidar mi mascota hasta que regrese?
+            <br>
+            <br><b>
+                Ya hablando enserio, sé que las palabras no pueden sustituir un abrazo,
+                pero sirven para hacerte <br> llegar mis mejores deseos para tu cumpleaños.</b>
+            <br>
+            <br>
+            <b>¡Feliz cumpleaños, disfrútelo muchísimo y cuentas conmigo forever!</b>
+        </h3>
+    </div>
 
-        Para celebrar tu cumpleaños había pensado en un crucero por el Caribe. <br>
-        ¿Te importaría cuidar mi mascota hasta que regrese?
-        <br>
-        <br><b>
-            Ya hablando enserio, sé que las palabras no pueden sustituir un abrazo, <br>
-            pero sirven para hacerte llegar mis mejores deseos para tu cumpleaños.</b>
-        <br>
-        <br>
-        <b>¡Feliz cumpleaños, disfrútelo muchísimo y cuentas conmigo forever!</b>
-    </h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <!-- Footer -->
     @include('web.sections.footer')
 @endsection
