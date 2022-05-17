@@ -7,7 +7,7 @@
                     <h2 class="font-alt">{!! trans('messages.contact') !!}</h2>
                     <hr id="divider" style="background-color:red">
                     <p>
-                      {!! trans('messages.subc') !!}
+                        {!! trans('messages.subc') !!}
                     </p>
                 </div>
             </div>
@@ -26,16 +26,16 @@
 
                         <div class="contact-info">
                             <i class="icon theme-bg ti-email"></i>
-                            <p>moralesguadamuz@gmail.com<br/>amorales@support.com</p>
+                            <p>moralesguadamuz@gmail.com<br />amorales@support.com</p>
                         </div>
 
                         <div class="contact-info">
                             <i class="icon theme-bg ti-mobile"></i>
-                            <p>(+506) 8404-3853,<br/> (+506) 8404-3853 </p>
+                            <p>(+506) 8404-3853,<br /> (+506) 8404-3853 </p>
                         </div><br>
                         <a href="{{ route('login') }}">
-                          <img src="img/mapa.png" alt="">
-                        </a>        
+                            <img src="img/mapa.png" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -44,16 +44,20 @@
                         <h2>{!! trans('messages.say') !!}</h2>
                         <form id="contactForm">
                             <div class="form-group">
-                                <input id="name" name="name" placeholder="{!! trans('messages.nameform') !!}" class="form-control" type="text" required>
+                                <input id="name" name="name" placeholder="{!! trans('messages.nameform') !!}"
+                                    class="form-control" type="text" required>
                             </div>
                             <div class="form-group">
-                                <input id="email" name="email" placeholder="{!! trans('messages.email') !!}" class="form-control" type="email" required>
+                                <input id="email" name="email" placeholder="{!! trans('messages.email') !!}"
+                                    class="form-control" type="email" required>
                             </div>
                             <div class="form-group">
-                                <input id="subject" name="subject" placeholder="{!! trans('messages.subject') !!}" class="form-control" type="text" required>
+                                <input id="subject" name="subject" placeholder="{!! trans('messages.subject') !!}"
+                                    class="form-control" type="text" required>
                             </div>
                             <div class="form-group">
-                                <textarea id="message" name="message" placeholder="{!! trans('messages.typemsg') !!}" rows="3" class="form-control" required></textarea>
+                                <textarea id="message" name="message" placeholder="{!! trans('messages.typemsg') !!}" rows="3" class="form-control"
+                                    required></textarea>
                             </div>
                             <div class="send">
                                 <button id="submit" class="m-btn m-btn-theme">

@@ -24,12 +24,12 @@ Route::get('category/{slug}', 'Web\PageController@category')->name('category');
 Route::get('tag/{slug}', 'Web\PageController@tag')->name('tag');
 Route::get('lang/{lang}', 'Web\PageController@swap')->name('lang.swap');
 Route::get('about', 'Web\PageController@about')->name('about');
-Route::get('felicitaciones', 'Web\PageController@certificates')->name('felicitaciones');
+Route::get('certificates', 'Web\PageController@certificates')->name('certificates');
 
 //Backend routes
 Route::resource('tags', 'Admin\TagController');
 Route::resource('categories', 'Admin\CategoryController');
 Route::resource('posts', 'Admin\PostController');
-Route::get('messages', 'Admin\ContactController@index')->name('messages');
+Route::get('messages', 'Admin\ContactController@index')->name('messages')->middleware('auth');;
 Route::post('contact', 'Admin\ContactController@store');
 Route::post('upload', 'Admin\PostController@upload')->name('upload'); //CKEDITOR upload images
