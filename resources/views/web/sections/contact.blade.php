@@ -26,7 +26,7 @@
 
                         <div class="contact-info">
                             <i class="icon theme-bg ti-email"></i>
-                            <p>moralesguadamuz@gmail.com<br />amorales@support.com</p>
+                            <p>moralesguadamuz@gmail.com<br />moralescrtech@gmail.com</p>
                         </div>
 
                         <div class="contact-info">
