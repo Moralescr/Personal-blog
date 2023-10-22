@@ -16,11 +16,20 @@
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/adrianm11" target="_blank">
+                <a href="https://www.linkedin.com/in/moralescr" target="_blank">
                    <i class="fab fa-linkedin"></i>
                 </a>
               </li>
-              <li><a href="mailto:moralesguadamuz@gmail.com?subject=question"><i class="fa fa-envelope" target="_blank"></i></a></li>
+              <li>
+                <a href="mailto:moralesguadamuz@gmail.com?subject=question" target="_blank">
+                  <i class="fa fa-envelope"></i>
+                </a>
+              </li>
+              <li>
+               <a href="https://github.com/Moralescr" target="_blank">
+                   <i class="fa fa-github"></i>
+               </a>
+              </li> 
           </ul>
           <p style="color:white" class="copyright">
              {!! trans('messages.made') !!} ❤️ |  {!! trans('messages.copyright') !!} 

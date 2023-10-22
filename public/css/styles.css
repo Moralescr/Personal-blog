@@ -3,7 +3,7 @@
 Template Name   : Moralescr.
 Author          : AMORALES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-2020
+2023
 ========================================================================*/
 
 
@@ -98,7 +98,7 @@ Whatsapp
     height: 50px;
     border-radius: 50%;
     border: 10px solid #e8e8e8;
-    border-top: 10px solid #C62828;
+    border-top: 10px solid #F24C3D;
     -webkit-animation: rotate 1.2s infinite linear;
     animation: rotate 1.2s infinite linear;
     overflow: hidden;
@@ -139,7 +139,7 @@ Whatsapp
     z-index: 2;
     border-radius: 15px;
     border: 3px solid #fff;
-    background: #C62828;
+    background: #F24C3D;
 }
 
 .mouse-icon .wheel {
@@ -272,7 +272,7 @@ img {
 }
 
 .social-icons li a:hover {
-    background: #C62828;
+    background: #F24C3D;
     color: #fff;
 }
 
@@ -375,7 +375,7 @@ img {
 }
 
 .more-btn:hover {
-    color: #C62828;
+    color: #F24C3D;
 }
 
 .more-btn:hover i {
@@ -586,7 +586,7 @@ img {
     top: 0;
     margin-top: 0;
     padding: 12px 10px;
-    background: #C62828;
+    background: #F24C3D;
     box-shadow: 0px 1px 27px -3px rgba(0, 0, 0, 0.2);
 }
 
@@ -1029,7 +1029,7 @@ img {
     margin-bottom: 1rem;
     margin-left: 30px;
     border: 0;
-    border-top: 2px solid #C62828;
+    border-top: 2px solid #F24C3D;
     width: 70px;
 }
 
@@ -1104,7 +1104,7 @@ img {
     margin-top: -5px;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 2px solid #C62828;
+    border-top: 2px solid #F24C3D;
     width: 70px;
 }
 
@@ -1223,7 +1223,7 @@ img {
 }
 
 .counter-section .counter-row:hover {
-    box-shadow: -5px 4px 4px 4px #C62828;
+    box-shadow: -5px 4px 4px 4px #F24C3D;
 }
 
 .counter-col {
@@ -1499,7 +1499,7 @@ img {
     margin-top: -5px;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 2px solid #C62828;
+    border-top: 2px solid #F24C3D;
     width: 70px;
 }
 
@@ -1673,10 +1673,10 @@ img {
 .blog-tag-nav .social-icons li a {
     display: block;
     padding: 0;
-    color: #C62828;
+    color: #F24C3D;
     width: 30px;
     height: 30px;
-    border: 1px solid #C62828;
+    border: 1px solid #F24C3D;
     text-align: center;
     line-height: 30px;
     border-radius: 50%;
@@ -1688,7 +1688,7 @@ img {
 }
 
 .blog-tag-nav .social-icons li a:hover {
-    background: #C62828;
+    background: #F24C3D;
     color: #fff;
 }
 
@@ -1855,7 +1855,7 @@ img {
 blockquote.blockquote-left {
     background: #f7f7f7;
     padding: 20px;
-    border-left: 5px solid #C62828;
+    border-left: 5px solid #F24C3D;
     margin: 30px 0 50px;
 }
 
@@ -1932,7 +1932,7 @@ blockquote.blockquote-left i {
     padding: 5px 10px;
     display: block;
     font-size: 13px;
-    background: #C62828;
+    background: #F24C3D;
     border-radius: 20px;
 }
 
@@ -1996,7 +1996,7 @@ blockquote.blockquote-left i {
     margin-top: -10px;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 2px solid #C62828;
+    border-top: 2px solid #F24C3D;
     width: 70px;
 }
 

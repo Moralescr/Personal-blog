@@ -73,7 +73,7 @@
                   </a>
                 </li>
                 <li>
-                  <a class="linkedin" href="https://www.linkedin.com/in/adrianm11" target="_blank">
+                  <a class="linkedin" href="https://www.linkedin.com/in/moralescr" target="_blank">
                     <i class="fab fa-linkedin-in"></i>
                   </a>
                 </li>
@@ -108,7 +108,7 @@
             <div class="avtar">
               <img src="/img/team1.jpg" alt="" title="">
             </div>
-            <p><b style="color:#C62828">I'm software engineer and love programming 😍🧡</b></p>
+            <p><b style="color:#F24C3D">I'm software engineer and love programming 😍🧡</b></p>
           </div>
         </div> <!-- /sidebar-widget -->
 
@@ -145,16 +145,6 @@
           </ul>
           </div>
         </div> <!-- /sidebar-widget -->
-
-        <!--<div class="sidebar-widget">
-          <h5 class="widget-title font-alt">ARCHIVE</h5>
-          <div class="widget-archive">
-            <ul class="list-style-1">
-              <li><a href="#">June 2020</a></li>
-              <li><a href="#">July 2020</a></li>
-            </ul>
-          </div>
-        </div> -->
 
         <div class="sidebar-widget">
           <h5 class="widget-title font-alt">{!! trans('messages.tag') !!}</h5>

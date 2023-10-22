@@ -1,21 +1,21 @@
 ::selection {
-    background-color: #C62828;
+    background-color: #F24C3D;
     color: #fff;
 }
 
  ::-moz-selection {
-    background-color: #C62828;
+    background-color: #F24C3D;
     color: #fff;
 }
 
 .theme-color {
-    color: #C62828;
+    color: #F24C3D;
 }
 
 .theme-after-bg:after,
 .btn-theme,
 .theme-bg {
-    background: #C62828;
+    background: #F24C3D;
 }
 
 .theme-after-bg:after,
@@ -25,7 +25,7 @@
 }
 
 .btn-theme {
-    border-color: #C62828;
+    border-color: #F24C3D;
 }
 
 .portfolio-hover-01 .action-btn a:hover,
@@ -37,9 +37,9 @@
 .m-btn-white:hover,
 .theme-after:after,
 .theme-g-bg {
-    background: #C62828;
-    background: -webkit-linear-gradient(to right, #C62828, #ffb199);
-    background: linear-gradient(to right, #C62828, #ffb199);
+    background: #F24C3D;
+    background: -webkit-linear-gradient(to right, #F24C3D, #ffb199);
+    background: linear-gradient(to right, #F24C3D, #ffb199);
 }
 
 
@@ -47,8 +47,8 @@
 
 .m-btn-theme:hover {
     background: #0072ff;
-    background: -webkit-linear-gradient(to right, #ffb199, #C62828);
-    background: linear-gradient(to right, #ffb199, #C62828);
+    background: -webkit-linear-gradient(to right, #ffb199, #F24C3D);
+    background: linear-gradient(to right, #ffb199, #F24C3D);
 }
 
 .home-banner .avtar-img,
@@ -59,6 +59,6 @@
 
 @media (max-width: 991px) {
     .header {
-        background: #C62828;
+        background: #F24C3D;
     }
 }

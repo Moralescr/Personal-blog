@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  Copyright (c) 2021 - AMORALES
+  Copyright (c) 2024 - AMORALES
   ========================================================================
   -->
     <!-- Page Title -->
@@ -30,6 +30,7 @@
     <!-- / -->
 
     <!-- Theme Style -->
+    
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
     <link href="{{ asset('css/default.css') }}" rel="stylesheet" id="color_theme">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
@@ -61,12 +62,7 @@
         <div id="loading">
             <div class="load-circle"><span class="one"></span></div>
         </div>
-        <!--
-          <a href="https://api.whatsapp.com/send?phone=50684043853&text=Me%20gustar%C3%ADa%20trabajar%20con%20usted.%20%C2%BFPuedo%20contarle%20de%20mi%20proyecto?" class="float" target="_blank">
-            <i class="fab fa-whatsapp my-float"></i>
-         </a>
-        -->
-
+  
         @include('web.sections.header')
 
         <main>
@@ -89,7 +85,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
         <script src="{{ asset('js/contact.js') }}"></script>
-
+        <script src="https://kit.fontawesome.com/4046c8b1a5.js" crossorigin="anonymous"></script>
         <!-- AOS animation -->
         <script>
             AOS.init();

@@ -15,9 +15,9 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="about-left">
-                        <h2>Adrian Morales Guadamúz</h2>
+                        <h2>Ing. Adrián Morales Guadamúz</h2>
 
-                        <h3><a href="">{!! trans('messages.role') !!}</a></h3>
+                        <h3><span class="badge badge-info" href="">{!! trans('messages.role') !!}</span></h3>
                         <p class="text-justify">
                             {!! trans('messages.me') !!}
                         </p>
@@ -108,25 +108,7 @@
 
     <!-- Technologies Start -->
     <section id="services" class="section gray-bg services-section">
-        <div class="container" data-aos="fade-up">
-            <div class="row justify-content-center m-45px-b md-m-30px-b sm-m-25px-b">
-                <div class="col-12 col-md-10 col-lg-7">
-                    <div class="section-title text-center">
-                        <h2 class="font-alt">{!! trans('messages.technologies') !!}</h2>
-                        <hr>
-                        <p>
-                            {!! trans('messages.subtitle') !!} <br>
-                        </p>
-                    </div>
-                </div>
-            </div> <br>
-            <!-- row -->
-            <div class="row">
-                @include('web.sections.abilities')
-            </div>
-            <!-- row -->
-        </div>
-        <!-- container -->
+     
     </section>
     <!-- Technologies End -->
 

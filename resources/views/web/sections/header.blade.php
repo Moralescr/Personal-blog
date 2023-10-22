@@ -4,7 +4,10 @@
     <nav class="navbar header-nav fixed-top navbar-expand-lg">
         <div class="container">
             <!-- Brand -->
-            <a class="navbar-brand" href="{{ route('index') }}">Moralescr <span class="theme-bg1"></span></a>
+            <a class="navbar-brand" href="{{ route('index') }}">
+                Moralescr 
+                <span class="theme-bg1"></span>
+            </a>
             <!-- / -->
 
             <!-- Mobile Toggle -->
@@ -32,10 +35,10 @@
                                 @else
                                     <li><a class="nav-link" href="{!! route('lang.swap', $lang) !!}"><img src="{{ asset('img/en.png')}}" alt="English"></a></li>
                                 @endif
-                            @endif
+                            @endif                                 
                             </a>
                         @endforeach
-                    @endif
+                    @endif      
                 </ul>
             </div>
             <!-- / -->

@@ -63,7 +63,7 @@
 <!-- row -->
 @else
 <blockquote class="blockquote-left">
-    <div style="background-color:#C62828; color:#c0c0c0" class="alert alert-danger alert-sm alert-dismissible fade show" role="alert">
+    <div style="background-color:#F24C3D; color:#ffff" class="alert alert-danger alert-sm alert-dismissible fade show" role="alert">
         <h2>
         <i class="ti-face-sad"></i>
             <strong> Oops ...</strong> {!! trans('messages.notfound') !!}
@@ -85,32 +85,5 @@
 </div>
 </section>
 <!-- Footer-->
-<footer style="background-image: url(/img/footer.png)" class="footer footer-blog">
-    <div class="container">
-            <!-- <span>Ryan <span></span></span>-->
-            <p style="color:white" class="msg"><b>"{!! trans('messages.sentence') !!}"</b></p>
-        </div>
-        <ul class="social-icons">
-            <li>
-            <a href="https://www.facebook.com/Adrianmoralesguadamuz/" target="_blank">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            </li>
-            <li>
-            <a href="https://www.instagram.com/_morales_cr" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
-            </li>
-            <li>
-            <a href="https://www.linkedin.com/in/adrianm11" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            </li>
-            <li><a href="mailto:moralesguadamuz@gmail.com?subject=question"><i class="fa fa-envelope" target="_blank"></i></a></li>
-        </ul>
-        <p style="color:white" class="copyright">
-           {!! trans('messages.made') !!} ❤️ | {!! trans('messages.copyright') !!} | © 2020 Moralescr
-        </p>
-    </div>
-</footer>
+@include('web.sections.footer')
 @endsection
