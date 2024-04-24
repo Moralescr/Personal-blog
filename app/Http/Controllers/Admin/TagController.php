@@ -108,6 +108,6 @@ class TagController extends Controller
     {
         $tag = Tag::find($id)->delete();
 
-        return back()->with('info', 'Eliminado correctamente');
+        return back()->with('info', 'Etiqueta eliminada correctamente');
     }
 }
